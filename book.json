@@ -3,7 +3,8 @@
         "search",
         "codeblock",
         "customheader",
-        "disqus"
+        "disqus",
+        "exercises"
     ],
     "pluginsConfig": {
         "disqus": {
