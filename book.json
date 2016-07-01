@@ -1,5 +1,9 @@
 {
     "language": "pt",
+    "structure": {
+        "readme": "introducao.md",
+        "glossary": "glossario.md"
+    }
     "plugins": [
         "layout",
         "disqus",
