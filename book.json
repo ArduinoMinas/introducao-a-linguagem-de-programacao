@@ -7,7 +7,8 @@
         "exercises",
         "gist",
         "gitversion",
-        "image-captions"
+        "image-captions",
+        "layout"
     ],
     "pluginsConfig": {
         "disqus": {
