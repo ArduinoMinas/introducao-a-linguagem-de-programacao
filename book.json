@@ -17,6 +17,15 @@
         "disqus": {
             "shortName": "introduoalinguagemdeprogramaoparaarduino",
             "useIdentifier": true
-        }
+        },
+        "image-captions": {
+          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+          "variable_name": "picturesList"
+    
+      }
+    }, 
+    "variables": {
+        "picturesList": []
     }
+    
 }
