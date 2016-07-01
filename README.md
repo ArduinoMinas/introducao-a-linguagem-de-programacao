@@ -4,4 +4,6 @@ Nesta apostila iremos aprender a programar para Arduino, porém adotaremos a abo
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
-Como se pode ver o VisuAlg é um programa, uma interface de desenvolvimento para parendizado de programação, e não uma linguagem, veremos em breve mais sobre ela, e também veremos sobre o portugol, uma linguagem estruturada totalmente baseada no Português para que possamos a prender a pensar e escrever de forma que o computador nos entenda.
+Como se pode ver o VisuAlg é um programa, uma interface de desenvolvimento para parendizado de programação, e não uma linguagem, veremos em breve mais sobre ela, e também veremos sobre o portugol, uma linguagem estruturada totalmente baseada no Português para que possamos a prender a pensar e escrever de forma que o computador nos entenda. Veremos isso no capitulo 2 desta apostila.
+
+Já a linguagem C/C++ é necessáriaa para que possamos programar diretamente para o Arduino, iremos conhecer melhor o Arduino no capitulo 3
