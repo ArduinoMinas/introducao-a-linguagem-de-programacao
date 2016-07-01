@@ -7,6 +7,7 @@
         "search",
         "exercises",
         "image-captions"
+        "gitversion"
     ],
     "pluginsConfig": {
         "layout": {
