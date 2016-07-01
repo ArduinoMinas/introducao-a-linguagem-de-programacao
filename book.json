@@ -6,7 +6,9 @@
         "theme-packt",
         "search",
         "exercises",
-        "image-captions" 
+        "image-captions",
+        "gist",
+        "gitversion"
     ],
     "pluginsConfig": {
         "layout": {
@@ -14,7 +16,7 @@
             "footerPath": "layouts/footer.html"
         },
         "disqus": {
-            "shortName": "carlosdelfino",
+            "shortName": "introduoalinguagemdeprogramaoparaarduino",
             "useIdentifier": true
         }
     }
