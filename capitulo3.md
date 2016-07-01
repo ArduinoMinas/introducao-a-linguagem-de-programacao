@@ -1,2 +1,2 @@
-# Capítulo 3 - C/C++
+# Capítulo 3 - Portugol
 
