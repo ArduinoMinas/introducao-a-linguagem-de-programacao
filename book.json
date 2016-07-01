@@ -6,7 +6,8 @@
         "search",
         "exercises",
         "image-captions",
-        "gist"
+        "gist",
+        "mathjax"
     ],
     "pluginsConfig": {
         "layout": {
