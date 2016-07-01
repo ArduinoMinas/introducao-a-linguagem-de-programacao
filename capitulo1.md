@@ -29,9 +29,24 @@ Continuando nossa analise, vemos que é preciso descrever com o máximo de detal
 
 Vemos com isso que ao estudarmos algortimo já iniciamos o entendimento de diversos conseitos muito importantes para a programação de microcontroladores, e assim amadurecemos o suficiente para desenvolvermos excelentes códigos em qualquer linguagem.
 
+## Então é só isso?
 
+Por hora sim, agora iremos práticar em sala de aula a construção de algoritmos, não trabalharemos ainda com nenhum método estruturado, apenas práticaremos a construção textual de ações seja quais forem para que nosso celebro passe a pensar nos detalhes necessários para executar tarefas corriqueiras.
 
+Que tal tentar seguimentar sua perna e tentar descrever como você anda, ou seus brasos e assim descrever como faria para deslocar um objeto.
 
+Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
+
+## Algumas dicas para escrever seus primeiros algortimos 
+* Seja sunsinto e procure não entrar em detalhes de ações que não seja especificamente ligadas a atividade;
+* Ações auxiliares podem ser descritas por frases curtas, como "verificar se há pães quentes", ou "pegar a chave de boca", estas ações auxiliares serão outros algoritimos que podem ser reutilizados;
+* Use os verbos os verbos no infinitivo e iperativo, "pegar", "andar", "corra";
+* Procure identificar parametros que auxiliem a tomada de decisão "exist~encia de pães", "Quentes ou não", "Pneu furado";
+* Procure identificar com exatidão e em forma quantitativa, "existe ou não existe", ou seja 0 ou maior que zero, "20 unidades";
+* Evite muitas informações, e dados a serem guardados.
+
+## O Próximo capítulo
+Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprender a escrever Algoritmos utiliznado o Portugol, uma forma mais estruturada para descrever nossas atividades, ainda não usaremos o Portugol em detalhes, apenas tereos este capítulo como fonte de referência da interface para nos ajudar a lembrar onde é encontrado cada coisa.
 
 
 
