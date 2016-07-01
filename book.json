@@ -1,7 +1,7 @@
 {
     "plugins": [
         "layout",
-        "disqus",
+        "disqus"
     ],
     "pluginsConfig": {
         "disqus": {
