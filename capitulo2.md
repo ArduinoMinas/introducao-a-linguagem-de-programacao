@@ -62,13 +62,14 @@ Esta opção apenas está disponível quando o algortimo está em execução.
 #Barra de Ferramentas
 Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
 
-![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
+![Menu e Barra de Ferramentas do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
+
 Bem não precisamos entrar em detalhes, sobre o uso da barra, durante nossas práticas em aula iremos entede-la.
 
 #Barra de Estatus
 A barra de estatus, ou se preferir barra de status, apresenta informações relevantes ao programador durante a codificação.
 
-![Barra de Status](telas/visualg/tela visualg - 3 - Barra de Status.png)
+![Barra de Status do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Barra de Status.png)
 
 Na barra do VisuAlg temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o curso, informação muito útil para encontrarmos o curso e também formatarmos nosso código. 
 
@@ -79,17 +80,18 @@ Na proxima seção vem um texto que instrui como melhor usar as teclas na seçã
 ## Seção Visualização de Resultados
 A Seção de visualização de resultados apresenta mensagens relativas a execução do programa, mantendo um histórico da execução, principalmente inicio e fim, é preciso cuidado pois espera-se que a interação seja pelo console, masno Visuag a intarção ocorre um pouco diferente, sendo do nesta etela apresentada as mensagens do programa, e em janelas especificas as solicitações de dados ao usuário, a console será vista mais a frente..
 
-![](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados.png)
+![Seção de Visualização dos Resultados do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados.png)
 
 A seguir veja a seção "Área de visualização dos resultados", apos executarmos um simples algortimo conceitual que sugere o funcionamento de um sistema de caixa.
-![Área de visualização dos resultados do algoritmo caixa](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
+![Seção de Visualização dos Resultados do Algoritmo "caixa"](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
 
 
 ## Seção das Variáveis de Memória
 Nesta seção é possível ver o conteúdo de cada variável de mémoria Global ou Local (entederemos isso mais a frente).
 Veja abaixo como esta seção fica ao usarmos o Algoritmo "Caixa".
 
-![Seção de visualização das Variáveis de Memória](telas/visualg/tela visualg - 3 - Seção Variáveis de Memória.png)
+![Seção de Visualização das Variáveis de Memória](telas/visualg/tela visualg - 3 - Seção Variáveis de Memória.png)
+
 Esta seção possui 3 colunas, a primeira contem o nome das variáveis, cada variável em uma linha, a segunda coluna o Tipo de variável (C = Caracter, R = Real, I = Inteiro, Etc). Na terceira coluna o valor que se encontra no exato momento na variável.
 
 Veja que esta caixa durante a execução de seu algortimo tem os valores em contante mudança, e quando seu sistema termina a execução ela guarda os ultimos valores utilizados. Isso é muito util para depurar (buscar defeitos, bugs) em sua aplicação.
