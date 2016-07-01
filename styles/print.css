@@ -1,1 +1,5 @@
 /* CSS for print */
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
