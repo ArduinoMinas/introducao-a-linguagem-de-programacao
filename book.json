@@ -1,13 +1,13 @@
 {
     "plugins": [
+        "layout",
+        "disqus",
         "search",
         "codeblock", 
-        "disqus",
         "exercises",
         "gist",
         "gitversion",
-        "image-captions",
-        "layout"
+        "image-captions"
     ],
     "pluginsConfig": {
         "disqus": {
