@@ -6,7 +6,7 @@
         "theme-packt",
         "search",
         "exercises",
-        "image-captions"
+        "image-captions",
         "gitversion"
     ],
     "pluginsConfig": {
