@@ -5,7 +5,8 @@
         "customheader",
         "disqus",
         "exercises",
-        "gist"
+        "gist",
+        "gitversion"
     ],
     "pluginsConfig": {
         "disqus": {
