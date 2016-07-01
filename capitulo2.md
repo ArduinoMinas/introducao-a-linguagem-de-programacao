@@ -7,7 +7,7 @@ A IDE é responsável por ter todas as ferramentas que precisamos, totalmente in
 
 Abaixo apresentamos a tela inicial do VisuAlg:
 
-![Interface principal do VisualG](/telas/visualg/tela visualg - 3 - 2016-07-01 13.26.28.png)
+![Interface principal do VisuAlg 3.0](/telas/visualg/tela visualg - 3 - 2016-07-01 13.26.28.png)
 
 Como pode ser visto a janela é dividida em 3 seções muito importantes:
 * Área de programa
@@ -24,6 +24,7 @@ A seguir veremos o menu e as barras, cada seção e por último a conole como us
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
 Abaixo vemos nosso menu do VisuAlg Versão 3.0:
+
 ![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
 
 Os dois primeiros menus não há muita novidade, apenas o comum em qualquer editor de texto, no Menu "Arquivo" iremos encontrar ações referentes a abrir, salvar e fechar arquivo, além de fechar o IDE, no menu "Editar" ações relacionadas a edção como copiar, colar, recortar, pesquisar no código por strings de texto.
@@ -41,7 +42,7 @@ Não deixe de estudar este menu, e práticar o uso das teclas de atalho, a que m
 ## Menu Run (Executar)
 Vamos dar uma atenção especial ao menu **Run (Executar**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
 
-![Menu Run (Executar)](telas/visualg/tela visualg - 3 - Menu Run.png)
+![Menu Run (Executar) do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Menu Run.png)
 
 Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "Rodar o Algoritmo", pode ser acessada simplesmente teclando [F9], esta opção executa o programa sem nenhum tipo de interrupção, apenas as programadas pela propria linguagem Portugal, atraves de comandos como "Leia()".
 
@@ -83,14 +84,15 @@ A Seção de visualização de resultados apresenta mensagens relativas a execu�
 ![Seção de Visualização dos Resultados do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados.png)
 
 A seguir veja a seção "Área de visualização dos resultados", apos executarmos um simples algortimo conceitual que sugere o funcionamento de um sistema de caixa.
-![Seção de Visualização dos Resultados do Algoritmo "caixa"](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
+
+![Seção de Visualização dos Resultados do Algoritmo "caixa" do Visual 3.0](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
 
 
 ## Seção das Variáveis de Memória
 Nesta seção é possível ver o conteúdo de cada variável de mémoria Global ou Local (entederemos isso mais a frente).
 Veja abaixo como esta seção fica ao usarmos o Algoritmo "Caixa".
 
-![Seção de Visualização das Variáveis de Memória](telas/visualg/tela visualg - 3 - Seção Variáveis de Memória.png)
+![Seção de Visualização das Variáveis de Memória do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Seção Variáveis de Memória.png)
 
 Esta seção possui 3 colunas, a primeira contem o nome das variáveis, cada variável em uma linha, a segunda coluna o Tipo de variável (C = Caracter, R = Real, I = Inteiro, Etc). Na terceira coluna o valor que se encontra no exato momento na variável.
 
