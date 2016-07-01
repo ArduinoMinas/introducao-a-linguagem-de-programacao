@@ -4,7 +4,8 @@
         "codeblock",
         "customheader",
         "disqus",
-        "exercises"
+        "exercises",
+        "gist"
     ],
     "pluginsConfig": {
         "disqus": {
