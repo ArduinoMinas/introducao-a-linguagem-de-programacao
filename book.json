@@ -2,7 +2,8 @@
     "plugins": [
         "layout",
         "disqus",
-        "extend-default-theme"
+        "extend-default-theme",
+        "theme-packt"
     ],
     "pluginsConfig": {
         "layout": {
