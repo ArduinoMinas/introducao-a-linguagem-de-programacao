@@ -8,6 +8,9 @@ Muitos confundem a linguagem Algol (Algoritm Language) com a versão originaldo 
 
 Em nosso estudos veremos a Linguagem Portugol apenas, como uma forma didática, e veremos a versão compátivel com o VisuAlg, sendo apenas um passo de entrada no universo da programação, depois de dominado o conceito de estruturação de código, não mais usaremos esta linguagem, passando então ao aprendizado a Linguagem C/C++ em um capítulo especialmente para sua introdução.
 
+No final deste capítulo há uma relação de todos os comandos do VisuAlg 3.0.
+
+
 
 
 
