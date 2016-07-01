@@ -20,13 +20,14 @@
         },
         "image-captions": {
           "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+          "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_",
           "variable_name": "picturesList"
     
       }
     }, 
     "variables": {
         "picturesList": [],
-        "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_"
+        "language": "pt"
     }
     
 }
