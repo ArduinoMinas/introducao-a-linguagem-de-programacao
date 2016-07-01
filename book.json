@@ -2,7 +2,8 @@
     "plugins": [
         "search",
         "codeblock",
-        "customheader"
+        "customheader",
+        "disqus"
     ],
     "pluginsConfig": {}
 }
