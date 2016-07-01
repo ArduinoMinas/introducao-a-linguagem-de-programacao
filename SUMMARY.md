@@ -1,6 +1,6 @@
 # Summary
 
-* [Introdução](README.md)
+* [Introdução](introducao.md)
 * [Capítulo 1 - Algoritmo](capitulo1.md)
 * [Capítulo 2 - VisuAlg e sua IDE](capitulo2.md)
 * [Capítulo 3 - Portugol](capitulo3.md)
