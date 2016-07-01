@@ -5,7 +5,7 @@
 * [Capítulo 2 - VisuAlg e sua IDE](capitulo2.md)
 * [Capítulo 3 - Portugol](capitulo3.md)
    * [O Código Estruturado](capitulo31.md)
-   * Nome de Variáveis e palavras Reservadas](capitulo32.md)
+   * [Nome de Variáveis e palavras Reservadas](capitulo32.md)
    * [Tipos de Dados](capitulo33.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
 * [Capítulo 4 - C/C++ - Introdução a Linguagem](capitulo4.md)
