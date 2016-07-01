@@ -15,3 +15,8 @@ Veja "Integrated Development Environment"
 
 ## Integrated Development Environment
 em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
+
+## Portugol 
+é uma pseudo-linguagem de programação, criada para demonstrar o uso de algoritmos e programação estruturada. Está presente em muitos materiais didáticos de programação, em português, sobre o assunto. Apesar disso, não existe um padrão sintático ou léxico para essa linguagem.
+
+fonte: http://dicionario.sensagent.com/portugol/pt-pt/
