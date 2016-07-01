@@ -1,3 +1,3 @@
-# My Awesome Book
-
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+# Introdução a Linguagem de Programação
+## VisuAlg e C/C++ para Iniciar na Programação para Arduino
+Nesta apostila iremos aprender a programar para Arduino, porém adoremos a abordagem do aprendizado de pequenos algortimos através do VisuAlg uma linguagem baseada no Portugol que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem C/C++ usando o Arduino, através de emulador no site 123D da Adobre.
