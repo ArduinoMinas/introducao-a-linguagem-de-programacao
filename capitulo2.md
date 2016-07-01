@@ -1,4 +1,3 @@
-# Capítulo 2 - VisuAlg e sua IDE
 O VisuAlg não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem Portugol, VisuAlg tem algumas peculiaridades, que torna seu Portugol proprietário e mais adequado ao uso com sua Interface, 
 
 A partir deste ponto chamaremos a Ferramenta ou Interface do VisuAlg de IDE (Integrated Development Environment) em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
