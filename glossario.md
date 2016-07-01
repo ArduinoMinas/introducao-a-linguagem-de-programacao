@@ -9,3 +9,9 @@ inf. conjunto das regras e procedimentos lógicos perfeitamente definidos que le
 
 ## VisuAlg
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
+
+## IDE
+Veja "Integrated Development Environment"
+
+## Integrated Development Environment
+em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
