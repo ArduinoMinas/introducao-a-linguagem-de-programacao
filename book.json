@@ -4,7 +4,8 @@
         "disqus",
         "extend-default-theme",
         "theme-packt",
-        "search"
+        "search",
+        "exercises"
     ],
     "pluginsConfig": {
         "layout": {
