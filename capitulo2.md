@@ -38,6 +38,11 @@ Não deixe de estudar este menu, e práticar o uso das teclas de atalho, a que m
 
 > O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s" ou seja devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmoestando representada em maiúscula não usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
 
+## Menu Run (Executar)
+Vamos dar uma atenção especial ao menu **Run (Executar**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
+
+![Menu Run (Executar)](Captura de tela 2016-07-01 16.21.57.png)
+
 #Barra de Ferramentas
 Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
 
@@ -45,5 +50,33 @@ Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se 
 Bem não precisamos entrar em detalhes, sobre o uso da barra, durante nossas práticas em aula iremos entede-la.
 
 #Barra de Estatus
-A barra de estatus, ou se preferir barra de status, apresenta informações relevantes ao programador durante a codificação, na barra do VisuAlg temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o curso, informação muito útil para encontrarmos o curso e também formatarmos nosso código, neste capítulo veremos melhores práticas para escreverum código.
+A barra de estatus, ou se preferir barra de status, apresenta informações relevantes ao programador durante a codificação.
+
+![Barra de Status](telas/visualg/tela visualg - 3 - Barra de Status.png)
+
+Na barra do VisuAlg temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o curso, informação muito útil para encontrarmos o curso e também formatarmos nosso código. 
+
+Na proxima seção da barra de estatus, vemos o estado do documento, se vazio ele está salvo, se modificado tem a indicação "Modificado", se em pesquisa a indicação "Pesquisando", com o uso da ferramenta irá identificar novos "Status" para seu domento.
+
+Na proxima seção vem um texto que instrui como melhor usar as teclas na seção ativa, e finalmetne a ultima seção que apresenta mensagens relevantes sobre os processos solicitados, por exemplo coloque o mouse sobre cada seção da janela, e veja a mesangem apresentada. Você verá que ele lhe apresenta a seção e como elapode ser útil para você.
+
+## Seção Visualização de Resultados
+A Seção de visualização de resultados apresenta mensagens relativas a execução do programa, mantendo um histórico da execução, principalmente inicio e fim, é preciso cuidado pois espera-se que a interação seja pelo console, masno Visuag a intarção ocorre um pouco diferente, sendo do nesta etela apresentada as mensagens do programa, e em janelas especificas as solicitações de dados ao usuário, a console será vista mais a frente..
+
+![](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados.png)
+
+A seguir veja a seção "Área de visualização dos resultados", apos executarmos um simples algortimo conceitual que sugere o funcionamento de um sistema de caixa.
+![Área de visualização dos resultados do algoritmo caixa](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
+
+
+## Seção das Variáveis de Memória
+Nesta seção é possível ver o conteúdo de cada variável de mémoria Global ou Local (entederemos isso mais a frente).
+Veja abaixo como esta seção fica ao usarmos o Algoritmo "Caixa".
+
+![Seção de visualização das Variáveis de Memória](telas/visualg/tela visualg - 3 - Seção Variáveis de Memória.png)
+Esta seção possui 3 colunas, a primeira contem o nome das variáveis, cada variável em uma linha, a segunda coluna o Tipo de variável (C = Caracter, R = Real, I = Inteiro, Etc). Na terceira coluna o valor que se encontra no exato momento na variável.
+
+Veja que esta caixa durante a execução de seu algortimo tem os valores em contante mudança, e quando seu sistema termina a execução ela guarda os ultimos valores utilizados. Isso é muito util para depurar (buscar defeitos, bugs) em sua aplicação.
+
+
 
