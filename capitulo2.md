@@ -7,4 +7,21 @@ A IDE é responsável por ter todas as ferramentas que precisamos, totalmente in
 
 Abaixo apresentamos a tela inicial do VisuAlg:
 
-![Interface principal do VisualG](Captura de tela 2016-07-01 13.26.28.png)
+![Interface principal do VisualG](/telas/visualg/tela visualg - 3 - 2016-07-01 13.26.28.png)
+
+Como pode ser visto a janela é dividida em 3 seções muito importantes:
+* Área de programa
+* Áreas das Váriáveis de Mémoria
+* Área de Visualização de Resultados
+
+Além destas 3 seções, temos também o "Menu", "Barra de Ferramentas" e a "Barra de estatus", o "Menu" no topo da tela, logo abaixo "Barra de Ferramentas" e na base ou roda-pé da janela principal temos a "Barra de Estatus".
+
+Teremos também uma janela secundária que sempre se abre quando executamos nosso algoritmo para que haja interação do usuário com o programa quando executado, chamaremos de "Console"
+
+Vejamos agora o menu e as barras, cada seção e por último a conole como usa-los para termos o melhor resultado.
+
+## Menu
+
+
+
+
