@@ -5,7 +5,8 @@
         "extend-default-theme",
         "theme-packt",
         "search",
-        "exercises"
+        "exercises",
+        "image-captions" 
     ],
     "pluginsConfig": {
         "layout": {
