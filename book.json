@@ -13,7 +13,7 @@
             "footerPath": "layouts/footer.html"
         },
         "disqus": {
-            "shortName": "carlosdelfino.eti.br",
+            "shortName": "carlosdelfino",
             "useIdentifier": true
         }
     }
