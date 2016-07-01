@@ -7,6 +7,14 @@ mat. sequência finita de regras, raciocínios ou operações que, aplicada a um
 
 inf. conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.
 
+## BNF
+Veja: Backus-Naur Form
+
+## Backus-Naur Form
+A forma de Backus-Naur é uma meta-sintaxe usada para expressar gramáticas livres de contexto: isto é, um modo formal de descrever linguagens formais.
+
+Fonte: http://pt.wikipedia.org/wiki/Bnf
+
 ## VisuAlg
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
