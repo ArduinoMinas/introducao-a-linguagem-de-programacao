@@ -1,4 +1,4 @@
-# Relação de Comandos Portugol para VisuAlg 3.0
+
 Este material foi retirado na integra do arquivo "RELAÇÃO DE COMANDOS DO VISUALG 3.0.txt", e no decorrer do desenvolvimento desta apostila será amadurecido para melhorar a fluência e consolidação com o restante do texto.
 
 Dentro do VISUALG 3.0 tem uma CTRL+J mas acho que também está incompleta, é que são tantas coisas, que eu estou ainda me organizando.
