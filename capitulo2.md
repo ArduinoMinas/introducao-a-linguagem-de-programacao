@@ -24,7 +24,26 @@ A seguir veremos o menu e as barras, cada seção e por último a conole como us
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
 Abaixo vemos nosso menu do VisuAlg Versão 3.0:
-![Menu do VisuAlg V3.0](Captura de tela 2016-07-01 13.26.28 - Menu e Barra de Ferramentas.png)
+![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
 
+Os dois primeiros menus não há muita novidade, apenas o comum em qualquer editor de texto, no Menu "Arquivo" iremos encontrar ações referentes a abrir, salvar e fechar arquivo, além de fechar o IDE, no menu "Editar" ações relacionadas a edção como copiar, colar, recortar, pesquisar no código por strings de texto.
 
+>**String** de texto, é uma sequência de letras, caracteres, quando formos estudar estar tipos de dados, entenderemos melhor este conceito.
+
+Já o menu "Run (Executar)" é novidade para muitos, com ele iremos testar nosso algoritmo solicitando ao VisuAlg que prepare nosso algoritmo para execução, verificando erros e executando sequêncialmente, ou se desejarmos passo a passo com nosso total controle.
+
+Veremos em detalhes o uso de cada opção do menu durante as praticas de aula, em especial "Executar Algoritmo" e "Executar Passo a Passo".
+
+Não deixe de estudar este menu, e práticar o uso das teclas de atalho, a que mais usaremos é [CTRL]+[S] para salvar e [F9] para executar nosso código.
+
+> O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s" ou seja devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmoestando representada em maiúscula não usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
+
+#Barra de Ferramentas
+Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
+
+![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
+Bem não precisamos entrar em detalhes, sobre o uso da barra, durante nossas práticas em aula iremos entede-la.
+
+#Barra de Estatus
+A barra de estatus, ou se preferir barra de status, apresenta informações relevantes ao programador durante a codificação, na barra do VisuAlg temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o curso, informação muito útil para encontrarmos o curso e também formatarmos nosso código, neste capítulo veremos melhores práticas para escreverum código.
 
