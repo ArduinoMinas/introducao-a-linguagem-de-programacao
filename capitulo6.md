@@ -1,2 +1,2 @@
-# Capítulo 6 - Algoritmos Especificos para Arduino
+# Capítulo 6 - Algoritmos para Arduino
 
