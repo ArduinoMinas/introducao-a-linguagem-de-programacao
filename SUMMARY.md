@@ -7,6 +7,6 @@
 * [Capítulo 4 - C/C++ - Introdução a Linguagem](capitulo4.md)
 * [Capítulo 5 - Arduino - Introdução ao Uso e Seu Controlador AVR](capitulo5.md)
    * [Capíutlo 5.1 - Introdução ao Arduino](capitulo51.md)
-   * [Capítulo 5.2 - Arduino e Seu Controlador AVR](capitulo5.2)
+   * [Capítulo 5.2 - Arduino e Seu Controlador AVR](capitulo52)
 * [Capítulo 6 - Algoritmos para Arduino](capitulo6.md)
 
