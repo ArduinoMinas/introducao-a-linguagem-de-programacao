@@ -3,7 +3,8 @@
         "layout",
         "disqus",
         "extend-default-theme",
-        "theme-packt"
+        "theme-packt",
+        "search"
     ],
     "pluginsConfig": {
         "layout": {
