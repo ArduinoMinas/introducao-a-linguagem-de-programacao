@@ -5,5 +5,10 @@
         "customheader",
         "disqus"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "carlosdelfino.eti.br",
+            "useIdentifier": true
+        }
+    }
 }
