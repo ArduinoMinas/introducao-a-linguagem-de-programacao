@@ -41,7 +41,23 @@ Não deixe de estudar este menu, e práticar o uso das teclas de atalho, a que m
 ## Menu Run (Executar)
 Vamos dar uma atenção especial ao menu **Run (Executar**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
 
-![Menu Run (Executar)](Captura de tela 2016-07-01 16.21.57.png)
+![Menu Run (Executar)](telas/visualg/tela visualg - 3 - Menu Run.png)
+
+Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "Rodar o Algoritmo", pode ser acessada simplesmente teclando [F9], esta opção executa o programa sem nenhum tipo de interrupção, apenas as programadas pela propria linguagem Portugal, atraves de comandos como "Leia()".
+
+Já a ação "Rodar Passo a passo" também acessada através da tecla [F8], irá executar seu programa linha por linha, cada linha é executada a cada vez que [F8] é apertado. 
+
+### Como ir direto a uma linha de execução e parar
+
+Há outras opções muito interessantes, por exemplo "Liga/Desliga breakpoint" também disponível pela tecla de atalho [F5] permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de [F8] ("Rodar o Algoritmo") ele irá executar até esta linha e irá parar aguardando que mande continuar através de [F9] ou passo através de [F8], assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
+
+Para desmarcar um breakpoint vá na linha onde ele foi imposto (linha marcada na cor vermelha) e tecle novamente [F5].
+
+### Meu algoritmo tomou vida propria e não quer parar
+Para interromper seu algoritimo seja porque motivo for, em especial devido a um mal funcionamento, você pode usar a combinação de teclas [CTRL]+[F2] durante sua execução, seja continua, ou passo a passo.
+
+Esta opção apenas está disponível quando o algortimo está em execução.
+
 
 #Barra de Ferramentas
 Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
