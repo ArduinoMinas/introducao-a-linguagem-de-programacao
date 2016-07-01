@@ -17,6 +17,22 @@ O que mais nos importa agora é o Algoritmo propriamente, e veremos então como 
 
 Começemos com exercios simples, vamos descrever como fazemos para ir a padaria quando sentimos vontade de tomar aquele café que já está cheirando na cozinha.
 
-> Sempre quando sentimos o cheiro do café, é disparado uma sequencia de ações, então paramos tudo que estamos fazendo e vamos a cozinha verificamos se há já pães quentes, se não pegamos a chave da casa,, verificamos onde está nossa carteira, nos dirigimos a saída da casa mais próxima, seguimos em direção a padaria mais próxima e que temos o costume de ir, entramos em direção ao balcão de pães, solicitamos alguns pãezinhos, a atendente nos entrega, e dirigimos ao caixa para efetuar o pagamento, voltamos rapidamente para nossa casa, e proseguimos com nosso café, quando satisfeitos ou ao termino de nosso tempo para o café, voltamos a nossa atividade anterior.
+> Sempre quando sentimos o cheiro do café, é disparado uma sequencia de ações, então paramos tudo que estamos fazendo e vamos a cozinha verificamos se já há pães quentes, se não pegamos a chave da casa,, verificamos onde está nossa carteira, nos dirigimos a saída da casa mais próxima, seguimos em direção a padaria mais próxima e que temos o costume de ir, entramos em direção ao balcão de pães, solicitamos alguns pãezinhos, a atendente nos entrega, e dirigimos ao caixa para efetuar o pagamento, voltamos rapidamente para nossa casa, e proseguimos com nosso café, quando satisfeitos ou ao termino de nosso tempo para o café, voltamos a nossa atividade anterior.
 
-Bem vamos fazer uma pequena análise da descrição acima, primeiro um programador mais experiente para microcontroladores vai perceber que se trata de uma ação que é disparada por um evento especial identificada por um denossos sensores, o nariz, este sensor dispara um algoritmo que nos leva a tomar café.
+Bem vamos fazer uma pequena análise da descrição acima:
+
+Primeiro um programador mais experiente em microcontroladores vai perceber que se trata de uma ação que é disparada por um evento especial identificada por um de nossos sensores, o nariz, este sensor dispara um algoritmo que nos leva a tomar café.
+
+O algortimo acima não está estruturado, está apenas descrito de forma que qualquer ser humano seja capaz de entende-lo, até mesmo porque é uma ação bem humana tomar café, futuramente iremos ver anções similares mais humanoides, que tal?
+
+Continuando nossa analise, vemos que é preciso descrever com o máximo de detalhes, e onde não há detalhes, mas percebemos sua necessidade, precisamos considerar a chamada de um novo bloco de codigo, ou seja uma função. Por exemplo não descrevemos em detalhes como "verificamos se há há pães quentes" isso é uma função que nos retorna mentalmente se há pães ou não, (verdadeiro ou falso), em seguida não havendo pães quentes (seja qual o motivo for), "pegamos a chave da casa", "verificamos nossa carteira" está ai dois coamndos que não precisam estar na mesma ordem, e assim contiamos nossas lista de ações até chegar ao balcão da padaria, consideramos assim que já haja pães prontos e quentes na padaria, portanto podemos identificar aqui mais uma função: "solicitamos alguns pãezinhos", esta função pode demorar a retornar, jáq ue não havendo pães teremos que esperar ficar prontos, caso contrário ela retorna imediatamente com a quantidade solicitada, veja ai, já temos um valor passado para esta função como parametro, a quantidade de pães. E então assim continuamos nossas ações até que nos tenhamos satisfeito nosso desejo de tomar café.
+
+Vemos com isso que ao estudarmos algortimo já iniciamos o entendimento de diversos conseitos muito importantes para a programação de microcontroladores, e assim amadurecemos o suficiente para desenvolvermos excelentes códigos em qualquer linguagem.
+
+
+
+
+
+
+
+
