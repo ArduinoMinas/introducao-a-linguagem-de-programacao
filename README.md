@@ -1,8 +1,11 @@
 # Introdução a Linguagem de Programação
 ## VisuAlg, Portugol e C/C++ para os primeiros passos na Programação para Arduino
-Sejam bem vindos, e acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
-Nesta apostila iremos aprender a programar para Arduino, porém adotaremos a abordagem do aprendizado de pequenos algortimos através do VisuAlg uma interface de aprendizado baseada na linguagem Portugol que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem C/C++ usando o Arduino, através de emulador no site 123D da Adobe, mas nada impede que use um arduino se o tiver e pequenos componentes como leds, resistores, e potênciometros.
+Apostila Versão 0.1
+
+Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
+
+Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do Vi****suAlg uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **Adobe** que pode ser encontrado no site https://circuits.io/, mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
@@ -16,4 +19,4 @@ Como dito o **capitulo 5** teremos uma introdução ao Arduino, veremos o que ap
 
 Bem para fechar deixaremos um capítulo de bonus, o capítulo 6, onde veremos outros algortimos como o PID que será muito útil para uso em robótica e controles autonomos.
 
-Boa sorte, você é um previlêgiado se leu esta instrodução, sinal que terá sucesso com esta apostila.
+Boa sorte, você é um previlegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
