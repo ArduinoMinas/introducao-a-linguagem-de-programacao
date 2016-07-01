@@ -1,5 +1,5 @@
 # Imagens
  
   {% for picture in book.picturesList %}
-    1. [{{ page.picture.list_caption }}]({{ page.picture.backlink }})
+    1. [{{ picture.list_caption }}]({{ picture.backlink }})
   {% endfor %}
