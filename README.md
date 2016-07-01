@@ -1,7 +1,7 @@
 # Introdução a Linguagem de Programação
 ## VisuAlg, Portugol e C/C++ para os primeiros passos na Programação para Arduino
 
- { "Apostila Versão " | gitTag }}
+Apostila Versão: 0.1
 
 Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
