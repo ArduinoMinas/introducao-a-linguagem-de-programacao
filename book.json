@@ -25,7 +25,8 @@
       }
     }, 
     "variables": {
-        "picturesList": []
+        "picturesList": [],
+        "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_"
     }
     
 }
