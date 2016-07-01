@@ -1,8 +1,7 @@
 {
     "plugins": [
         "search",
-        "codeblock",
-        "customheader",
+        "codeblock", 
         "disqus",
         "exercises",
         "gist",
