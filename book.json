@@ -6,9 +6,7 @@
         "theme-packt",
         "search",
         "exercises",
-        "image-captions",
-        "gist",
-        "gitversion"
+        "image-captions"
     ],
     "pluginsConfig": {
         "layout": {
