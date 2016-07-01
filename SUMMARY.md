@@ -8,5 +8,5 @@
 * [Capítulo 5 - Arduino - Introdução ao Uso e Seu Controlador AVR](capitulo5.md)
    * [Capíutlo 5.1 - Introdução ao Arduino](capitulo51.md)
    * [Capítulo 5.2 - Arduino e Seu Controlador AVR](capitulo5.2)
-* [Capítulo 6 - Algoritmos Especificos para Arduino](capitulo6)
+* [Capítulo 6 - Algoritmos Especificos para Arduino](capitulo6.md)
 
