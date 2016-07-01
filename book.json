@@ -2,11 +2,6 @@
     "plugins": [
         "layout",
         "disqus",
-        "search",
-        "exercises",
-        "gist",
-        "gitversion",
-        "image-captions"
     ],
     "pluginsConfig": {
         "disqus": {
