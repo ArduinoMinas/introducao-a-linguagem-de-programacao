@@ -1,16 +1,17 @@
 {
     "plugins": [
         "layout",
-        "disqus"
+        "disqus",
+        "extend-default-theme"
     ],
     "pluginsConfig": {
+        "layout": {
+            "headerPath": "layouts/header.html",
+            "footerPath": "layouts/footer.html"
+        },
         "disqus": {
             "shortName": "carlosdelfino.eti.br",
             "useIdentifier": true
-        },
-        "layout": {
-            "headerPath" : "layouts/header.html",
-            "footerPath" : "layouts/footer.html"
         }
     }
 }
