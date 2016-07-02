@@ -21,6 +21,7 @@ Valor máximo: 356 x e ^-43
 
 Exemplos de uso: salário, peso, temperatura.
 
+#### Outros tipos
 ##### Caractere
 Define variáveis do tipo string, ou seja, cadeia de caracteres.
 
