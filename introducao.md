@@ -19,4 +19,4 @@ Como dito o **capitulo 5** teremos uma introdução ao Arduino, veremos o que ap
 
 Bem para fechar deixaremos um capítulo de bonus, o capítulo 6, onde veremos outros algortimos como o PID que será muito útil para uso em robótica e controles autonomos.
 
-Boa sorte, você é um previlegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
+Boa sorte, você é um privilegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
