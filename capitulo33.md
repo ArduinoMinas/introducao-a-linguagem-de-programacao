@@ -8,7 +8,20 @@ Os números podem ter diversos tipos, por exemplo, podemos ter números inteiros
 
 Vejamos então quais são os tipos de dados que o Portugol pode trabalhar sem problemas, lembrando que Portugol é uma pseudo linguagem, portanto ela terá tipos que independem do computador utilizado.
 
+#### Tipos númericos
+##### inteiros
+a diretiva ineiro define variáveis numéricas do tipo ineiro, que não tenha casas decimais, podendo armazenar aproximadamente o valor 2.147.450.880 
 
-
+Tipos de Dados
+ Inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
+Ex. idade, número de filhos, quantidade de estados do Brasil.
+ Real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
+Ex. salário, peso, temperatura.
+ Caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
+Ex. nome, endereço, frase
+ Logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou
+FALSO.
+O VisuAlg permite também a declaração de variáveis estruturadas através da palavra
+chave vetor.
 
 
