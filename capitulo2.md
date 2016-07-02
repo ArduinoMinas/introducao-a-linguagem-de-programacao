@@ -55,7 +55,7 @@ Já a ação "Rodar Passo a passo" também acessada através da tecla [F8], irá
 
 ### Como ir direto a uma linha de execução e parar
 
-Há outras opções muito interessantes, por exemplo "Liga/Desliga breakpoint" também disponível pela tecla de atalho [F5] permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de [F8] ("Rodar o Algoritmo") ele irá executar até esta linha e irá parar aguardando que mande continuar através de [F9] ou passo através de [F8], assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
+Há outras opções muito interessantes e uteís para diagnosticar seu algortimo, por exemplo "Liga/Desliga breakpoint" também disponível pela tecla de atalho [F5] permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de [F9] ("Rodar o Algoritmo") ele irá executar até esta linha e irá parar aguardando que mande continuar através de [F9] ou passo através de [F8], assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
 
 Para desmarcar um breakpoint vá na linha onde ele foi imposto (linha marcada na cor vermelha) e tecle novamente [F5].
 
