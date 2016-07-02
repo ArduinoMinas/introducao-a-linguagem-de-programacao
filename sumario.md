@@ -1,5 +1,4 @@
-# Summary
-
+# Sumário
 * [Introdução](introducao.md)
 * [Algoritmo](capitulo1.md)
 * [VisuAlg e sua IDE](capitulo2.md)
