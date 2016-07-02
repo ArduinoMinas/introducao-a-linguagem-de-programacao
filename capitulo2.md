@@ -1,8 +1,8 @@
-O VisuAlg não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem Portugol, VisuAlg tem algumas peculiaridades, que torna seu Portugol proprietário e mais adequado ao uso com sua Interface, 
+O VisuAlg não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem Portugol, VisuAlg tem algumas peculiaridades, que torna esta versão do Portugol proprietário e mais adequado ao uso com sua Interface. Isso não é um problema paranós, já que o aprendizado desta versão do Portugal tem como objetivo o desenvolvimento denossa capacidade de pensar de forma estruturada, e não usaremos esta linguagem por muito tempo, é apenas um estágio em nosso parendizado.
 
-A partir deste ponto chamaremos a Ferramenta ou Interface do VisuAlg de IDE (Integrated Development Environment) em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
+A partir deste ponto chamaremos a Ferramenta ou Interface do VisuAlg de **IDE** (Integrated Development Environment) em português *Ambiente de Desenvolvimento Integrado*, um software que possui todas ferramentas e viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
 
-Com o uso de uma IDE não precisamos nos preocupar com o editor usado para escrever nosso código, não precisamos nos preocupar com a ferramenta usada para nos ajudar a encontrar erros de escritas, muito menos com a ferramenta usada para converter nosso código em um formato mais próximo para o entendimento do computador, e muito menos com a fase final de ligação do nosso código com as instruções e posições de computador que se destina o código.
+Com o uso de uma IDE, não precisamos nos preocupar com o editor usado para escrever nosso código, nem com a página de codificação dos caracteres adota, não precisamos nos preocupar com a ferramenta usada para nos ajudar a encontrar erros de escritas, muito menos com a ferramenta usada para converter nosso código em um formato mais próximo para o entendimento do computador, e muito menos com a fase final de ligação do nosso código com as instruções e posições de computador que se destina o código.
 
 A IDE é responsável por ter todas as ferramentas que precisamos, totalmente integradas e totalmente de forma transparente.
 
@@ -15,16 +15,16 @@ Como pode ser visto a janela é dividida em 3 seções muito importantes:
 * Áreas das Váriáveis de Mémoria
 * Área de Visualização de Resultados
 
-Além destas 3 seções, temos também o "Menu", "Barra de Ferramentas" e a "Barra de estatus", o "Menu" no topo da tela, logo abaixo "Barra de Ferramentas" e na base ou roda-pé da janela principal temos a "Barra de Estatus".
+Além destas 3 seções, temos também o "Menu" no topo da tela, logo abaixo "Barra de Ferramentas" e na base ou roda-pé da janela principal temos a "Barra de Estatus".
 
-Teremos também uma janela secundária que sempre se abre quando executamos nosso algoritmo para que haja interação do usuário com o programa quando executado, chamaremos de "Console".
+Teremos também uma janela secundária que sempre se abre quando executamos nosso algoritmo que representa o programa quando executado, chamaremos de "Console".
 
-A seguir veremos o menu e as barras, cada seção e por último a conole como usa-los para termos o melhor resultado.
+vejamos alguns detalhes de cada um deles.
 
 ## Menu
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
-Abaixo vemos nosso menu do VisuAlg Versão 3.0:
+Abaixo vemos o menu do VisuAlg Versão 3.0:
 
 ![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
 
@@ -36,16 +36,20 @@ Já o menu "Run (Executar)" é novidade para muitos, com ele iremos testar nosso
 
 Veremos em detalhes o uso de cada opção do menu durante as praticas de aula, em especial "Executar Algoritmo" e "Executar Passo a Passo".
 
-Não deixe de estudar este menu, e práticar o uso das teclas de atalho, a que mais usaremos é [CTRL]+[S] para salvar e [F9] para executar nosso código.
+Não deixe de estudar este menu, e práticar o uso das teclas de atalho, indicadas a direita de cada opção, a que mais usaremos é [CTRL]+[S] para salvar e [F9] para executar nosso código e [F8] para executar nosso código passo a passo.
 
-> O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s" ou seja devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmoestando representada em maiúscula não usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
+> O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s", ou seja, devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmo estando representada em maiúscula **não** usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
 
 ## Menu Run (Executar)
 Vamos dar uma atenção especial ao menu **Run (Executar**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
 
 ![Menu Run (Executar) do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Menu Run.png)
 
-Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "Rodar o Algoritmo", pode ser acessada simplesmente teclando [F9], esta opção executa o programa sem nenhum tipo de interrupção, apenas as programadas pela propria linguagem Portugal, atraves de comandos como "Leia()".
+Aproveitando o momento, como dissemos a direita de cada opção do menu, a interface do VisuAlg nos informa qual é a tecla de atalho para acelerar o acesso a esta opção.
+
+Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "*Rodar o Algoritmo*", pode ser acessada simplesmente teclando **[F9]**, esta opção executa o programa sem nenhum tipo de interrupção (a não ser que haja um ponto de parada para depuração de código, vermos mais a frente), ou  as programadas pela propria linguagem Portugal, atraves de comandos como "```Leia()```" ou ```pausa```.
+
+**OBS.:** Quando a execução de algortimo encontra o comando ```pause``` ele irá aguardar até que você tecle [F(] ou [F8] para continuar a execução. Não use ```pause``` para substituir pontos de parada (Break Points) para depuração.
 
 Já a ação "Rodar Passo a passo" também acessada através da tecla [F8], irá executar seu programa linha por linha, cada linha é executada a cada vez que [F8] é apertado. 
 
