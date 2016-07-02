@@ -10,10 +10,14 @@ como já foi dito anteriormente as declarações de variáveis devem obrigatoria
 ```
 var 
    a: inteiro
-   valor1, valor2 : real
    nome_aluno : caractere
+   numeroDeMaterias: inteiro
+   av1, av2 : real
 ```
 
 Cpmo pode ver o bloco de declaraçaõ de variáveis não precisa ser finalizado, ele termina quando inicia outro bloco, seja de função, procedimento ou do algoritmo principal.
 
-Uma prática
+### Notação CamelCase
+Uma prática muito importante na programação é o uso da notação CamelCase, com ela podemos acelerar o entendimento do código e a leitura dos nomes usados.
+
+A Notação CamelCase foi 
