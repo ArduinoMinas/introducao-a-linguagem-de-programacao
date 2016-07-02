@@ -1,11 +1,11 @@
 
 Este material foi retirado na integra do arquivo "RELAÇÃO DE COMANDOS DO VISUALG 3.0.txt", e no decorrer do desenvolvimento desta apostila será amadurecido para melhorar a fluência e consolidação com o restante do texto.
 
-Dentro do VISUALG 3.0 tem uma CTRL+J mas acho que também está incompleta, é que são tantas coisas, que eu estou ainda me organizando.
+Dentro do VISUALG 3.0 tem esta lista acessivel através da sequencia de teclas [CTRL]+[J], diz o autor: "mas acho que também está incompleta, é que são tantas coisas, que eu estou ainda me organizando".
 
 A maioria deles estão dentro do HELP.CHM 
 
-A relação dos comandos, funções, variáveis, constantes e dados  :
+Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
 ####Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
 
@@ -148,7 +148,7 @@ Posição=> Entre "aspas" também: FRENTE, FUNDOS
 ##### Replicar
 
 
-#### Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
+### Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
 
 ##### Limpatela
 Limpa a tela do monitor do computador
@@ -183,7 +183,7 @@ Senao, Senão (SENÃO)
 FimSe
 ```
 
-####C ontrole de Laços sequenciais e finitos 
+#### Controle de Laços sequenciais e finitos 
 
 ```
 PARA variável(inteira) DE inicio ATÉ fim FAÇA
