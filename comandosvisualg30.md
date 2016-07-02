@@ -88,33 +88,33 @@ Cores =>   Entre "aspas": Amarelo, Branco, Preto, Azul, Verde, Vermelho
 
 Posição=> Entre "aspas" também: FRENTE, FUNDOS   
 
-####Extras (ainda não criadas)
+#### Extras (ainda não criadas)
 
-#####*Posicionar
+##### Posicionar
 
-#####*Tecla
+##### Tecla
 
-#####*Etrim
+##### Etrim
 
-#####*Dtrim
+##### Dtrim
 
-#####*Esquerda
+##### Esquerda
 
-#####*Direita
+##### Direita
 
-#####*Replicar
+##### Replicar
 
 
-####Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
+#### Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
 
-#####Limpatela
+##### Limpatela
 Limpa a tela do monitor do computador
 
-#####Pausa
+##### Pausa
 
-#####Arquivo
+##### Arquivo
 
-####Desvios multiplos condicionais 
+####D esvios multiplos condicionais 
 só use variáveis e controles do tipo caracter
 
 ```
@@ -124,7 +124,7 @@ Caso "texto"
 Fimescolha (FIMESCOLHA)
 ```
 
-####Desvios simples e compostos
+#### Desvios simples e compostos
 
 ```
 Se (condição) então 
@@ -140,7 +140,7 @@ Senao, Senão (SENÃO)
 FimSe
 ```
 
-####Controle de Laços sequenciais e finitos 
+####C ontrole de Laços sequenciais e finitos 
 
 ```
 PARA variável(inteira) DE inicio ATÉ fim FAÇA
@@ -153,55 +153,94 @@ Para De (DE) Ate (ATE) Até (ATÉ) Passo Faca (FACA) Faça (FAÇA)
 FimPara (FIMPARA)
 ```
 
-####Controle de Laços sequenciais e infinitos 
+#### Controle de Laços sequenciais e infinitos 
+```
 Enquanto condição FAÇA
         comandos
 FimEnquanto
+```
 
+```
 Enquanto (ENQUANTO)     
 FimEnquanto (FIMENQUANTO)
+```
 
+```
 Repita
 Fimrepita (FIMREPITA)
+```
 
-Interrompa
-Retorne
-Pausa
+```Interrompa```
+
+
+```Retorne```
+
+
+```Pausa```
 
 ####Operadores lógicos
-e (E)
-ou (OU)
-Nao
-Não (NÃO)
-Xou (XOU)
+```e (E)```
+
+```ou (OU)```
+
+```Nao```
+
+```Não (NÃO)```
+
+```Xou (XOU)```
+
 
 #### Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
+
+```
 Funcao
 Função (FUNÇÃO) 
 Fimfuncao (FIMFUNÇÃO)
+```
+
+```
 Mensagem 
 Procedimento (PROCEDIMENTO)
 Fimprocedimento (FIMPROCEDIMENTO)
+```
 
-####Palavras reservadas Especiais
-===================================
-Algoritmo     --> Começo de todos os algoritmos 
-var              --> declaração dos tipos das variáveis   
-Inicio           --> inicio do programa(Algoritmo) ou função ou procedimento
-FimAlgoritmo --> termino do algoritmo e fim do programa
-=========================================
+#### Palavras reservadas Especiais
+##### Algoritmo
+Começo de todos os algoritmos 
+
+##### var
+declaração dos tipos das variáveis   
+
+##### Inicio
+inicio do programa(Algoritmo) ou função ou procedimento
+
+##### FimAlgoritmo
+termino do algoritmo e fim do programa
+
 #### Cronometro
-Timer
-On
-Off
-Eco (ECO)
-Aleatorio (ALEATÓRIO)
-Perfil 
-Dos (DOS)
-Debug (DEBUG)
-Tipo (TIPO)
-var (VAR)
-const (CONST)
+
+```Timer```
+
+```On```
+
+```Off```
+
+```Eco (ECO)```
+
+```Aleatorio (ALEATÓRIO)```
+
+```Perfil```
+
+```Dos (DOS)```
+
+```Debug (DEBUG)```
+
+```Tipo (TIPO)```
+
+```var (VAR)```
+
+```const (CONST)```
+
  
 #### Declaração de constantes padrão
 const (CONST)
