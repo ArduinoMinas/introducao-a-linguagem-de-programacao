@@ -7,7 +7,7 @@ A maioria deles estão dentro do HELP.CHM
 
 A relação dos comandos, funções, variáveis, constantes e dados  :
 
-Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
+####Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
 
 Abs( ) 
 
@@ -47,7 +47,7 @@ Leia( variável_nome ) ==> Lê do teclado e coloca em uma variável 'variável_n
 
 ------------------------------------------------------------------------------------------------------
 
-Funções especiais de conversões
+####Funções especiais de conversões
 
 Pos( )
 
@@ -118,7 +118,7 @@ Caso "texto"
 Fimescolha (FIMESCOLHA)
 ```
 
-Desvios simples e compostos
+####Desvios simples e compostos
 
 ```
 Se (condição) então 
@@ -134,7 +134,7 @@ Senao, Senão (SENÃO)
 FimSe
 ```
 
-Controle de Laços sequenciais e finitos 
+####Controle de Laços sequenciais e finitos 
 
 ```
 PARA variável(inteira) DE inicio ATÉ fim FAÇA
@@ -147,7 +147,7 @@ Para De (DE) Ate (ATE) Até (ATÉ) Passo Faca (FACA) Faça (FAÇA)
 FimPara (FIMPARA)
 ```
 
-Controle de Laços sequenciais e infinitos 
+####Controle de Laços sequenciais e infinitos 
 Enquanto condição FAÇA
         comandos
 FimEnquanto
@@ -162,14 +162,14 @@ Interrompa
 Retorne
 Pausa
 
-Operadores lógicos
+####Operadores lógicos
 e (E)
 ou (OU)
 Nao
 Não (NÃO)
 Xou (XOU)
 
-Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
+#### Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
 Funcao
 Função (FUNÇÃO) 
 Fimfuncao (FIMFUNÇÃO)
@@ -177,14 +177,14 @@ Mensagem
 Procedimento (PROCEDIMENTO)
 Fimprocedimento (FIMPROCEDIMENTO)
 
-Palavras reservadas Especiais
+####Palavras reservadas Especiais
 ===================================
 Algoritmo     --> Começo de todos os algoritmos 
 var              --> declaração dos tipos das variáveis   
 Inicio           --> inicio do programa(Algoritmo) ou função ou procedimento
 FimAlgoritmo --> termino do algoritmo e fim do programa
 =========================================
-Cronometro
+#### Cronometro
 Timer
 On
 Off
@@ -196,15 +196,13 @@ Debug (DEBUG)
 Tipo (TIPO)
 var (VAR)
 const (CONST)
-
-======================================
-Declaração de constantes padrão
+ 
+#### Declaração de constantes padrão
 const (CONST)
 Lista
 Pi (PI)
-
-================================================
-Declaradores de Variáveis no cabeçalho do programa (área de declarações)
+ 
+#### Declaradores de Variáveis no cabeçalho do programa (área de declarações)
 Var (VAR) 
 Variável  (VARIÁVEL)
 Variavel  (VARIAVEL)
@@ -311,8 +309,8 @@ Procedimento (PROCEDIMENTO)
 Fimprocedimento (FIMPROCEDIMENTO)
 
 
-Palavras reservadas Especiais
-===================================
+### Palavras reservadas Especiais
+
 Algoritmo     --> Começo de todos os algoritmos 
 var              --> declaração dos tipos das variáveis   
 Inicio           --> inicio do programa(Algoritmo) ou função ou procedimento
