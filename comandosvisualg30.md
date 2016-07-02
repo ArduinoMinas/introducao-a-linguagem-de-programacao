@@ -7,7 +7,9 @@ A maioria deles estão dentro do HELP.CHM
 
 Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
-####Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
+## Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
+
+### Funções matemáticas
 
 #####Abs( ) 
 
@@ -42,13 +44,17 @@ Segue a relação dos comandos, funções, variáveis, constantes e dados:
 #####Mod 
 usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
 
-#### teclado
+### Funções relativas ao teclado
 
-##### Leia( variável_nome ) 
-Lê do teclado e coloca em uma variável 'variável_nome'
- 
+##### Leia 
+Lê do teclado e coloca em uma variável 'nomeVariavel':
 
-####Funções especiais de conversões
+```
+leia(nomeVariavel)
+```
+
+
+### Funções especiais de conversões
 
 #####Pos( )
 
@@ -71,7 +77,7 @@ Lê do teclado e coloca em uma variável 'variável_nome'
 #####CaracPNum( )
 
 
-#### Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
+### Funções especiais que não retornam valores para variáveis só com os PERIFÉRICO (MONITOR)
 
 #####Escreva   
 Escreve na tela do monitor do computador fica na linha
@@ -129,9 +135,8 @@ Posição pode ser entre "aspas" ou:
 * FRENTE
 * FUNDOS
 
-Posição=> Entre "aspas" também: FRENTE, FUNDOS   
 
-#### Extras (ainda não criadas)
+## Extras (ainda não criadas)
 
 ##### Posicionar
 
@@ -148,7 +153,7 @@ Posição=> Entre "aspas" também: FRENTE, FUNDOS
 ##### Replicar
 
 
-### Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
+## Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
 
 ##### Limpatela
 Limpa a tela do monitor do computador
@@ -223,14 +228,12 @@ Quando usado dentro de um bloco de código dentro de laço (loop)
 ##### Retorne
 Retorna ao inicio do laço, começando novamente o bloco.
 
-``` Retorne ```
+``` 
+Retorne 
+```
 
-##### Pausa
-Interrompe a execução do bloco;
 
-``` Pausa ```
-
-#### Operadores lógicos
+## Operadores lógicos
 
 ##### e
 Conjunção logica, verdadeiro apenas se ambos as condições forem verdadeiras.
@@ -253,7 +256,7 @@ Conjunção lógica, equivalente a ``` ou ``` porém apenas retorna verdadeiro s
 ``` Xou (XOU) ```
 
 
-#### Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
+## Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
 
 
 ##### Funcao
@@ -268,7 +271,7 @@ Procedimento (PROCEDIMENTO)
 Fimprocedimento (FIMPROCEDIMENTO)
 ```
 
-#### Palavras reservadas Especiais
+## Palavras reservadas Especiais
 
 ##### Algoritmo
 Começo de todos os algoritmos 
@@ -284,181 +287,72 @@ termino do algoritmo e fim do programa
 
 #### Cronometro
 
-```Timer```
+```
+Timer
+```
 
 
-```On```
+```
+On
+```
 
 
-```Off```
+```
+Off
+```
 
 
-```Eco (ECO)```
+```
+Eco (ECO)
+```
 
 
-```Aleatorio (ALEATÓRIO)```
+```
+Aleatorio (ALEATÓRIO)
+```
 
 
-```Perfil```
+```
+Perfil
+```
 
 
-```Dos (DOS)```
+```
+Dos (DOS)
+```
 
 
-```Debug (DEBUG)```
+```
+Debug (DEBUG)
+```
 
 
-```Tipo (TIPO)```
+```
+Tipo (TIPO)
+```
 
 
-```var (VAR)```
+```
+var (VAR)
+```
 
 
-```const (CONST)```
+```
+const (CONST)
+```
 
  
 #### Declaração de constantes padrão
+
 const (CONST)
 Lista
 Pi (PI)
  
 #### Declaradores de Variáveis no cabeçalho do programa (área de declarações)
+
 Var (VAR) 
 Variável  (VARIÁVEL)
 Variavel  (VARIAVEL)
 
-É eu sei, estou montando ainda, mas me falta tempo!
-Dentro do VISUALG 3.0 tem uma CTRL+J mas acho que também está incompleta, é que são tantas coisas, que eu estou ainda me organizando.
-A maioria deles estão dentro do HELP.CHM 
-
-
-A relação dos comandos, funções, variáveis, constantes e dados  :
-
-Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
-Abs( ) 
-Log
-Div
-Tan(
-Sen
-Cos
-Rand
-Randi
-Quad
-Exp
-Pot
-Cotan
-ArcCos
-ArcSen
-Raizq
-
-Mod ==> usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
-------------------------------------------- teclado ------------------------------------------------------
-Leia( variável_nome ) ==> Lê do teclado e coloca em uma variável 'variável_nome'
---------------------------------------------------------------------------------------------------------------
-Funções especiais de conversões
-Pos
-Asc( )
-Carac( )
-Copia ( )
-Int
-Compr ( 
-Maiusc
-Minusc
-NumPCarac
-CaracPNum
-
-Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
-Escreva( )   ==> Escreve na tela do monitor do computador
-Escreval( )  ==> Escreve na tela do monitor do computador mas pulando um linha.
-MudaCor( ) Mudacor(Cor, posição) Cores =>   Entre "aspas": Amarelo, Branco, Preto, Azul, Verde, Vermelho
-                                                   Posição=> Entre "aspas" também: FRENTE, FUNDOS   
-
-
-Extras (ainda não criadas)
-*Posicionar
-*Tecla
-*Etrim
-*Dtrim
-*Esquerda
-*Direita
-*Replicar
-
-Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
-Limpatela  ==> Limpa a tela do monitor do computador
-Pausa
-Arquivo
-
-Escolha de 
-Caso
-
-Outrocaso
-Fimescolha (FIMESCOLHA)
-
-Se Entao Então (ENTÃO) 
-Senao, Senão (SENÃO)
-FimSe
-
-Para De (DE) Ate (ATE) Até (ATÉ) Passo Faca (FACA) Faça (FAÇA)
-FimPara (FIMPARA)
-
-
-Enquanto
-FimEnquanto (FIMENQUANTO)
-
-Repita
-Fimrepita (FIMREPITA)
-
-Interrompa
-Retorne
-
-Pausa
-
-Operadores lógicos
-e (E)
-ou (OU)
-Nao
-Não (NÃO)
-Xou (XOU)
-
-Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
-Funcao
-Função (FUNÇÃO) 
-Fimfuncao (FIMFUNÇÃO)
-Mensagem 
-Procedimento (PROCEDIMENTO)
-Fimprocedimento (FIMPROCEDIMENTO)
-
-
-### Palavras reservadas Especiais
-
-Algoritmo     --> Começo de todos os algoritmos 
-var              --> declaração dos tipos das variáveis   
-Inicio           --> inicio do programa(Algoritmo) ou função ou procedimento
-FimAlgoritmo --> termino do algoritmo e fim do programa
-=========================================
-Cronometro
-Timer
-On
-Off
-Eco (ECO)
-Aleatorio (ALEATÓRIO)
-Perfil 
-Dos (DOS)
-Debug (DEBUG)
-Tipo (TIPO)
-var (VAR)
-const (CONST)
-
-======================================
-Declaração de constantes padrão
-const (CONST)
-Lista
-Pi (PI)
-
-================================================
-Declaradores de Variáveis no cabeçalho do programa (área de declarações)
-Var (VAR) 
-Variável  (VARIÁVEL)
-Variavel  (VARIAVEL)
 
 
