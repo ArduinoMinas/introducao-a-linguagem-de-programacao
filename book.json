@@ -2,7 +2,8 @@
     "language": "pt",
     "structure": {
         "readme": "introducao.md",
-        "glossary": "glossario.md"
+        "glossary": "glossario.md",
+        "summary": "sumario.md"
     },
     "plugins": [
         "layout",
