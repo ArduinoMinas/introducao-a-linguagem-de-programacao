@@ -1,5 +1,4 @@
 
-
 Se você perguntar ao google "define algorito" ele irá lhe responder o que é, e nos adiantamos publicando aqui a resposta que ele nos dá com base no dicionário:
 
 > substantivo masculino
