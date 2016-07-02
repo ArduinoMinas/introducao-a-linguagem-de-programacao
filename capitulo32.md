@@ -34,4 +34,5 @@ Usaremos sempre a primeira letra de cada palavra em maiúscula, com as seguintes
 * Quando nome de classes deverão seguir o mesmo critério para procedimentos;
 * Em todos os casos poderão ser usados números;
 * Mesmo que a linguagem permita, "nunca" use acentos e simbolos especiais;
-* 
+
+para conhecer a história da Notação CamelCase e conhecer melhor como adota-la, visite o link http://c2.com/cgi/wiki?CamelCase, C2 vem de Cunningham and Cunningham, epresa criada por Ward Cunningham e sua filha para consultoria em desenvolvimento de softwares, são os principais influênciadores da engenharia de desenvolvimento de software no mundo, juntamene com Erik Evans (Erik J. Evans) e Martim Fowler.
