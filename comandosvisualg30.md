@@ -114,7 +114,7 @@ Limpa a tela do monitor do computador
 
 ##### Arquivo
 
-####D esvios multiplos condicionais 
+#### Desvios multiplos condicionais 
 só use variáveis e controles do tipo caracter
 
 ```
@@ -179,13 +179,18 @@ Fimrepita (FIMREPITA)
 ```Pausa```
 
 ####Operadores lógicos
+
 ```e (E)```
+
 
 ```ou (OU)```
 
+
 ```Nao```
 
+
 ```Não (NÃO)```
+
 
 ```Xou (XOU)```
 
@@ -205,6 +210,7 @@ Fimprocedimento (FIMPROCEDIMENTO)
 ```
 
 #### Palavras reservadas Especiais
+
 ##### Algoritmo
 Começo de todos os algoritmos 
 
@@ -221,23 +227,33 @@ termino do algoritmo e fim do programa
 
 ```Timer```
 
+
 ```On```
+
 
 ```Off```
 
+
 ```Eco (ECO)```
+
 
 ```Aleatorio (ALEATÓRIO)```
 
+
 ```Perfil```
+
 
 ```Dos (DOS)```
 
+
 ```Debug (DEBUG)```
+
 
 ```Tipo (TIPO)```
 
+
 ```var (VAR)```
+
 
 ```const (CONST)```
 
