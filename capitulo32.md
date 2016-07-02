@@ -20,4 +20,18 @@ Cpmo pode ver o bloco de declaraçaõ de variáveis não precisa ser finalizado,
 ### Notação CamelCase
 Uma prática muito importante na programação é o uso da notação CamelCase, com ela podemos acelerar o entendimento do código e a leitura dos nomes usados.
 
-A Notação CamelCase foi 
+A Notação CamelCase é amplamente utilizada e já virou uma prática comum e há apenas uma pequena controvercia se uma nome deve começar ou não com a primeira letra da primeira palavra em maiúscula ou não.
+
+Até mesmo em C/C++ não há o mal costume de unir práticas de nomeação antigas com Novas, deixando o código pouco elegante, em C++ apenas é percepitvel o constante uso da Notação, já em C puro, é muito pouco usado, mas neste curso iremos usar sempre a notação camel como descrito abaixo.
+
+Usaremos sempre a primeira letra de cada palavra em maiúscula, com as seguintes execessões:
+
+* Quando nome de variáveis a primeira palavra será toda em minúscula
+* Quando nome de variáveis, não usaremos traço baixo, a não ser que auxili o entendimento de variáveis com nomes mais complexos, este uso deve ser acordado com a equipe, e clarmente documentado como usar em caso de se precisar criar novas variáveis.
+* Quando nome de constantes, todas as palavras serão escritas com todas as letras em maiúsculas, sendo cada palavra separada da outra por traço baixo;
+* Quando nome de funções deverá ser adotado o mesmo critério usado para as variáveis;
+* Quando nome de procedimentos deverá ser usado cada primeira letra em maiúsculo, mesmo no primeira palavra, podendo quando negociado com a equipe, em caso denomes mais complexos usar o traço baixo para auxiliar na criação do nome;
+* Quando nome de classes deverão seguir o mesmo critério para procedimentos;
+* Em todos os casos poderão ser usados números;
+* Mesmo que a linguagem permita, "nunca" use acentos e simbolos especiais;
+* 
