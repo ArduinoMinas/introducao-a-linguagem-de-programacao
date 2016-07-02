@@ -9,107 +9,113 @@ A relação dos comandos, funções, variáveis, constantes e dados  :
 
 ####Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
 
-Abs( ) 
+#####Abs( ) 
 
-Log( )
+#####Log( )
 
-Div( )
+#####Div( )
 
-Tan( )
+#####Tan( )
 
-Sen( )
+#####Sen( )
 
-Cos( )
+#####Cos( )
 
-Rand( )
+#####Rand( )
 
-Randi( )
+#####Randi( )
 
-Quad( )
+#####Quad( )
 
-Exp( )
+#####Exp( )
 
-Pot( )
+#####Pot( )
 
-Cotan( )
+#####Cotan( )
 
-ArcCos( )
+#####ArcCos( )
 
-ArcSen( )
+#####ArcSen( )
 
-Raizq( )
+#####Raizq( )
 
-Mod ==> usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
+#####Mod 
+usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
 
-------------------------------------------- teclado --------------------------------------------------
+#### teclado
 
-Leia( variável_nome ) ==> Lê do teclado e coloca em uma variável 'variável_nome'
-
-------------------------------------------------------------------------------------------------------
+##### Leia( variável_nome ) 
+Lê do teclado e coloca em uma variável 'variável_nome'
+ 
 
 ####Funções especiais de conversões
 
-Pos( )
+#####Pos( )
 
-Asc( )
+#####Asc( )
 
-Carac( )
+#####Carac( )
 
-Copia ( )
+#####Copia ( )
 
-Int( )
+#####Int( )
 
-Compr( )
+#####Compr( )
 
-Maiusc( )
+#####Maiusc( )
 
-Minusc( )
+#####Minusc( )
 
-NumPCarac( )
+#####NumPCarac( )
 
-CaracPNum( )
+#####CaracPNum( )
 
 
-Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
+#### Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
 
-Escreva( )   ==> Escreve na tela do monitor do computador fica na linha
+#####Escreva( )   
+Escreve na tela do monitor do computador fica na linha
 
-Escreval( )  ==> Escreve na tela do monitor do computador mas pulando um linha.
+#####Escreval( )  
+Escreve na tela do monitor do computador mas pulando um linha.
 
-MudaCor( ) ==> Muda a cor dos caracteres(letras) e do fundo (tela) 
+#####MudaCor( ) 
+Muda a cor dos caracteres(letras) e do fundo (tela) 
 
-Mudacor(Cor, posição) 
+#####Mudacor(Cor, posição) 
 
 Cores =>   Entre "aspas": Amarelo, Branco, Preto, Azul, Verde, Vermelho
 
 Posição=> Entre "aspas" também: FRENTE, FUNDOS   
 
-Extras (ainda não criadas)
+####Extras (ainda não criadas)
 
-*Posicionar
+#####*Posicionar
 
-*Tecla
+#####*Tecla
 
-*Etrim
+#####*Etrim
 
-*Dtrim
+#####*Dtrim
 
-*Esquerda
+#####*Esquerda
 
-*Direita
+#####*Direita
 
-*Replicar
+#####*Replicar
 
 
-Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
+####Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
 
-Limpatela  ==> Limpa a tela do monitor do computador
+#####Limpatela
+Limpa a tela do monitor do computador
 
-Pausa
+#####Pausa
 
-Arquivo
+#####Arquivo
 
-Desvios multiplos condicionais : só use variáveis e controles do tipo caracter
+####Desvios multiplos condicionais 
+só use variáveis e controles do tipo caracter
 
 ```
 Escolha  xvar(caracter)
