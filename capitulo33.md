@@ -10,18 +10,26 @@ Vejamos então quais são os tipos de dados que o Portugol pode trabalhar sem pr
 
 #### Tipos númericos
 ##### inteiros
-a diretiva ineiro define variáveis numéricas do tipo ineiro, que não tenha casas decimais, podendo armazenar aproximadamente o valor 2.147.450.880 
+A diretiva **inteiro** define variáveis numéricas do tipo inteiro, ou seja números que não tenha casas decimais, podendo armazenar aproximadamente o valor entre 2147483647 e -2147483648
 
-Tipos de Dados
- Inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
-Ex. idade, número de filhos, quantidade de estados do Brasil.
- Real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
-Ex. salário, peso, temperatura.
- Caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
-Ex. nome, endereço, frase
- Logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou
-FALSO.
-O VisuAlg permite também a declaração de variáveis estruturadas através da palavra
-chave vetor.
+Exemplos de uso: idade, número de filhos, quantidade de estados do Brasil.
+
+##### Real
+Define variáveis numéricas do tipo real, ou seja, com casas decimais. Conforme norma IEEE 754.
+
+Valor máximo: 356 x e ^-43
+
+Exemplos de uso: salário, peso, temperatura.
+
+##### Caractere
+Define variáveis do tipo string, ou seja, cadeia de caracteres.
+
+Exemplo de uso: nome, endereço, frase
+
+##### Logico
+Define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
+
+
+O VisuAlg permite também a declaração de variáveis estruturadas através da palavra chave vetor.
 
 
