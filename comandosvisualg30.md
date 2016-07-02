@@ -8,85 +8,144 @@ A maioria deles estão dentro do HELP.CHM
 A relação dos comandos, funções, variáveis, constantes e dados  :
 
 Funções pré definidas no visualg 3.0 (pseudo-linguagem em portugol) 
+
 Abs( ) 
+
 Log( )
+
 Div( )
+
 Tan( )
+
 Sen( )
+
 Cos( )
+
 Rand( )
+
 Randi( )
+
 Quad( )
+
 Exp( )
+
 Pot( )
+
 Cotan( )
+
 ArcCos( )
+
 ArcSen( )
+
 Raizq( )
 
 Mod ==> usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
-------------------------------------------- teclado ------------------------------------------------------
+
+------------------------------------------- teclado --------------------------------------------------
+
 Leia( variável_nome ) ==> Lê do teclado e coloca em uma variável 'variável_nome'
---------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+
 Funções especiais de conversões
+
 Pos( )
+
 Asc( )
+
 Carac( )
+
 Copia ( )
+
 Int( )
+
 Compr( )
+
 Maiusc( )
+
 Minusc( )
+
 NumPCarac( )
+
 CaracPNum( )
 
+
 Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
+
 Escreva( )   ==> Escreve na tela do monitor do computador fica na linha
+
 Escreval( )  ==> Escreve na tela do monitor do computador mas pulando um linha.
 
 MudaCor( ) ==> Muda a cor dos caracteres(letras) e do fundo (tela) 
+
 Mudacor(Cor, posição) 
+
 Cores =>   Entre "aspas": Amarelo, Branco, Preto, Azul, Verde, Vermelho
+
 Posição=> Entre "aspas" também: FRENTE, FUNDOS   
 
 Extras (ainda não criadas)
+
 *Posicionar
+
 *Tecla
+
 *Etrim
+
 *Dtrim
+
 *Esquerda
+
 *Direita
+
 *Replicar
 
+
 Comandos do Visualg 3.0 (pseudo-linguagem em portugol) 
+
 Limpatela  ==> Limpa a tela do monitor do computador
+
 Pausa
+
 Arquivo
 
 Desvios multiplos condicionais : só use variáveis e controles do tipo caracter
+
+```
 Escolha  xvar(caracter)
 Caso "texto"
-Outrocaso 
+   Outrocaso 
 Fimescolha (FIMESCOLHA)
+```
 
 Desvios simples e compostos
+
+```
 Se (condição) então 
      comandos
 senão 
      comandos
 FimSe
+```
 
+```
 SE Entao Então (ENTÃO) 
 Senao, Senão (SENÃO)
 FimSe
+```
 
 Controle de Laços sequenciais e finitos 
+
+```
 PARA variável(inteira) DE inicio ATÉ fim FAÇA
      comandos
 FIMPARA
+```
 
+``` 
 Para De (DE) Ate (ATE) Até (ATÉ) Passo Faca (FACA) Faça (FAÇA)
 FimPara (FIMPARA)
+```
 
 Controle de Laços sequenciais e infinitos 
 Enquanto condição FAÇA
