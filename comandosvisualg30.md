@@ -73,18 +73,61 @@ Lê do teclado e coloca em uma variável 'variável_nome'
 
 #### Funções especiais que não retornam valores pra variáveis só com os PERIFÉRICO (MONITOR)
 
-#####Escreva( )   
+#####Escreva   
 Escreve na tela do monitor do computador fica na linha
 
-#####Escreval( )  
+```escreva("texto entre aspas, ou variável que terá o conteudo impresso na tela")```
+
+```escreva(variavel)```
+
+
+#####Escreval
 Escreve na tela do monitor do computador mas pulando um linha.
 
-#####MudaCor( ) 
+```
+escreval("texto entre aspas, ou variável que terá o conteudo impresso na tela com um salto de linha")
+```
+
+```
+escreval(variavel)
+```
+
+
+##### MudaCor
 Muda a cor dos caracteres(letras) e do fundo (tela) 
 
-#####Mudacor(Cor, posição) 
+```
+mudacor("nome da cor")
+```
 
-Cores =>   Entre "aspas": Amarelo, Branco, Preto, Azul, Verde, Vermelho
+Nome de cores possíveis:
+* Amarelo
+* Branco
+* Preto
+* Azul
+* Verde
+* Vermelho
+
+
+
+#####Mudacor(Cor, posição) 
+Muda a cor dos caracteres (letras) ou do fundo (tela) conforme a posição informada
+
+```
+mudacor("nome da cor","posição")
+```
+
+Nome de cores possíveis:
+* Amarelo
+* Branco
+* Preto
+* Azul
+* Verde
+* Vermelho
+
+Posição pode ser entre "aspas" ou:
+* FRENTE
+* FUNDOS
 
 Posição=> Entre "aspas" também: FRENTE, FUNDOS   
 
@@ -154,57 +197,73 @@ FimPara (FIMPARA)
 ```
 
 #### Controle de Laços sequenciais e infinitos 
+Controla quando um bloco de código deve ser executado.
+
+##### Enquanto 
+"Enquanto" uma determinada condição for verdadeira executa o bloco de código.
+
 ```
 Enquanto condição FAÇA
         comandos
 FimEnquanto
 ```
-
-```
-Enquanto (ENQUANTO)     
-FimEnquanto (FIMENQUANTO)
-```
+##### Repita
+Repete o bloco de código infinitamente;
 
 ```
 Repita
 Fimrepita (FIMREPITA)
 ```
 
+##### Interrompa
+Quando usado dentro de um bloco de código dentro de laço (loop)
+
 ```Interrompa```
 
+##### Retorne
+Retorna ao inicio do laço, começando novamente o bloco.
 
-```Retorne```
+``` Retorne ```
+
+##### Pausa
+Interrompe a execução do bloco;
+
+``` Pausa ```
+
+#### Operadores lógicos
+
+##### e
+Conjunção logica, verdadeiro apenas se ambos as condições forem verdadeiras.
+
+``` e (E) ```
+
+##### ou
+Conjunção logica, verdadeiro  se uma das condições forem verdadeiras.
+
+``` ou (OU) ```
 
 
-```Pausa```
+##### não
+Inversor lógico, inverte a condição, se verdadeira passa a ser falsa e vice versa.
 
-####Operadores lógicos
+``` Não (NÃO) ```
 
-```e (E)```
-
-
-```ou (OU)```
-
-
-```Nao```
-
-
-```Não (NÃO)```
-
-
-```Xou (XOU)```
+##### Xou
+Conjunção lógica, equivalente a ``` ou ``` porém apenas retorna verdadeiro se uma das condições forem verdaeiras, se ambas forem verdadeiras ou falsas retorna falso.
+``` Xou (XOU) ```
 
 
 #### Declaração de UDFs (FUNÇÕES DEFINIDAS PELOS USUÁRIOS)
 
+
+##### Funcao
 ```
-Funcao
 Função (FUNÇÃO) 
 Fimfuncao (FIMFUNÇÃO)
 ```
 
+##### Mensagem 
 ```
-Mensagem 
 Procedimento (PROCEDIMENTO)
 Fimprocedimento (FIMPROCEDIMENTO)
 ```
