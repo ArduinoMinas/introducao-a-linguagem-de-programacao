@@ -10,3 +10,5 @@ Vejamos então quais são os tipos de dados que o Portugol pode trabalhar sem pr
 
 
 
+
+
