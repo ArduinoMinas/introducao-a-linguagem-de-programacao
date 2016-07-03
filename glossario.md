@@ -47,6 +47,14 @@ Plural: peculiaridades
 
 fonte: http://www.dicio.com.br/peculiaridade/
 
+## Pseudo-Código
+Veja: Psseudocódigo
+
+## Pseudocódigo
+Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa a quem o escreve, de forma a ser entendida por qualquer pessoa) sem necessidade de conhecer a sintaxe de nenhuma linguagem de programação.
+
+fonte: www.rioinfo.com.br/cria/o-que-e-pseudocodigo/
+
 ## Portugol 
 é uma pseudo-linguagem de programação, criada para demonstrar o uso de algoritmos e programação estruturada. Está presente em muitos materiais didáticos de programação, em português, sobre o assunto. Apesar disso, não existe um padrão sintático ou léxico para essa linguagem.
 
