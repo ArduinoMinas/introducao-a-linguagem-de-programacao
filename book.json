@@ -20,7 +20,8 @@
         "customtheme",
         "theme-api",
         "theme-default",
-        "numbered-headings-for-web-and-books"
+        "numbered-headings-for-web-and-books", 
+        "numbered-headings"
     ],
     "pluginsConfig": {
         "layout": {
