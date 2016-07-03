@@ -25,7 +25,7 @@ Ponto de interrupção, condicional ou não, inserido no código através de sin
 ## BNF
 Veja: Backus-Naur Form
 
-# CameCase
+## CameCase
 CamelCase é a denominação em inglês para a prática de escrever palavras compostas ou frases, onde cada palavra é iniciada com Maiúsculas e unidas sem espaços. É um padrão largamente utilizado em diversas linguagens de programação, como Java, C#, Ruby, PHP e Python, principalmente nas definições de Classes e Objetos. Pela sua associação com tecnologia, o marketing se apropriou dessa maneira de escrever, injetando certo ar de "tecnologia" nos produtos assim nomeados: iPod, GameCube, OpenOffice.org, StarCraft, dentre outros.
 
 A provável origem do termo é a semelhança do contorno de expressões CamelCase, onde as letras em maiúsculo "saltam" no meio das minúsculas como corcovas de um camelo.
@@ -38,6 +38,15 @@ Veja "Integrated Development Environment"
 ## Integrated Development Environment
 em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
 
+## John Backus
+John Warner Backus foi um cientista da computação estadunidense. Conhecido por criar a primeira linguagem de programação de alto nível - o Fortran -, a notação BNF e o conceito de programação em nível de funções.
+
+fonte: http://pt.wikipedia.org/wiki/John_Backus
+
+## Meta-Sintaxe
+Uma meta-sintaxe descreve estruturas permitidas e composição de frases e sentenças em uma meta-linguagem, que é usado para descrever uma linguagem natural ou uma linguagem de computador. Algumas das meta-linguagens formalizadas mais utilizadas para linguagem de computador são "Backus-Naur Form (BNF), Extended Backus-Naur Form (EBNF), Wirth Syntax Noation (WSN), e Augmented Backus-Naur Form (ABNF).
+
+Tradução livre da fonte: https://en.wikipedia.org/wiki/Metasyntax
 ## Notação CamelCase
 Veja CamelCase
 
