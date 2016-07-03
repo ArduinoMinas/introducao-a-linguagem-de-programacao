@@ -1,16 +1,18 @@
-O VisuAlg não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem Portugol, VisuAlg tem algumas peculiaridades, que torna esta versão do Portugol proprietário e mais adequado ao uso com sua Interface. Isso não é um problema paranós, já que o aprendizado desta versão do Portugal tem como objetivo o desenvolvimento denossa capacidade de pensar de forma estruturada, e não usaremos esta linguagem por muito tempo, é apenas um estágio em nosso parendizado.
+O **VisuAlg** não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem "**Portugol**", VisuAlg tem algumas peculiaridades, que torna esta versão do Portugol proprietário e mais adequado ao uso com sua Interface. Isso não é um problema paran ós, já que o aprendizado desta versão do Portugal tem como objetivo panea o desenvolvimento de nossa capacidade de pensar de forma estruturada, e não usaremos esta linguagem por muito tempo, é apenas um estágio em nosso parendizado.
 
 A partir deste ponto chamaremos a Ferramenta ou Interface do VisuAlg de **IDE** (Integrated Development Environment) em português *Ambiente de Desenvolvimento Integrado*, um software que possui todas ferramentas e viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
 
-Com o uso de uma IDE, não precisamos nos preocupar com o editor usado para escrever nosso código, nem com a página de codificação dos caracteres adota, não precisamos nos preocupar com a ferramenta usada para nos ajudar a encontrar erros de escritas, muito menos com a ferramenta usada para converter nosso código em um formato mais próximo para o entendimento do computador, e muito menos com a fase final de ligação do nosso código com as instruções e posições de computador que se destina o código.
+Com o uso de uma IDE, não precisamos nos preocupar com o editor usado para escrever nosso código, nem com a página de codificação dos caracteres a ser adotada, não precisamos nos preocupar com a ferramenta usada para nos ajudar a encontrar erros de escritas, muito menos com a ferramenta usada para converter nosso código em um formato mais próximo para o entendimento do computador, compilação ou interpretação, e muito menos com a fase final de ligação do nosso código com as instruções e posições de mémoria do computador que se destina o código.
 
 A IDE é responsável por ter todas as ferramentas que precisamos, totalmente integradas e totalmente de forma transparente.
+
+## [Tela principal do VisuAlg](#tela_principal_visualg)
 
 Abaixo apresentamos a tela inicial do VisuAlg:
 
 ![Interface principal do VisuAlg 3.0](/telas/visualg/tela visualg - 3 - 2016-07-01 13.26.28.png)
 
-Como pode ser visto a janela é dividida em 3 seções muito importantes:
+Como pode ser visto na imagem a janela é dividida em 3 seções muito importantes:
 * Área de programa
 * Áreas das Váriáveis de Mémoria
 * Área de Visualização de Resultados
@@ -21,7 +23,7 @@ Teremos também uma janela secundária que sempre se abre quando executamos noss
 
 vejamos alguns detalhes de cada um deles.
 
-## Menu
+## [Menu](#menu)
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
 Abaixo vemos o menu do VisuAlg Versão 3.0:
