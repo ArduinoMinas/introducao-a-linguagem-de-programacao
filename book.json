@@ -15,7 +15,8 @@
         "gist",
         "mathjax",
         "customtheme",
-        "theme-api"
+        "theme-api",
+        "theme-default"
     ],
     "pluginsConfig": {
         "layout": {
