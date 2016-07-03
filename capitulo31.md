@@ -1,11 +1,11 @@
-Para começarmos a estudar o Portugol, propriamente, precisamos entender o que é um código estruturado, e para isso é importante destacar que para se ter um bom código estruturado é preciso serguir algumas regras:
+Para começarmos a estudar o **Portugol**, propriamente, precisamos entender o que é um código estruturado, e para isso é importante destacar que para se ter um bom código estruturado é preciso **seguir algumas regras**:
  * Cada comando deve ocupar uma linha;
  * Todas as palavras chaves são implementadas sem acentos e cedilha;
  * Não há diferenciação entre maúsculas e minúsculas, veja a observação abaixo sobre a notação CamelCase;
  * Palavras não reconhecidas serão tratadas como nomes de variáveis;
  * Qualquer texto precedido de // é ignorado, até se atingir o final da linha;
 
-A seguir apresentamos o primeiro exemplode pseudo código em Portugol:
+A seguir apresentamos o primeiro exemplo de pseudo código em Portugol:
 
 ```
 algoritmo "MeuPrimeiroPseudoCodigo"
@@ -27,11 +27,11 @@ Fimalgoritmo
 
 Como podemos ver, o código é separado em seções, tendo na primeira linha o nome do algoritmo que é o mesmo nome usado no arquivo, posto entre aspas.
 
-Em seguida temos alguns comentários que nos ajudam a entender o código, procure sempre descrever seu código com uma boa documentação o melhor que puder e procure dedicar bom tempo a isso, você se lembra de quando fizemos a prática de escrever de forma textual nosso algoritmo? faça isso na descrição de seu código, isso irá ajudar a resolver falhas (bugs).
+Em seguida temos alguns comentários que nos ajudam a entender o código, procure sempre descrever seu código com uma boa documentação, o melhor que puder e procure dedicar bom tempo a isso, você se lembra de quando fizemos a prática de escrever de forma textual nosso algoritmo? faça isso na descrição de seu código, isso irá ajudar a resolver falhas (bugs).
 
-Idenfique claramente o autor, e não deixe de colocar pelo menos o e-mail de contato, e se possível o telefone também, assim em caso de dúvida o proximo programador poderá consultar trechos de códigos de difícil entendimento, e se basear na documentação para optimiza-lo.
+Idenfique claramente o autor e não deixe de colocar pelo menos o e-mail de contato, se possível o telefone também, assim em caso de dúvida o proximo programador poderá consultar trechos de códigos de difícil entendimento, e se basear na documentação para optimiza-lo.
 
-Feito isso, faça a seguir a declaração de suas variáveis globais, veremos a frente o que são variáveis globais e locais, por hora declare após a documentação inicial todas as variáveis que julgar necessário em seu algoritmo.
+Feito isso, faça a seguir a declaração de suas variáveis globais, veremos a frente o que são variáveis globais e locais, por hora declare após a documentação inicial todas as variáveis que julgar necessário em seu algoritmo, a seção de declaração das variáveis é precido pela diretiva "**Var**". Esta seção termina quando a próxima seção de código iniciar, existindo uma diretiva para finaliza-la.
 
 Dependendo da complexidade de seu código após as variáveis globais, é possível declarar funções e procedimentos, o que não iremos ver ainda.
 
