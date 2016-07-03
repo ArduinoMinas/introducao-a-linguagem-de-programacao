@@ -14,7 +14,8 @@
         "image-captions",
         "gist",
         "mathjax",
-        "customtheme"
+        "customtheme",
+        "theme-api"
     ],
     "pluginsConfig": {
         "layout": {
