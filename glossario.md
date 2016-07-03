@@ -43,6 +43,17 @@ John Warner Backus foi um cientista da computação estadunidense. Conhecido por
 
 fonte: http://pt.wikipedia.org/wiki/John_Backus
 
+## Metalinguagem
+Veja Meta-Linguagem
+
+## Meta-Linguagem
+Em Lógica e Linguística, uma “metalinguagem” é uma linguagem usada para descrever algo sobre outra(s) linguagens (linguagens objeto). Modelos formais sintáticos para descrição gramatical, e.g. gramática gerativa, são um tipo de metalinguagem. De modo mais amplo, uma metalinguagem pode referir-se a qualquer terminologia ou linguagem usada para descrever uma linguagem em si mesma — uma descrição gramatical, por exemplo, ou uma discussão sobre o uso de uma linguagem.
+
+Fonte: https://pt.wikipedia.org/wiki/Metalinguagem
+
+## Metasintaxe
+Veja: Meta-Sintaxe
+
 ## Meta-Sintaxe
 Uma meta-sintaxe descreve estruturas permitidas e composição de frases e sentenças em uma meta-linguagem, que é usado para descrever uma linguagem natural ou uma linguagem de computador. Algumas das meta-linguagens formalizadas mais utilizadas para linguagem de computador são "Backus-Naur Form (BNF), Extended Backus-Naur Form (EBNF), Wirth Syntax Noation (WSN), e Augmented Backus-Naur Form (ABNF).
 
