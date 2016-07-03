@@ -3,6 +3,11 @@
 
 Apostila Versão: 0.1
 
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+
+Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 10,00.
+
 Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
 Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do **VisuAlg** uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **Adobe** que pode ser encontrado no site https://circuits.io/, mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
