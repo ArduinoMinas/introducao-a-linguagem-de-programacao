@@ -1,5 +1,12 @@
 # Glossário
 
+## Algol
+O ALGOL é uma família de linguagens de programação de alto nível voltadas principalmente para aplicações científicas. Seu nome provém das palavras "ALGOrithmic Language" (Linguagem Algorítmica).
+O nome é escrito ALGOL ou Algol, dependendo da fonte de consulta.
+
+Várias linguagens razoavelmente diferentes receberam o nome de ALGOL ou Algol, adicionando ao nome letras ou números, por descenderem diretamente do ALGOL original.
+
+Fonte: https://pt.wikipedia.org/wiki/ALGOL
 ## Algoritmo
 substantivo masculino+
 
