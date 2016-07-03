@@ -2,7 +2,7 @@
 
 * [Introdução](introducao.md)
 * [Algoritmo](capitulo1.md)
-* [VisuAlg e sua IDE](capitulo2.md)
+* [VisuAlg](capitulo2.md)
 * [Portugol](capitulo3.md)
    * [O Código Estruturado](capitulo31.md)
    * [Nomes e Palavras Reservadas](capitulo32.md)
