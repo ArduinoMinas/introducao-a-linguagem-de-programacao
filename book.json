@@ -35,5 +35,7 @@
             "variable_name": "picturesList"
         }
     },
-    "variables": {}
+    "variables": {
+       "Version": "1"
+    }
 }
