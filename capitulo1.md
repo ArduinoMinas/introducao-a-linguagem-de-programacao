@@ -43,7 +43,7 @@ Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
 * Procure identificar com exatidão e em forma quantitativa, "existe ou não existe", ou seja 0 ou maior que zero, "20 unidades";
 * Evite muitas informações, e dados a serem guardados.
 
-## O Próximo capítulo
+## O Próximo Capítulo
 Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprender a escrever Algoritmos utiliznado o Portugol, uma forma mais estruturada para descrever nossas atividades, ainda não usaremos o Portugol em detalhes, apenas tereos este capítulo como fonte de referência da interface para nos ajudar a lembrar onde é encontrado cada coisa.
 
 
