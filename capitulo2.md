@@ -40,32 +40,32 @@ Veremos em detalhes o uso de cada opção do menu durante as práticas de aula. 
 
 > O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s", ou seja, devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmo estando representada em maiúscula **não** usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
 
-## Menu Run (Executar)
-Vamos dar uma atenção especial ao menu **Run (Executar**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
+## Menu Run (Executar)[](#menu_run)
+Vamos dar uma atenção especial ao menu **Run (Executar)**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
 
 ![Menu Run (Executar) do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Menu Run.png)
 
-Aproveitando o momento, como dissemos a direita de cada opção do menu, a interface do VisuAlg nos informa qual é a tecla de atalho para acelerar o acesso a esta opção.
+Como dissemos a direita de cada opção do menu, a interface do VisuAlg nos informa qual é a tecla de atalho para acelerar o acesso a esta opção.
 
-Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "*Rodar o Algoritmo*", pode ser acessada simplesmente teclando **[F9]**, esta opção executa o programa sem nenhum tipo de interrupção (a não ser que haja um ponto de parada para depuração de código, vermos mais a frente), ou  as programadas pela propria linguagem Portugal, atraves de comandos como "```Leia()```" ou ```pausa```.
+Neste menu encontramos duas ações muito imoprtante para testarmos nosso algoritmo, a primeira mais comum, é "*Rodar o Algoritmo*", pode ser acessada simplesmente teclando **[F9]**, esta opção executa o programa sem nenhum tipo de interrupção (a não ser que haja um ponto de parada para depuração de código - Breakpoint, veremos mais a frente), ou  as programadas pelo programador através de comandos da  linguagem Portugal, como "`Leia()`" ou `pausa`.
 
-**OBS.:** Quando a execução de algortimo encontra o comando ```pause``` ele irá aguardar até que você tecle [F(] ou [F8] para continuar a execução. Não use ```pause``` para substituir pontos de parada (Break Points) para depuração.
+**OBS.:** Quando a execução de algortimo encontra o comando `pause` ele irá aguardar até que você tecle **[F9]** ou **[F8]** para continuar a execução. Não use `pause` para substituir pontos de parada (Breakpoints) para depuração.
 
-Já a ação "Rodar Passo a passo" também acessada através da tecla [F8], irá executar seu programa linha por linha, cada linha é executada a cada vez que [F8] é apertado. 
+Já a ação "*Rodar Passo a passo*" também disponível através da tecla **[F8]**, irá executar seu programa linha por linha, cada linha é executada a cada vez que **[F8]** é precionado. 
 
-### Como ir direto a uma linha de execução e parar
+### Como ir direto a uma linha de execução e parar[](#como_ir_direto_a_uma_linha_de_execucao_e_parar)
 
-Há outras opções muito interessantes e uteís para diagnosticar seu algortimo, por exemplo "Liga/Desliga breakpoint" também disponível pela tecla de atalho [F5] permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de [F9] ("Rodar o Algoritmo") ele irá executar até esta linha e irá parar aguardando que mande continuar através de [F9] ou passo através de [F8], assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
+Há outras opções muito interessantes e úteís para diagnosticar seu algortimo, por exemplo "*Liga/Desliga breakpoint*" também disponível pela tecla de atalho **[F5]** permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de **[F9]** ("*Rodar o Algoritmo*") ele irá executar até esta linha e irá parar aguardando que mande continuar através de **[F9]** ou passo através de **[F8]**, assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
 
-Para desmarcar um breakpoint vá na linha onde ele foi imposto (linha marcada na cor vermelha) e tecle novamente [F5].
+Para desmarcar um breakpoint vá na linha onde ele foi imposto (linha marcada na cor vermelha), tecle novamente **[F5]**.
 
-### Meu algoritmo tomou vida propria e não quer parar
-Para interromper seu algoritimo seja porque motivo for, em especial devido a um mal funcionamento, você pode usar a combinação de teclas [CTRL]+[F2] durante sua execução, seja continua, ou passo a passo.
+### Meu algoritmo tomou vida propria e não quer parar[](#interromper_algortimo)
+Para interromper seu algoritimo seja porque motivo for, em especial devido a um mal funcionamento, você pode usar a combinação de teclas **[CTRL]+[F2]** durante sua execução, seja continua, ou passo a passo.
 
 Esta opção apenas está disponível quando o algortimo está em execução.
 
 
-#Barra de Ferramentas
+# Barra de Ferramentas[](#barra_de_ferramentas)
 Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
 
 ![Menu e Barra de Ferramentas do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
