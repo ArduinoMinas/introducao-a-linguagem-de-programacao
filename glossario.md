@@ -66,11 +66,11 @@ s.f. Estado ou particularidade do que é peculiar; qualidade da pessoa (ou objet
 
 (Etm. peculiar + (i)dade)
 
-Sinônimos de Peculiaridade
+####Sinônimos de Peculiaridade
 
 Peculiaridade é sinônimo de: propriedade, particularidade, singularidade, especialidade, modalidade
 
-Definição de Peculiaridade
+####Definição de Peculiaridade
 
 Classe gramatical: substantivo feminino
 
