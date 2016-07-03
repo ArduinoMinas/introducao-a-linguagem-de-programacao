@@ -2,6 +2,18 @@
 ## Com VisuAlg, Portugol e C/C++ para os primeiros passos na Programação para Arduino
 
 Apostila Versão: 0.1
+<center>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este trabalho está licenciado sobre a licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<hr />
+<p>Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 5,00:<br/>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EFQWKTWBKSG2E">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
+</center>
 
 Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
