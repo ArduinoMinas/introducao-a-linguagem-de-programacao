@@ -15,7 +15,10 @@
         "gist",
         "mathjax",
         "autocover",
-        "indexes"
+        "indexes",
+        "customtheme",
+        "theme-api",
+        "theme-default"
     ],
     "pluginsConfig": {
         "layout": {
