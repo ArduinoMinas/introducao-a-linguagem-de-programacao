@@ -4,7 +4,7 @@
 Apostila Versão: 0.1
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+Este Tutorial está liberado sobre a licença: [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
 Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 10,00.
 
