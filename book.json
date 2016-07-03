@@ -14,9 +14,6 @@
         "image-captions",
         "gist",
         "mathjax",
-        "customtheme",
-        "theme-api",
-        "theme-default",
         "autocover",
         "indexes"
     ],
