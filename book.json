@@ -19,8 +19,7 @@
         "indexes",
         "customtheme",
         "theme-api",
-        "theme-default",
-        "numbered-headings"
+        "theme-default"
     ],
     "pluginsConfig": {
         "layout": {
