@@ -6,6 +6,7 @@
         "summary": "sumario.md"
     },
     "plugins": [
+        "anchors",
         "layout",
         "disqus",
         "extend-default-theme",
