@@ -5,9 +5,7 @@
 
 ### Primeira Parte
 * [Algoritmo](capitulo1.md)
-* [VisuAlg](capitulo2.md)
-  * [Barra de Ferramentas](capitulo2.md#barra_de_ferramentas)
-  * [Meu algoritmo tomou vida propria e não quer parar](capitulo2.md#interromper_algortimo)
+* [VisuAlg](capitulo2.md)  
 * [Portugol](capitulo3.md)
    * [O Código Estruturado](capitulo31.md)
    * [Nomes e Palavras Reservadas](capitulo32.md)
