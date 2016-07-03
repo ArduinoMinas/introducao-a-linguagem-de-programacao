@@ -1,7 +1,10 @@
 ---
 description: Lista de Exemplos
 ---
-{{ file.type }}
+
+{{ book.[CONFIGURATION_DATA] }}
+
+{{ output }}
 
 {{ output.name }}
 
