@@ -6,7 +6,7 @@ Com o uso de uma IDE, não precisamos nos preocupar com o editor usado para escr
 
 A IDE é responsável por ter todas as ferramentas que precisamos, totalmente integradas e totalmente de forma transparente.
 
-## [Tela principal do VisuAlg](#tela_principal_visualg)
+## Tela principal do VisuAlg[](#tela_principal_visualg)
 
 Abaixo apresentamos a tela inicial do VisuAlg:
 
@@ -23,22 +23,20 @@ Teremos também uma janela secundária que sempre se abre quando executamos noss
 
 vejamos alguns detalhes de cada um deles.
 
-## [Menu](#menu)
+## Menu [](#menu)
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
 Abaixo vemos o menu do VisuAlg Versão 3.0:
 
 ![Menu do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
 
-Os dois primeiros menus não há muita novidade, apenas o comum em qualquer editor de texto, no Menu "Arquivo" iremos encontrar ações referentes a abrir, salvar e fechar arquivo, além de fechar o IDE, no menu "Editar" ações relacionadas a edção como copiar, colar, recortar, pesquisar no código por strings de texto.
+As duas primeiras opções do menus não tem muita novidade, apenas o comum em qualquer editor de texto, no Menu "Arquivo" iremos encontrar ações referentes a abrir, salvar e fechar arquivo, além de fechar o IDE finalizando assim o VisuAlg, no menu "Editar" ações relacionadas a edção como copiar, colar, recortar, pesquisar no código por strings de texto e substituição.
 
 >**String** de texto, é uma sequência de letras, caracteres, quando formos estudar estar tipos de dados, entenderemos melhor este conceito.
 
-Já o menu "Run (Executar)" é novidade para muitos, com ele iremos testar nosso algoritmo solicitando ao VisuAlg que prepare nosso algoritmo para execução, verificando erros e executando sequêncialmente, ou se desejarmos passo a passo com nosso total controle.
+Já o menu "Run (Executar)" é novidade para muitos, com ele teremos a opção testar nosso algoritmo solicitando ao VisuAlg que prepare nosso algoritmo para execução, verificando erros e executando sequêncialmente, ou se desejarmos passo a passo com nosso total controle.
 
-Veremos em detalhes o uso de cada opção do menu durante as praticas de aula, em especial "Executar Algoritmo" e "Executar Passo a Passo".
-
-Não deixe de estudar este menu, e práticar o uso das teclas de atalho, indicadas a direita de cada opção, a que mais usaremos é [CTRL]+[S] para salvar e [F9] para executar nosso código e [F8] para executar nosso código passo a passo.
+Veremos em detalhes o uso de cada opção do menu durante as práticas de aula. Não deixe de estudar este menu, e práticar o uso das teclas de atalho, indicadas a direita de cada opção, a que mais usaremos é [CTRL]+[S] para salvar e [F9] para executar nosso código e [F8] para executar nosso código passo a passo.
 
 > O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s", ou seja, devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmo estando representada em maiúscula **não** usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
 
