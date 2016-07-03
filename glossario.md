@@ -12,6 +12,9 @@ A forma de Backus-Naur é uma meta-sintaxe usada para expressar gramáticas livr
 
 Fonte: http://pt.wikipedia.org/wiki/Bnf
 
+## Breakpoint
+Ponto de interrupção, condicional ou não, inserido no código através de sinalização especializada que permite que o codigo seja automáticamente interrompido para analise dos estado das variáveis e registradores do sistema computacional.
+
 ## BNF
 Veja: Backus-Naur Form
 
