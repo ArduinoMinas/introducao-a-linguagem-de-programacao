@@ -15,7 +15,7 @@
 * [Arduino](capitulo5.md)
    * [Introdução ao Arduino](capitulo51.md)
    * [Exemplos Básicos de Uso do Arduino](exemplos)
-     * [Keyboard e Arduino](exemplos/arduino/keyboard)
+       * [Keyboard e Arduino](exemplos/arduino/keyboard.md)
    * [Arduino e Seu Controlador AVR](capitulo52.md)
 * [Algoritmos para Arduino](capitulo6.md)
 * [Imagens](imagens.md)
