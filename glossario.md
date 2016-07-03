@@ -34,6 +34,19 @@ em português Ambiente de Desenvolvimento Integrado, um software que possui toda
 ## Notação CamelCase
 Veja CamelCase
 
+## Peculiaridade
+s.f. Estado ou particularidade do que é peculiar; qualidade da pessoa (ou objeto) que se consegue distinguir por características próprias; particularidade.
+(Etm. peculiar + (i)dade)
+Sinônimos de Peculiaridade
+Peculiaridade é sinônimo de: propriedade, particularidade, singularidade, especialidade, modalidade
+
+Definição de Peculiaridade
+Classe gramatical: substantivo feminino
+Separação das sílabas: pe-cu-li-a-ri-da-de
+Plural: peculiaridades
+
+fonte: http://www.dicio.com.br/peculiaridade/
+
 ## Portugol 
 é uma pseudo-linguagem de programação, criada para demonstrar o uso de algoritmos e programação estruturada. Está presente em muitos materiais didáticos de programação, em português, sobre o assunto. Apesar disso, não existe um padrão sintático ou léxico para essa linguagem.
 
