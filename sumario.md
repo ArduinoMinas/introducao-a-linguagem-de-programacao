@@ -1,7 +1,7 @@
 # Summary
 
 * [Introdução](introducao.md)
-* [Licença](licensa.md)
+* [Licença](licenca.md)
 * [Algoritmo](capitulo1.md)
 * [VisuAlg](capitulo2.md)
 * [Portugol](capitulo3.md)
