@@ -2,6 +2,7 @@
 
 * [Introdução](introducao.md)
 * [Licença](licenca.md)
+
 ### Primeira Parte
 * [Algoritmo](capitulo1.md)
 * [VisuAlg](capitulo2.md)
