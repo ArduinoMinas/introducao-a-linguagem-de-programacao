@@ -6,7 +6,7 @@ Com o uso de uma IDE, não precisamos nos preocupar com o editor usado para escr
 
 A IDE é responsável por ter todas as ferramentas que precisamos, totalmente integradas e totalmente de forma transparente.
 
-## Tela principal do VisuAlg[](#tela_principal_visualg)
+## Tela principal do VisuAlg
 
 Abaixo apresentamos a tela inicial do VisuAlg:
 
@@ -23,7 +23,7 @@ Teremos também uma janela secundária que sempre se abre quando executamos noss
 
 vejamos alguns detalhes de cada um deles.
 
-## Menu [](#menu)
+## Menu
 Como todo software para sistemas operacionais baseados em janela como Windows, MAC ou Linux Gráfico com base em XWindows ou X86, é comum ter um menu que nos dá acesso a ações, agrupados conforme funcionalidades
 
 Abaixo vemos o menu do VisuAlg Versão 3.0:
@@ -40,7 +40,7 @@ Veremos em detalhes o uso de cada opção do menu durante as práticas de aula. 
 
 > O que estas letras entre "colchetes"? usamos esta representação para indicar teclas a serem usadas como atalhos, no caso de [CTRL]+[S] representa o uso em sequencia combinada das teclas "Control" e a tecla "s", ou seja, devem ser precionadas em conjunto, sempre na sequência sugerida, assim se aperta a tecla "Control", mantem, e em conjunto aperta a tecla "s", soltando logo em seguida, observe que mesmo estando representada em maiúscula **não** usaremos a tecla "Shift" muito menos a tecla "Caps Lock" para deixar em maiúscula.
 
-## Menu Run (Executar)[](#menu_run)
+## Menu Run (Executar)
 Vamos dar uma atenção especial ao menu **Run (Executar)**, sem dúvida ele é o menu mais utilizado em uma IDE, com ele testamos nosso código e corrigimos os erros que possam existir.
 
 ![Menu Run (Executar) do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Menu Run.png)
@@ -53,37 +53,39 @@ Neste menu encontramos duas ações muito imoprtante para testarmos nosso algori
 
 Já a ação "*Rodar Passo a passo*" também disponível através da tecla **[F8]**, irá executar seu programa linha por linha, cada linha é executada a cada vez que **[F8]** é precionado. 
 
-### Como ir direto a uma linha de execução e parar[](#como_ir_direto_a_uma_linha_de_execucao_e_parar)
+### Como ir direto a uma linha de execução e parar
 
 Há outras opções muito interessantes e úteís para diagnosticar seu algortimo, por exemplo "*Liga/Desliga breakpoint*" também disponível pela tecla de atalho **[F5]** permite que marque a linha selecionada para que seja um ponto de parada para diagnostico, assim ao executar seu programama através de **[F9]** ("*Rodar o Algoritmo*") ele irá executar até esta linha e irá parar aguardando que mande continuar através de **[F9]** ou passo através de **[F8]**, assim você pode dar um grande sauto entre muitas instruções e parar exatamente no local onde seu algorritimo parece não funcionar bem.
 
 Para desmarcar um breakpoint vá na linha onde ele foi imposto (linha marcada na cor vermelha), tecle novamente **[F5]**.
 
-### Meu algoritmo tomou vida propria e não quer parar[](#interromper_algortimo)
+### Meu algoritmo tomou vida propria e não quer parar
 Para interromper seu algoritimo seja porque motivo for, em especial devido a um mal funcionamento, você pode usar a combinação de teclas **[CTRL]+[F2]** durante sua execução, seja continua, ou passo a passo.
 
 Esta opção apenas está disponível quando o algortimo está em execução.
 
 
-# Barra de Ferramentas[](#barra_de_ferramentas)
+# Barra de Ferramentas
 Nossa barra de ferramentas é um atalho as ações disponíveis no menu, ali se encontra as ações da IDE mais utilizada e estão representadas por icones para facilitar seu uso, veja na imagem abaixo ela está logo abaixo do menu:
 
 ![Menu e Barra de Ferramentas do VisuAlg V3.0](telas/visualg/tela visualg - 3 - Menu e Barra de Ferramentas.png)
 
 Bem não precisamos entrar em detalhes, sobre o uso da barra, durante nossas práticas em aula iremos entede-la.
 
-#Barra de Estatus
-A barra de estatus, ou se preferir barra de status, apresenta informações relevantes ao programador durante a codificação.
+Em versões futuras desta apostila, iremos ampliar a descrição da barra de ferramentas para fins didaticos.
+
+# Barra de Estatus
+A barra de "estatus", ou se preferir barra de *status*, apresenta informações relevantes ao programador durante a codificação.
 
 ![Barra de Status do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Barra de Status.png)
 
-Na barra do VisuAlg temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o curso, informação muito útil para encontrarmos o curso e também formatarmos nosso código. 
+Na barra do **VisuAlg** temos uma pequena seção que nos mostra a a linha e coluna onde se encontra o cursor, informação muito útil para encontrarmos a posição onde estamos editando e auxilar na identação e formtação de nosso código. 
 
 Na proxima seção da barra de estatus, vemos o estado do documento, se vazio ele está salvo, se modificado tem a indicação "Modificado", se em pesquisa a indicação "Pesquisando", com o uso da ferramenta irá identificar novos "Status" para seu domento.
 
 Na proxima seção vem um texto que instrui como melhor usar as teclas na seção ativa, e finalmetne a ultima seção que apresenta mensagens relevantes sobre os processos solicitados, por exemplo coloque o mouse sobre cada seção da janela, e veja a mesangem apresentada. Você verá que ele lhe apresenta a seção e como elapode ser útil para você.
 
-## Seção Visualização de Resultados
+## Seção "Área de Visualização de Resultados"
 A Seção de visualização de resultados apresenta mensagens relativas a execução do programa, mantendo um histórico da execução, principalmente inicio e fim, é preciso cuidado pois espera-se que a interação seja pelo console, masno Visuag a intarção ocorre um pouco diferente, sendo do nesta etela apresentada as mensagens do programa, e em janelas especificas as solicitações de dados ao usuário, a console será vista mais a frente..
 
 ![Seção de Visualização dos Resultados do VisuAlg 3.0](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados.png)
@@ -93,7 +95,7 @@ A seguir veja a seção "Área de visualização dos resultados", apos executarm
 ![Seção de Visualização dos Resultados do Algoritmo "caixa" do Visual 3.0](telas/visualg/tela visualg - 3 - Seção Visualização de Resultados - algoritmo caixa.png)
 
 
-## Seção das Variáveis de Memória
+## Seção "Área das Variáveis de Memória"
 Nesta seção é possível ver o conteúdo de cada variável de mémoria Global ou Local (entederemos isso mais a frente).
 Veja abaixo como esta seção fica ao usarmos o Algoritmo "Caixa".
 
@@ -103,5 +105,6 @@ Esta seção possui 3 colunas, a primeira contem o nome das variáveis, cada var
 
 Veja que esta caixa durante a execução de seu algortimo tem os valores em contante mudança, e quando seu sistema termina a execução ela guarda os ultimos valores utilizados. Isso é muito util para depurar (buscar defeitos, bugs) em sua aplicação.
 
-
+# Próximo Capítulo
+por hora é o que estudaremos de forma teórica referente a IDE do VisuAlg, já no próximo capítulo iremos estudar a "**Portugol**" com enfase no que o VisuAlg nos oferece como recursos.
 
