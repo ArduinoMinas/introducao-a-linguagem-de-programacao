@@ -5,7 +5,7 @@ Apostila Versão: 0.1
 <center>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este trabalho está licenciado sobre a licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 <hr />
-<p>Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 5,00:<br/>
+<p>Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 10,00:<br/>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="EFQWKTWBKSG2E">
