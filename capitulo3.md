@@ -9,7 +9,7 @@ Em nosso estudos veremos a Linguagem Portugol apenas, como uma forma didática, 
 
 No final deste capítulo há uma relação de todos os comandos do VisuAlg 3.0 para referência, será baseado no material fornecido pelo autor do VisuAlg, portanto dependerá do conteúdo disponível e testes realizados.
 
-## Próximo Capítulo
+## Próximo Passo (Próximo Subcapítulo)
 Estuaremos no próximo capítulo o código estruturado, veremos rápidamente como devem ser delimitados nossos algoritmos e como faze-lo com o Portugol.
 
 
