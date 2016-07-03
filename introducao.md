@@ -10,7 +10,7 @@ Este Tutorial está liberado sobre a licença: [Creative Commons Attribution-Sha
 
 Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
-Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do **VisuAlg** uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **Adobe** que pode ser encontrado no site https://circuits.io/, mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
+Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do **VisuAlg** uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **AutoDesk** que pode ser encontrado no site https://circuits.io/, mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
