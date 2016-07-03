@@ -33,6 +33,20 @@
             "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
             "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_",
             "variable_name": "picturesList"
+        },
+        "autocover": {
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
         }
     },
     "variables": {
