@@ -16,7 +16,8 @@
         "mathjax",
         "customtheme",
         "theme-api",
-        "theme-default"
+        "theme-default",
+        "autocover"
     ],
     "pluginsConfig": {
         "layout": {
