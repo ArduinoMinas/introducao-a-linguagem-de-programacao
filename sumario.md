@@ -1,4 +1,5 @@
-# Sumário
+# Summary
+
 * [Introdução](introducao.md)
 * [Algoritmo](capitulo1.md)
 * [VisuAlg e sua IDE](capitulo2.md)
@@ -7,7 +8,7 @@
    * [Nomes e Palavras Reservadas](capitulo32.md)
    * [Tipos de Dados](capitulo33.md)
    * [Saída de Dados](capitulo34.md)
-   * [Entrada de Dados](capitulo35)
+   * [Entrada de Dados](capitulo35.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
 * [C/C++ - Introdução a Linguagem](capitulo4.md)
 * [Arduino](capitulo5.md)
