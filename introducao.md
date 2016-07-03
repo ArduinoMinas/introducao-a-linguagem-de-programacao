@@ -1,12 +1,12 @@
 # Introdução a Linguagem de Programação
 ## Com VisuAlg, Portugol e C/C++ para os primeiros passos na Programação para Arduino
 
-Apostila Versão: 0.1
+Apostila Versão: {{ book.Version }}
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 Este Tutorial está liberado sobre a licença: [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
-Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 10,00.
+[Veja Mais informações sobre a licença clicando aqui](licensa.md)
 
 Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura desta apostila por esta introdução, vejamos então nosso objetivo com ela.
 
