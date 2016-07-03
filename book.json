@@ -17,7 +17,8 @@
         "customtheme",
         "theme-api",
         "theme-default",
-        "autocover"
+        "autocover",
+        "indexes"
     ],
     "pluginsConfig": {
         "layout": {
