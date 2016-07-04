@@ -1,11 +1,13 @@
-Em toda linguagem de programação o programador pode usar nomes especiais, para chamar comandos, funções e quando ouver o conceito de procedimentos, este também. Não veremos ainda em detalhes o que são estes conceitos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimetnos também)
+Em toda linguagem de programação é possível usar nomes especiais, tanto para chamar comandos, funções, quando procedimentos quando ouver o conceito. Não veremos ainda em detalhes o que são procedimentos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimetnos também)
 
-### Variáveis
-Os nomes das variáveis devem obrigatoriamente começar por uma letra. Após a primeira letra poderá conter letras, números ou underline ( _ ), até um limite de 30 caracteres. As variáveis podem ser simples ou estruturadas (vetores de uma ou duas dimensões). 
+## Variáveis
+Ainda não estudamos o que são variáveis, por hora basta saber que são espaços no computador, onde dados são gravados, e podem ser reutilizados e alterados.
+
+Os nomes das variáveis devem obrigatoriamente começar por uma letra. Após a primeira letra, poderá conter letras, números ou underline ( _ ), até um limite de 30 caracteres. As variáveis podem ser simples ou estruturadas (vetores de uma ou duas dimensões). 
 
 Variáveis não podem ter nomes iguais.
 
-como já foi dito anteriormente as declarações de variáveis devem obrigatoriamente devem ser identificadas com o termo var, seguir com os nomes das variáveis separados por “,”, colocar o sinal “:” e finalmente informar o tipo daquela variável ou lista de variáveis.
+Como já foi dito anteriormente as declarações de variáveis devem obrigatoriamente ser identificadas com o termo `var`, seguir com os nomes das variáveis separados por “,”, colocar o sinal “:” e finalmente informar o tipo daquela variável ou lista de variáveis. Veja o exemplo a seguir:
 
 ```
 var 
@@ -15,7 +17,7 @@ var
    av1, av2 : real
 ```
 
-Cpmo pode ver o bloco de declaraçaõ de variáveis não precisa ser finalizado, ele termina quando inicia outro bloco, seja de função, procedimento ou do algoritmo principal.
+Como pode ver o bloco de declaração das variáveis não precisa ser finalizado, ele termina quando inicia outro bloco, seja de função, procedimento ou do algoritmo principal.
 
 ### Notação CamelCase
 Uma prática muito importante na programação é o uso da notação CamelCase, com ela podemos acelerar o entendimento do código e a leitura dos nomes usados.
