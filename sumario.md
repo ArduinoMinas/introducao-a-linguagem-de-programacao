@@ -26,6 +26,9 @@
    * [Arduino e Seu Controlador AVR](capitulo52.md)
 * [Algoritmos para Arduino](capitulo6.md)
 
+### Terceira Parte
+* [Sugestão de Leitura](sugestaodeleitura.md)
+
 ## Indices
 * [Imagens](imagens.md)
 * [Sumário](sumario.md)
