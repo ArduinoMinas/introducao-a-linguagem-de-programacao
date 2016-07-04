@@ -4,7 +4,7 @@
 * [Licença](licenca.md)
 * [ToDo](todo.md)
 * 
-## Primeira Parte
+### Primeira Parte
 
 * [Algoritmo](capitulo1.md)
 * [VisuAlg](capitulo2.md)
@@ -16,7 +16,7 @@
    * [Entrada de Dados](capitulo35.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
 
-## Segunda Parte
+### Segunda Parte
 
 * [C/C++ - Introdução a Linguagem](capitulo4.md)
 * [Arduino](capitulo5.md)
