@@ -14,6 +14,7 @@
    * [Variáveis, Constantes e Tipos de Dados](capitulo33.md)
    * [Saída de Dados](capitulo34.md)
    * [Entrada de Dados](capitulo35.md)
+   * [Instruções de Controle e Operadores Lógicos](capitulo36.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
 
 ### Segunda Parte
