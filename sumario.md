@@ -3,7 +3,7 @@
 * [Introdução](introducao.md)
 * [Licença](licenca.md)
 * [ToDo](todo.md)
-* 
+
 ### Primeira Parte
 
 * [Algoritmo](capitulo1.md)
