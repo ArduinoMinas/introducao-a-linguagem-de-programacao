@@ -11,7 +11,7 @@
 * [Portugol](capitulo3.md)
    * [O Código Estruturado](capitulo31.md)
    * [Nomes e Palavras Reservadas](capitulo32.md)
-   * [Tipos de Dados](capitulo33.md)
+   * [Variáveis, Constantes e Tipos de Dados](capitulo33.md)
    * [Saída de Dados](capitulo34.md)
    * [Entrada de Dados](capitulo35.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
