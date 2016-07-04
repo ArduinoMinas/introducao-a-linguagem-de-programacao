@@ -27,8 +27,20 @@ Veja, fizemos um algoritmo mesmo que de exemplo com a indentação adequada, sem
 
 Nosso foco neste subcapítulo ´e o uso da instrução `escreva` e `escreval`, pois nossa intenção é sempre apresentar dados ao usuário.
 
-a instrução Escreva permite apresentar dados puramente, ou com certa formação, veja a primeira linha onde ocorre a instrução "escreva", ela recebe três parametros, ("x", x4:1, y+3:4).
+A instrução `escreva` permite apresentar dados puramente, ou com certa formação, veja a primeira linha onde ocorre a instrução `escreva`, ela recebe três parametros, ("x", x4:1, y+3:4).
 
 O primeiro parametro "x", é uma simples string e será impresso como é.
 
-Já o segundo parametro, representa a variável ```x``` e os dois numéros separados por ":" (dois pontos) dizem ao escreva que ele deve ser impresso como um numero real, com casas decimais e 
+Já o segundo parametro, representa a variável ```x``` e os dois numéros separados por ":" (dois pontos) formatão a impressão númerica, dizendo ao comando `escreva` que ele deve imprimir o ```x``` como um numero real, onde o primeiro número, quatro (4), diz o número de casas antes do ponto decimal, se ouver mais casas que números a serem impressoas, será preenchido com espaço em branco. o segundo número, dois (2) informa o numero de casas a ser usado após o ponto, sendo preenchido com zeros a direita se ouver mais casas que a parte fracional a ser preenchida.
+
+E finalmente o terceiro parametro imprime a variável ```y```, mas antes soma o valor 3 a ela, e o valor a seguir separado por 2 pontos funciona como a formatção explicada, no caso imprime o valor em pelo menos 4 casas, preenchendo com espaço em branco as casas que não são preenchidas com números.
+
+Veja o valor de y é um **inteiro**, neste caso não tem parte fracional, se tentar formatar a parte fracional, ela será preenchida com zeros conforme o número de casas sugerido, faça alguns testes com esta formatação.
+
+## Salto de Linha.
+Como viram existe dois tipos de ```escreva```, o primeiro acrescido de um **l**, e o segundo sem o **l**, o primeiro insere um salto de linha após fazer a impressão do conteúdo solicitado.
+
+Faça testes de formtação com ambos os comando sde escrita na tela.
+
+## Próximo Passo (Próximo subcapítulo)
+Agora que vimos como nos comunicar com o mundo externo apresentando dados, veremos no próximo capítulo como solicitar ao mundo externo dados, pedindo ao usuário que digite através do teclado os dados necessários ao nosso algoritmo.
