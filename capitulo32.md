@@ -1,6 +1,6 @@
 Em toda linguagem de programação é possível usar nomes especiais, tanto para chamar comandos, funções, quando procedimentos quando ouver o conceito. Não veremos ainda em detalhes o que são procedimentos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimetnos também)
 
-## Variáveis
+## Nomeando Variáveis
 Ainda não estudamos o que são variáveis, por hora basta saber que são espaços no computador, onde dados são gravados, e podem ser reutilizados e alterados.
 
 Os nomes das variáveis devem obrigatoriamente começar por uma letra. Após a primeira letra, poderá conter letras, números ou underline ( _ ), até um limite de 30 caracteres. As variáveis podem ser simples ou estruturadas (vetores de uma ou duas dimensões). 
