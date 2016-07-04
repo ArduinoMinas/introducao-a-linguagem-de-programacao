@@ -10,15 +10,18 @@ var x: real
     y: inteiro
     a: caractere
     l: logico
+    c: inteiro const
+    
 inicio
    x <- 2.5
    y <- 6
    a <- "teste"
    l <- VERDADEIRO
+   c <- 5
    escreval ("x", x:4:1, y+3:4) //Escreve: x 2.5 9
-   escreval (a, "ok") //Escreve: teste ok (e depois pula linha)
-   escreval (a, " ok") //Escreve: teste ok (e depois pula linha)
-   escreval (a + " ok") //Escreve: teste ok (e depois pula linha)
+   escreval (a, "ok") //Escreve: conteúdo de a seguido de ok (e depois pula linha)
+   escreval (a, " ok") //Escreve: conteúdo de a seguido de ok (e depois pula linha)
+   escreval (a + " ok") //Escreve: conteúdo de a seguido de ok (e depois pula linha)
    escreva ("valor lógico:", l, ".") // Escreve: VERDADEIRO
 fimalgoritmo
 ```
@@ -31,9 +34,9 @@ A instrução `escreva` permite apresentar dados puramente, ou com certa formaç
 
 O primeiro parametro "x", é uma simples string e será impresso como é.
 
-Já o segundo parametro, representa a variável ```x``` e os dois numéros separados por ":" (dois pontos) formatão a impressão númerica, dizendo ao comando `escreva` que ele deve imprimir o ```x``` como um numero real, onde o primeiro número, quatro (4), diz o número de casas antes do ponto decimal, se ouver mais casas que números a serem impressoas, será preenchido com espaço em branco. o segundo número, dois (2) informa o numero de casas a ser usado após o ponto, sendo preenchido com zeros a direita se ouver mais casas que a parte fracional a ser preenchida.
+Já o segundo parametro, representa a variável ```x``` e os dois numéros separados por ":" (dois pontos) formatam a impressão númerica, dizendo ao comando `escreva` que ele deve imprimir o ```x``` como um numero real, onde o primeiro número, quatro (4), diz o número de casas antes do ponto decimal, se ouver mais casas que números a serem impressoas, será preenchido com espaço em branco. o segundo número, dois (2) informa o numero de casas a ser usado após o ponto, sendo preenchido com zeros a direita se ouver mais casas que a parte fracional a ser preenchida. (faça testes e observe o comportamento do VisuAlg e comente).
 
-E finalmente o terceiro parametro imprime a variável ```y```, mas antes soma o valor 3 a ela, e o valor a seguir separado por 2 pontos funciona como a formatção explicada, no caso imprime o valor em pelo menos 4 casas, preenchendo com espaço em branco as casas que não são preenchidas com números.
+E finalmente o terceiro parametro imprime a variável ```y```, mas antes soma o valor 3 a ela, e o valor a seguir separado por 2 pontos funciona como a formatção já explicada no paragrafo anterior, no caso imprime o valor em pelo menos 4 casas, preenchendo com espaço em branco as casas que não são preenchidas com números. (faça testes e observe o comportamento do VisuAlg, e comente).
 
 Veja o valor de y é um **inteiro**, neste caso não tem parte fracional, se tentar formatar a parte fracional, ela será preenchida com zeros conforme o número de casas sugerido, faça alguns testes com esta formatação.
 
