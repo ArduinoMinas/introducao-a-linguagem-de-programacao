@@ -37,5 +37,12 @@ O VisuAlg permite também a declaração de variáveis estruturadas através da 
 
 Por hora lidar com estes tipos nos será suficiente, vamos usa-los para desenvolver nossa habilidade em escrever algoritimos básicos de tratamento de dados, calculos e conversões conforme circunstãncias bem controladas.
 
+### Variáveis vs Constantes
+Um conceito muito importante a se compreender é a diferença entre Variáveis e Constantes, como o própiro nome sugere, variável é passivel de alteração já as constantes não, esta ultima, uma vez atribuida não poderá mais ser alterada, em contra partida as variáveis podem ser alteradas ilimitadamente sem nenhuma perda de sua qualidade.
+
+As variáveis devem ser usadas para armazenar dados que serão regularmente alterados ou não, que por exemplo será informado spelo usuário, mesmo que não sejam alterados durante a execuçaõ do programa, mas será alteradas depois de sua declaração por uma entrada por exemplo.
+
+As constantes devem ser usadas para armazenar dados que será regularmente usados no programa,como por exemplo um fator constante de conversão para um calculo, facilitando assim o uso da formula, um bom exemplo seria o valor de "PI" que ficar armazenado na constante de mesmo nome.
+
 ## Próximos Passos (Próximo Subcapítulo)
 O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos)
