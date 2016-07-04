@@ -4,7 +4,7 @@ Em toda linguagem de programação temos tipos de dados, algumas não levam isso
 
 Não veremos ainda como os dados são armazenados na memória do microcontrolador ou do computador, apenas entenderemos que tipo de dado, seus valores limites e como lidar com cada tipo de variável. Tal entendimento será absorvido no decorrer do uso de cada variável, mas quando iniciarmos os estudos da linguagem C/C++ será necessarío compreender mais a fundo como tais veriáveis são representadas na memória ou registradores.
 
-### Variáveis vs Constantes
+## Variáveis vs Constantes
 Um conceito muito importante a se compreender é a diferença entre Variáveis e Constantes, como o própiro nome sugere, variável é passivel de alteração já as constantes não, esta ultima, uma vez atribuida não poderá mais ser alterada, em contra partida as variáveis podem ser alteradas ilimitadamente sem nenhuma perda de sua qualidade.
 
 As variáveis devem ser usadas para armazenar dados que serão regularmente alterados ou não, que por exemplo será informado spelo usuário, mesmo que não sejam alterados durante a execuçaõ do programa, mas será alteradas depois de sua declaração por uma entrada por exemplo.
@@ -12,7 +12,6 @@ As variáveis devem ser usadas para armazenar dados que serão regularmente alte
 As constantes devem ser usadas para armazenar dados que será regularmente usados no programa,como por exemplo um fator constante de conversão para um calculo, facilitando assim o uso da formula, um bom exemplo seria o valor de "PI" que ficar armazenado na constante de mesmo nome.
 
 ## E o que são tipos de dados?
-
 Tipos de dados é o formato do dado a ser armazenado, este dado pode ser um número, uma letra, ou uma sequência de letras, formando assim uma palavra ou frase.
 
 Os números podem ter diversos tipos, por exemplo, podemos ter números inteiros de 0 a 255, observando os limites do computador no caso de compuadores/microcontroladores de 8 bits, podemos ter números inteiros de 0 a 65536 já mais facilmente trabalhado por computadores/microcontroladores de 16 bits, e também podemos ter também números fracionados, do tipo longo ou de ponto flutuante como utilizados na engenhária.
@@ -32,6 +31,8 @@ Valor máximo: 356 x e ^-43
 
 Exemplos de uso: salário, peso, temperatura.
 
+**ATENÇÃO** As constantes são sempre inteiro, não existindo o tipo Real para elas, portanto mesmo que venha usar o valor fracionado, declare as constantes como sendo `inteiro`
+
 ### Outros tipos
 ##### Caractere
 Define variáveis do tipo string, ou seja, cadeia de caracteres.
@@ -45,6 +46,21 @@ Define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
 O VisuAlg permite também a declaração de variáveis estruturadas através da palavra chave vetor.
 
 Por hora lidar com estes tipos nos será suficiente, vamos usa-los para desenvolver nossa habilidade em escrever algoritimos básicos de tratamento de dados, calculos e conversões conforme circunstãncias bem controladas.
+
+## Declarando as variáveis e Constantes.
+Vimos anteriormente como é a estrutura de um algoritimo, mas vamos rever como declarar variáveis aqui para fixarmos este procedimento no Portugol do VisuAlg.
+
+Sempre a declação de um bloco de variáveis, seja global ou local, deve ser feito com a diretiva `var` precedendo o bloco, seguido dos nomes das variáveis separados por virgula e finalizando com *:* seguido do tipo de variável.
+
+Quando constante deve ser utilizado a diretiva `const` no final da linha, finalizando a declaração, vejam o exemplo a seguir:
+
+```
+var x: real
+    y: inteiro
+    a: caractere
+    l: logico
+    c: inteiro  const
+```
 
 ## Atribuindo Valores as Variáveis e Constantes
 A Atribuição de valores as variáveis, e a inicialização das constantes, devem ser feitas com o símbolo `<-`, simbolo de *menor que* seguido de um *ífem*, sem espaços entre os dois.
