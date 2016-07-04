@@ -38,3 +38,6 @@ Usaremos sempre a primeira letra de cada palavra em maiúscula, com as seguintes
 * Mesmo que a linguagem permita, "nunca" use acentos e simbolos especiais;
 
 para conhecer a história da Notação CamelCase e conhecer melhor como adota-la, visite o link http://c2.com/cgi/wiki?CamelCase, C2 vem de Cunningham and Cunningham, epresa criada por Ward Cunningham e sua filha para consultoria em desenvolvimento de softwares, são os principais influênciadores da engenharia de desenvolvimento de software no mundo, juntamene com Erik Evans (Erik J. Evans) e Martim Fowler.
+
+## Próximo Passo (Próximo Subcapítulo)
+Veremos a seguir os tipos de dados que podemos declarar. Durante as nossas práticas discutiremos o conceito prático das variáveis e como isso funciona nos computadores, posteriormente quando estudarmos a linguagem C/C++ veremos como as variáveis são armazenadas em memória, isso é importante para uso com Microcontroladores.
