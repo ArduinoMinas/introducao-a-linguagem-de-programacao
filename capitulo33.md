@@ -46,5 +46,10 @@ O VisuAlg permite também a declaração de variáveis estruturadas através da 
 
 Por hora lidar com estes tipos nos será suficiente, vamos usa-los para desenvolver nossa habilidade em escrever algoritimos básicos de tratamento de dados, calculos e conversões conforme circunstãncias bem controladas.
 
+## Atribuindo Valores as Variáveis e Constantes
+A Atribuição de valores as variáveis, e a inicialização das constantes, devem ser feitas com o símbolo `<-`, simbolo de *menor que* seguido de um *ífem*, sem espaços entre os dois.
+
+A atribuição de novos valores deve ser feita sempre que oportuna para as variáveis, e no caos das constantes deve ser feito no inicio do algortimo somente.
+
 ## Próximos Passos (Próximo Subcapítulo)
 O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos).
