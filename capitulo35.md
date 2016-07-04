@@ -31,3 +31,6 @@ inicio
 fimalgoritmo
 ```
 Vamos aproveitar o momento e analisar o comportamento também do comando `escreva` e `escreval`, é nestes momentos que descobrimos peculiaridades da linguagem usada. Faça testes.
+
+## Próximos Passos (próximo subcapítulo)
+Vamos ver agora como controlar a execução de um determinado bloco de código além do principal, veremos os operadores lógicos para que possamos ajudar na tomada de decisão. Após este passo veremos os operadores matemáticos.
