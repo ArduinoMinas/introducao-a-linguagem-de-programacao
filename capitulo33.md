@@ -45,4 +45,4 @@ As variáveis devem ser usadas para armazenar dados que serão regularmente alte
 As constantes devem ser usadas para armazenar dados que será regularmente usados no programa,como por exemplo um fator constante de conversão para um calculo, facilitando assim o uso da formula, um bom exemplo seria o valor de "PI" que ficar armazenado na constante de mesmo nome.
 
 ## Próximos Passos (Próximo Subcapítulo)
-O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos)
+O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos).
