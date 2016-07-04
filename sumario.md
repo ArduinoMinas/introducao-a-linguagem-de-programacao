@@ -2,6 +2,7 @@
 
 * [Introdução](introducao.md)
 * [Licença](licenca.md)
+* [ToDo](ToDo)
 
 ### Primeira Parte
 * [Algoritmo](capitulo1.md)
