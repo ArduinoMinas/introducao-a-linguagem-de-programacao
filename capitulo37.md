@@ -10,6 +10,8 @@ Abaixo é apresentado os principais simbolos que usararemos para representação
 ![Simbolo de obtenção de dados no fluxograma](simbolos de fluxograma - dados.png)
 ### Processar
 ![Simbolo que indica processamento de dados no Fluxograma](simbolos de fluxograma - processamento.png)
+### Decisão
+![Simbolo que Representa um Ponto de Decisão no Fluxograma](simbolos de fluxograma - decisão.png)
 ### Parar
 ![Símbolo que Indica o Ponto final de Nosso Fluxograma](simbolos de fluxograma - parar.png)
 
