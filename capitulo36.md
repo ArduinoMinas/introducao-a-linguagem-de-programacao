@@ -44,8 +44,8 @@ São auto descritiveis e podem ser usadas para auxiliar na composição de expre
 |     |                     | falso xou falso           | falso      |
 
 
-### Controles Lógicos de Desvios
-Iremos ver dois controles lógicos de desvios de execução, que nos ajudará a dar mais inteligência ao nosso Algortimo. O primeiro e muito indicado para tomada de decisões, e já deixo aqui um gancho para pesquisas de algortimos avançados como o "C4.5", não veremos tais algortimos em nosso curso, então vamos ao nosso primeiro controle o `se` em seguida veremos o `case`.
+### Controles de Desvios
+Iremos ver dois controles de desvios de execução, que nos ajudará a dar mais inteligência ao nosso Algortimo. O primeiro um desvio por decisão com base em expressões lógicas, muito indicado para tomada de decisões, e já deixo aqui um gancho para pesquisas de algortimos avançados como o "C4.5", não veremos tais algortimos em nosso curso, então vamos ao nosso primeiro controle o `se`, em seguida veremos o comando `escolha`, um controle de seleção multipla.
 
 ### Se
 
@@ -63,5 +63,26 @@ fimse
 No pedaço de algortimo acima, temos o seguinte algortimo interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
 
 É possível inserir uma estrutura de decisão dentro da outra, veremos tal prática com exercícios.
+
+### Escolha
+o comando `escolha` em algumas situações é melhor que o comando `se`, quando temos uma quantidade de analise de decisão maior, como por exemplo em códigos de menu, ou que receba caracteres como resposta e precisa tomar decisões.
+
+Vejamos um exemplo da estrutura do uso do `escolha`:
+
+```
+escolha acao
+   caso "correr", "andar"
+      escreverl("vou andar")
+   caso "pular"
+      escreverl("vou pular")
+   outrocaso
+      escreverl("faço o que tiver vontade")
+fimescolha
+```
+
+Como podem ver o comando `escolha` permite diversos casos, no **Portugol** do **VisuAlg**, não executam um após outro apartir do escolhido, mas cuidado o outras linguagem como o C/C++ exige um comando de interrupção.
+
+No comando `escolha` também podendo ter uma opção `outrocaso` que será executado caso nenhuma outra opçao seja identificada.
+
 
 ### Controles de Laços (loops)
