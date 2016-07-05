@@ -3,6 +3,13 @@ Agora nosso estudo vai começar a ficar mais divertido, pois passaremos a ter ma
 ## Operadores Lógicos e Relacionais
 Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assim poderemos usa-los com facilidade com as instruções de controle.
 
+mas antes de continuarmos, precisamos conhecer duas constantes muito importantes:
+
+* `VERDADEIRO`
+* `FALSO`
+
+São auto descritiveis e podem ser usadas para auxiliar na composição de expressões lógicas em instruções de controle de fluxo (execução de blocos) e instruções de controle de laço.
+
 ### Operadores Relacionais 
 
 | Operador | descrição      |  Teste  | Resultado   |
