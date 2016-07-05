@@ -37,3 +37,5 @@ Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assi
 |     |                     | falso xou falso           | falso      |
 
 ### Controles lógicos
+
+### Laços (loops)
