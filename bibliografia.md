@@ -17,4 +17,5 @@
 
 * Embedded C Programming and the Atmel AVR / Richard H. Barnett, Sarah Cox, Larry O'Cull, ISBN 9781418039592, 2 ed., 2, Editora	Cengage Learning, 2012 
 * Yiu, Joseph, The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors / Joseph Yiu, Third Edition, ISBN 978-0124080829
-* Yiu, Joseph, The Definitive Guide to the Arm Cortex-M0 / Josph Yiu, ISBN 978-0123854773
+* Yiu, Joseph, The Definitive Guide to the Arm Cortex-M0 / Josph Yiu,  Newnes (11 de março de 2011) ISBN 978-0123854773
+* Kormanyos, Christopher - Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming / Christopher Kormanyos, Springer, 24 de nov de 2015
