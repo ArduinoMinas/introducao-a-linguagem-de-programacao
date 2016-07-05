@@ -27,7 +27,11 @@ Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assi
 | Operador | descrição      |  Teste  | Resultado   |
 |    --    |     --         |    --   |     --      |
 | Nao | Operador unário de negação, tem maior precedencia sobre os demais operadores, faz a inversão da lógica, ou seja, verdaeiro se torna falso e falso verdadeiro | nao 2 = 2 | falso |
-|  ou | | | |
-| | | | |
-| | | | |
-| | | | |
+|  ou | Operador similar a soma binária, quando um dos valores for verdadeiro ou ambos forem, retorna verdadeiro          | verdadeiro ou verdadeiro  | verdadeiro |
+|     |                     | falso ou verdadeiro       | verdadeiro |
+|     |                     | falso ou falso            | falso |
+|  e  | Operador similar a multiplicação binária, apenas quando ambos os valores forem verdadeiro, retorna verdadeiro          | verdadeiro e falso        | falso |
+|     |                     | verdadeiro e verdadeiro   | verdadeiro   |
+| xou | Operador similar ao `ou`, porém apenas retorna verdadeiro se somente um dos valores forem verdadeiros                 | verdadeiro xou verdadeiro | falso      |
+|     |                     | verdadeiro xou falso      | verdadeiro |
+|     |                     | falso xou falso           | falso      |
