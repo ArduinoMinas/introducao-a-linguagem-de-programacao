@@ -22,3 +22,12 @@ Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assi
 |          |                | 4 >= 4  | verdadeiro  |
 |          |                | 8 >= 3  | verdadeiro  |
 
+### Operadores Lógicos
+
+| Operador | descrição      |  Teste  | Resultado   |
+|    --    |     --         |    --   |     --      |
+| Nao | Operador unário de negação, tem maior precedencia sobre os demais operadores, faz a inversão da lógica, ou seja, verdaeiro se torna falso e falso verdadeiro | nao 2 = 2 | falso |
+|  ou | | | |
+| | | | |
+| | | | |
+| | | | |
