@@ -44,6 +44,24 @@ São auto descritiveis e podem ser usadas para auxiliar na composição de expre
 |     |                     | falso xou falso           | falso      |
 
 
-### Controles de Desvios lógicos
+### Controles Lógicos de Desvios
+Iremos ver dois controles lógicos de desvios de execução, que nos ajudará a dar mais inteligência ao nosso Algortimo. O primeiro e muito indicado para tomada de decisões, e já deixo aqui um gancho para pesquisas de algortimos avançados como o "C4.5", não veremos tais algortimos em nosso curso, então vamos ao nosso primeiro controle o `se` em seguida veremos o `case`.
+
+### Se
+
+O comando `se` espera em seguência uma expressão lógica que irá definir "se" executará "então" um bloco de código, seja de apenas uma linha, ou seja de muitas linhas, ou "se não" executará outro bloco.
+
+a estrutura padrão do comando é:
+
+```
+se m < 7.0 entao
+   Escreva ("Em EXAME")
+Senao
+   Escreva ("APROVADO")
+fimse
+```
+No pedaço de algortimo acima, temos o seguinte algortimo interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
+
+É possível inserir uma estrutura de decisão dentro da outra, veremos tal prática com exercícios.
 
 ### Controles de Laços (loops)
