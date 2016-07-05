@@ -43,6 +43,7 @@ São auto descritiveis e podem ser usadas para auxiliar na composição de expre
 |     |                     | verdadeiro xou falso      | verdadeiro |
 |     |                     | falso xou falso           | falso      |
 
+
 ### Controles lógicos
 
 ### Laços (loops)
