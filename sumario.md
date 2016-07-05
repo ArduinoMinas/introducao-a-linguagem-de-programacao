@@ -31,6 +31,7 @@
 
 ### Terceira Parte
 * [Sugestão de Leitura](sugestaodeleitura.md)
+* [Bibliografia](bibliografia.md)
 
 ## Indices
 * [Imagens](imagens.md)
