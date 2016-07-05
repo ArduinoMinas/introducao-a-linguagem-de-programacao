@@ -4,5 +4,5 @@ Este formato gráfico, é conhecido como fluxograma.
 
 Abaixo é apresentado os principais simbolos que usararemos para representação gráfica de nosso código em portugol.
 
-
+![Fluxograma](simbolos de fluxograma.png)
 
