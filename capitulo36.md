@@ -44,6 +44,6 @@ São auto descritiveis e podem ser usadas para auxiliar na composição de expre
 |     |                     | falso xou falso           | falso      |
 
 
-### Controles lógicos
+### Controles de Desvios lógicos
 
-### Laços (loops)
+### Controles de Laços (loops)
