@@ -30,6 +30,7 @@
 * [Algoritmos para Arduino](capitulo6.md)
 
 ### Terceira Parte
+* [Glossário](glossario.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
 * [Bibliografia](bibliografia.md)
 
