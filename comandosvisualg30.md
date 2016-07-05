@@ -221,7 +221,7 @@ Fimrepita (FIMREPITA)
 ```
 
 ##### Interrompa
-Quando usado dentro de um bloco de código dentro de laço (loop)
+Quando usado dentro de um bloco de código dentro de laço (loop), interrompe o laço;
 
 ```Interrompa```
 
