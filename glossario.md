@@ -14,6 +14,11 @@ mat. sequência finita de regras, raciocínios ou operações que, aplicada a um
 
 inf. conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.
 
+## Arvore de Decisão
+Uma árvore de decisão é uma representação de uma tabela de decisão sob a forma de uma árvore, porém podem haver outras aplicações. Tem a mesma utilidade da tabela de decisão. Trata-se de uma maneira alternativa de expressar as mesmas regras que são obtidas quando se constrói a tabela.
+
+Fonte: https://pt.wikipedia.org/wiki/%C3%81rvore_de_decis%C3%A3o
+
 ## Backus-Naur Form
 A forma de Backus-Naur é uma meta-sintaxe usada para expressar gramáticas livres de contexto: isto é, um modo formal de descrever linguagens formais.
 
@@ -24,6 +29,13 @@ Ponto de interrupção, condicional ou não, inserido no código através de sin
 
 ## BNF
 Veja: Backus-Naur Form
+
+## C4.5
+É um algoritmo utilizado para criar uma árvore de decisão e foi desenvolvido por Ross Quinlan. C4.5 é uma extensão do algoritmo anterior de Quinlan's ID3. As árvores de decisão geradas pelo algoritmo C4.5 podem ser utilizadas para classificação e são portanto conhecidas como classificadores estatísticos.
+
+Ele se tornou bastante popular após ficar posicionado entre os melhores algoritmos de mineração de dados no trabalho Top 10 Algorithms in Data Mining publicado por Springer LNCS em 2008.
+
+Fonte: https://pt.wikipedia.org/wiki/Algoritmo_C4.5
 
 ## CameCase
 CamelCase é a denominação em inglês para a prática de escrever palavras compostas ou frases, onde cada palavra é iniciada com Maiúsculas e unidas sem espaços. É um padrão largamente utilizado em diversas linguagens de programação, como Java, C#, Ruby, PHP e Python, principalmente nas definições de Classes e Objetos. Pela sua associação com tecnologia, o marketing se apropriou dessa maneira de escrever, injetando certo ar de "tecnologia" nos produtos assim nomeados: iPod, GameCube, OpenOffice.org, StarCraft, dentre outros.
