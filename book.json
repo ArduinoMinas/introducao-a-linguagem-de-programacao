@@ -42,7 +42,7 @@
                 "family": "Impact",
                 "color": "#FFF"
             },
-            "template": layouts/cover/default.svg"),
+            "template": "layouts/cover/default.svg",
             "size": {
                 "w": 1800,
                 "h": 2360
