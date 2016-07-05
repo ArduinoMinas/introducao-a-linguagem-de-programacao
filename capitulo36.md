@@ -35,3 +35,5 @@ Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assi
 | xou | Operador similar ao `ou`, porém apenas retorna verdadeiro se somente um dos valores forem verdadeiros                 | verdadeiro xou verdadeiro | falso      |
 |     |                     | verdadeiro xou falso      | verdadeiro |
 |     |                     | falso xou falso           | falso      |
+
+### Controles lógicos
