@@ -86,11 +86,10 @@ No comando `escolha` também podendo ter uma opção `outrocaso` que será execu
 
 ### Controles de Laços (loops)
 
-Alguns blocos de código precisam ser executados durante um periodo de tempo ou enquanto uma determianda condição não é atingida. Para isso existens duas instruções no **Portugol** que nos permitem controlar de forma diferente um bloco de código.
+Alguns blocos de código precisam ser executados durante um periodo de tempo ou enquanto uma determianda condição é mantida. Para isso existens três instruções no **Portugol** que nos permitem controlar de forma diferente um bloco de código.
 
 #### Enquanto
-
-a instrução de controle de laços `enquanto`, é usada para permitir a execução de um bloco de instruções finitamente, antes de cada execução do bloco uma condição é analisada, enquanto ela retornar verdadeiro.
+A instrução de controle de laços `enquanto`, é usada para permitir a execução de um bloco de instruções finitamente, antes de cada execução do bloco uma condição é analisada, enquanto ela retornar verdadeiro.
 
 Vejamos como é a instrução de forma completa:
 
@@ -109,6 +108,26 @@ inicio
    escreva("Equanto Finalizado:",contador)
 fimenquanto
 ```
+
+#### Repita
+Já a instrução ```repita``` permite o bloco ser executado pelo menos uma vez, antes de verificar se a condição que permite a repetição seja analisada.
+
+```
+algoritmo "demonstracao repita"
+Var
+   contador: inteiro
+
+inicio
+   contador <- 1
+   escreval("Começando Enquanto:",contador)
+   repita 
+      escreval(contatodor)
+      contador = contador + 1
+   ate  contador > 20 
+   escreva("Equanto Finalizado:",contador)
+fimenquanto
+```
+
 #### Para
 A instrução de controle de laços `para` deve ser usada quando for preciso contadores automático, normalmente para acessar vetores. Vejamos um exemplo com a estrutura completa:
 
