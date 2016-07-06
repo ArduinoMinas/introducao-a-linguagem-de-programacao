@@ -109,3 +109,18 @@ inicio
    escreva("Equanto Finalizado:",contador)
 fimenquanto
 ```
+#### Para
+A instrução de controle de laços `para` deve ser usada quando for preciso contadores automático, normalmente para acessar vetores. Vejamos um exemplo com a estrutura completa:
+
+```
+algoritmo: "demonstracao para"
+Var
+   contador: inteiro
+   
+inicio 
+   para contador de 1 ate 10 passo 1 faca
+      escreval("Valor: ",contador);
+   fimpara
+fimalgoritmo
+```
+
