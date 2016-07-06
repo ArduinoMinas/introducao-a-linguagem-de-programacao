@@ -51,7 +51,7 @@ Iremos ver dois controles de desvios de execução, que nos ajudará a dar mais 
 
 O comando `se` espera em seguência uma expressão lógica que irá definir "se" executará "então" um bloco de código, seja de apenas uma linha, ou seja de muitas linhas, ou "se não" executará outro bloco.
 
-a estrutura padrão do comando é:
+A estrutura padrão do comando é:
 
 ```
 se m < 7.0 entao
@@ -84,5 +84,27 @@ Como podem ver o comando `escolha` permite diversos casos, no **Portugol** do **
 
 No comando `escolha` também podendo ter uma opção `outrocaso` que será executado caso nenhuma outra opçao seja identificada.
 
-
 ### Controles de Laços (loops)
+
+Alguns blocos de código precisam ser executados durante um periodo de tempo ou enquanto uma determianda condição não é atingida. Para isso existens duas instruções no **Portugol** que nos permitem controlar de forma diferente um bloco de código.
+
+#### Enquanto
+
+a instrução de controle de laços `enquanto`, é usada para permitir a execução de um bloco de instruções finitamente, antes de cada execução do bloco uma condição é analisada, enquanto ela retornar verdadeiro.
+
+Vejamos como é a instrução de forma completa:
+
+```
+algoritmo "demonstracao enquanto"
+Var
+   contador: inteiro
+
+inicio
+   contador <- 1
+   escreval("Começando Enquanto:",contador)
+   enquanto contador < 20 faça
+      escreval(contatodor)
+      contador = contador + 1
+   fimenquanto
+   escreva("Equanto Finalizado:",contador)
+fimenquanto
