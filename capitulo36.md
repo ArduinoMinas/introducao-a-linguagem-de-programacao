@@ -108,3 +108,4 @@ inicio
    fimenquanto
    escreva("Equanto Finalizado:",contador)
 fimenquanto
+```
