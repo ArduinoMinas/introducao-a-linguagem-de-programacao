@@ -30,6 +30,7 @@
 * [Algoritmos para Arduino](capitulo6.md)
 
 ### Terceira Parte
+* [Softwares](softwares.md)
 * [Planejamento de Aulas](planejamentodeaulas.md)
 * [Glossário](glossario.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
