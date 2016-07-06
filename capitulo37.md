@@ -1,8 +1,8 @@
 Vamos interromper nossa sequência de estudo no **Portugol**, para aprender algo muito importante para diagramarmos um **Algortimo**, e através de representação gráfica demonstrar como apresentar o fluxo de nosso código quando este se torna mais complexo e um texto fica difícil de ser compreendido.
 
-Este formato gráfico, é conhecido como ***fluxograma***.
+Este formato gráfico, é conhecido como ***fluxograma***. Para nos ajudar a fazer nossos primeiros fluxogramas e assim nos comunicarmos melhor, iremos usar o software ***Dia***, e pode ser baixado no site: https://sourceforge.net/projects/dia-installer/
 
-Abaixo é apresentado os principais simbolos que usararemos para representação gráfica de nosso código em portugol.
+A seguir é apresentado os principais símbolos que usaremos para representação gráfica de nosso código em portugol.
 
 ### Início
 ![Simbolo no Fluxograma para indicar Início](fluxograma/simbolos de fluxograma - inicio.png)
