@@ -32,5 +32,6 @@ fimalgoritmo
 ```
 Vamos aproveitar o momento e analisar o comportamento também do comando `escreva` e `escreval`, é nestes momentos que descobrimos peculiaridades da linguagem usada. Faça testes.
 
-## Próximos Passos (próximo subcapítulo)
-Vamos ver agora como controlar a execução de um determinado bloco de código além do principal, veremos os operadores lógicos para que possamos ajudar na tomada de decisão. Após este passo veremos os operadores matemáticos.
+### Próximos Passos
+
+Iremos aprender a seguir como diagramar nosso Algoritmo usando o conceito de fluxograma, há diversas formas de se diagramar Algoritmos, mas usaremos apenas o mais conhecido e prático.
