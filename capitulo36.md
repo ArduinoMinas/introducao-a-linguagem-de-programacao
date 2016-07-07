@@ -184,3 +184,5 @@ O ideal é que estruture seu código de forma que este flua naturalmente sem o u
 
 Não há nada mais importante na vida tecnologica da humanidade quanto a matemática, sem ela nada do que temos hoje teria acontecido. E no próximo passo veremos rápidamente como transformar nosas formulas matemáticas em algoritmos.
 
+---
+Atualizado: {{ gitbook.time }}
