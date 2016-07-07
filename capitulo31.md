@@ -62,3 +62,6 @@ Como podem ver o código estruturado é indentado, e de fácil leitura, e rápid
 
 ## Próximo passo (proxímo subcapítulo)
 Veremos a seguir como dar nomes as variáveis e funções no Portugol, porém usaremos a prática de CamelCase, que não é obrigatória no Portugol, muito menos no VisuAlg, mas é uma boa prática importante para o amadurecimento como desenvolvedor.
+
+---
+Atualizado: {{ gitbook.time }}
