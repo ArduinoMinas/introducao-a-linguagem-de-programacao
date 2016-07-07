@@ -21,7 +21,7 @@ Após fazer o Download do Pelles C, execute o arquivo `setup.exe`, e prossiga co
 Agora execute o **Pelles C** no proximo passo veremos como é nossa interface.
 
 ## Próximo Passo
-Conhecer a interface da IDE Pelles C.
+[Conhecer a interface da IDE Pelles C.]({{ page.next }})
 
 
 
