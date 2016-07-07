@@ -128,6 +128,35 @@ inicio
 fimenquanto
 ```
 
+Como pode ver a instrução de controle repita fica no laço até que a opração lógica retorne verdadeiro, ou seja, "repete até que seja verdadeiro".
+Podemos dizer assim que o controle de laço repita é a negação do controle de laço enquanto.
+
+Existe uma segunda forma de se usar o controle de laço repita que permite infinitamente executar um bloco de código, em um caso que veremos muito util no mundo dos microcontroladores, e por hora, seria também útil para um sistema que conte com um menu, vejamos como fica o programa acima com este formato, essa nova sintaxe:
+
+```
+algoritmo "demonstracao repita infinito"
+Var
+   contador: inteiro
+   continua: caracter
+
+inicio
+   contador <- 1
+   escreval("Começando Enquanto:",contador)
+   escreval("Contitua ou para?")
+   repita 
+      escreval(contatodor)
+      contador = contador + 1
+      leia(continua)
+      se continua = "parar"
+         interrompa
+      fimse
+   fimrepita
+   escreva("Equanto Finalizado:",contador)
+fimenquanto
+```
+
+Veja, neste caso o uso do interrompa, que será explicado abaixo se torna adequado e necessário.
+
 #### Para
 A instrução de controle de laços `para` deve ser usada quando for preciso contadores automático, normalmente para acessar vetores. Vejamos um exemplo com a estrutura completa:
 
@@ -142,6 +171,14 @@ inicio
    fimpara
 fimalgoritmo
 ```
+
+#### Interrompa
+
+Para as três instruções de controle de laço, enquanto, repita e para é possível inserir condições internas se ou caso e assim interromper o laço, chamando o comando Interrompa.
+
+Isso não é indicado para programação estruturada, já que quebramos o fluxo do nosso Algoritmo, tornando o codígo confuso e muito ramificado.
+O ideal é que estruture seu código de forma que este flua naturalmente sem o uso do Interrompa então procure buscar melhorias no seu algoritmo, otimizações, e evite o uso do Interrompao máximo que puder.
+
 
 ### Próximos Passos
 
