@@ -108,3 +108,5 @@ fonte: http://dicionario.sensagent.com/portugol/pt-pt/
 ## VisuAlg
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
+---
+Revisado: 07/07/2016 - 11:55 | Atualizado: 07/07/2016 - 11:55 | Compilado: {{ gitbook.time }}
