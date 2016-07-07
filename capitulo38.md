@@ -92,3 +92,5 @@ Para que a fórmula acima fique correta deve ser escrita da seguinte forma:+
 (2 * 5 \gt 3) \; ou \; (5 + 1 \lt 2) \; e \; (2 \lt 7 -2) 
 {% endmath %}
 
+---
+Atualizado: {{ gitbook.time }}
