@@ -2,21 +2,20 @@ Vamos agora trabalhar com Operações e Funções Matemáticas e para isso é pr
 
 Para convertermos uma formula matemática como esta:
 
-{% math %}
+$$
 \left\{\left[\frac{2}3-(5-3)+1\right]\right\}.5
-{% endmath %}
-
+$$
 em um Algoritmo computacional é preciso linearizar as expressões, ou seja transforma-la em uma sequências simples de operações, veja:
 
-{% math %}
+$$
 \{[(2 \div 3) - ( 5 - 3) + 1 ] \} .5 
-{% endmath %}
+$$
 
 E posteriormente substituir os operadores matemáticos pelos equivalentes na linguagem escolhida:
 
-{% math %}
-( ( ( 2 \; / \; 3) - (5-3) + 1 ) ) * 5 (((2/3)−(5−3)+1))∗5
-{% endmath %}
+$$
+( ( ( 2 \; / \; 3) - (5-3) + 1 ) ) * 5 
+$$
 
 Abaixo apresentamos uma tabela de substituição:
 
@@ -46,15 +45,15 @@ Abaixo uma tabela de prioridades para os operadores:
 
 Exemplo:
 
-{% math %}
-(2 + 2) / 2 = 2 (2+2)/2=2
-{% endmath %}
+$$
+(2 + 2) / 2 = 2
+$$
 
 Porém já a formulá:
 
-{% math %}
-2 + 2 / 2 = 3 2+2/2=3
-{% endmath %}
+$$
+2 + 2 / 2 = 3 
+$$
 
 | Operador Lógico | Prioridade |
 | e | 3 |
@@ -63,15 +62,15 @@ Porém já a formulá:
 
 Resultado falso:
 
-{% math %}
+$$
 (2 \gt 3) \; ou \; (3 \lt 2) \; e \; (2 \lt 3) = Falso 
-{% endmath %}
+$$
 
 Resultado verdaeiro:
 
-{% math %}
+$$
 (2 \gt 3) \; e \; (3 \lt 2) \; ou \; (2 \lt 3) = Verdadeiro 
-{% endmath %}
+$$
 
 Apesar do VisuAlg não aceitar relacionamento entre tipos de operadores, como matemáticos com Lógicos e Relacionamento, é possível usa-los em uma operação observando o uso correto.
 
@@ -82,15 +81,15 @@ Apesar do VisuAlg não aceitar relacionamento entre tipos de operadores, como ma
 
 O uso abaixo está errado:
 
-{% math %}
+$$
 2 * 5 \gt 3 \; ou \; 5 + 1 \lt 2 \; e \; 2 \lt 7 - 2 
-{% endmath %}
+$$
 
 Para que a fórmula acima fique correta deve ser escrita da seguinte forma:+
 
-{% math %}
+$$
 (2 * 5 \gt 3) \; ou \; (5 + 1 \lt 2) \; e \; (2 \lt 7 -2) 
-{% endmath %}
+$$
 
 ## Próximo Passo
 
