@@ -26,3 +26,6 @@ A seguir é apresentado os principais símbolos que usaremos para representaçã
 
 ## Próximos Passos (próximo subcapítulo)
 Vamos ver agora como controlar a execução de um determinado bloco de código além do principal, veremos os operadores lógicos para que possamos ajudar na tomada de decisão. Após este passo veremos os operadores matemáticos.
+
+---
+Atualizado: {{ gitbook.time }}
