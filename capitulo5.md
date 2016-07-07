@@ -7,5 +7,6 @@ Neste capítulo veremos o arduino como um todo, ou seja apenas como uma placa de
 Mais a frente haverá um subtítulo específico sobre o Controlador AVR para ajuda-lo a se aprofundar mais e poder quem sabe tornar seu projeto relmente comercial.
 
 
-
+---
+Atualizado: {{ gitbook.time }}
 
