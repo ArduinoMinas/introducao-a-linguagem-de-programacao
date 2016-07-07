@@ -41,3 +41,6 @@ para conhecer a história da Notação CamelCase e conhecer melhor como adota-la
 
 ## Próximo Passo (Próximo Subcapítulo)
 Veremos a seguir os tipos de dados que podemos declarar. Durante as nossas práticas discutiremos o conceito prático das variáveis e como isso funciona nos computadores, posteriormente quando estudarmos a linguagem C/C++ veremos como as variáveis são armazenadas em memória, isso é importante para uso com Microcontroladores.
+
+---
+Atualizado: {{ gitbook.time }}
