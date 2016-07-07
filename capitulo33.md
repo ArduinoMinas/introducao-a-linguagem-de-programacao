@@ -69,3 +69,6 @@ A atribuição de novos valores deve ser feita sempre que oportuna para as vari�
 
 ## Próximos Passos (Próximo Subcapítulo)
 O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos).
+
+---
+Atualizado: {{ gitbook.time }}
