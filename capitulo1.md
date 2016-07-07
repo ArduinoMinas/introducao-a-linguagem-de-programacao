@@ -47,5 +47,5 @@ Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
 Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprender a escrever Algoritmos utiliznado o Portugol, uma forma mais estruturada para descrever nossas atividades, ainda não usaremos o Portugol em detalhes, apenas tereos este capítulo como fonte de referência da interface para nos ajudar a lembrar onde é encontrado cada coisa.
 
 
-
-
+---
+Atualizado: {{ gitbook.time }}
