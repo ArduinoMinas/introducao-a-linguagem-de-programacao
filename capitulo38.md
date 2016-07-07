@@ -1,4 +1,4 @@
-# Operações e Funções Matemáticas
+Vamos agora trabalhar com Operações e Funções Matemáticas e para isso é preciso antes de tudo aprendermos como convertermos as formulas matemáticas presentes nos algoritmos testuais e teses acadêmicas que teremos acesso para construir o comportamento de nossos sistemas.
 
 Para convertermos uma formula matemática como esta:
 
@@ -92,5 +92,11 @@ Para que a fórmula acima fique correta deve ser escrita da seguinte forma:+
 (2 * 5 \gt 3) \; ou \; (5 + 1 \lt 2) \; e \; (2 \lt 7 -2) 
 {% endmath %}
 
+## Próximo Passo
+
+Aqui concluimos nosso estudo sobre Algortimo, deste ponto cabe a nós práticarmos, existe ainda um subcapítulo a seguir meramente como referência geral as palavras chaves, comandos e funções proprietárias do Portugol para VisuAlg. 
+
+Continuaremos agora na segunda parte onde iremos aprender a Linguagem C, com alguns ganchos para a Linguagem C++, uma extenção que permite programar orientado a objetos com a a Linguagem C e ainda outros recursos avançados, porém não iremos estudar nada que não seja necessário para uso com o Arduino e seu dialeto Wiring (também conhecido como Linguagem do Arduino)
+
 ---
-Atualizado: {{ gitbook.time }}
+Revisado: 07/07/2016 - 13:00 | Atualizado: 07/07/2016 - 13:00 | Compilado: {{ gitbook.time }}

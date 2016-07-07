@@ -19,3 +19,6 @@
 * Yiu, Joseph, The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors / Joseph Yiu, Third Edition, ISBN 978-0124080829
 * Yiu, Joseph, The Definitive Guide to the Arm Cortex-M0 / Josph Yiu,  Newnes (11 de março de 2011) ISBN 978-0123854773
 * Kormanyos, Christopher - Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming / Christopher Kormanyos, Springer, 24 de nov de 2015
+
+---
+Revisado: 07/07/2016 - 11:55 | Atualizado: 07/07/2016 - 11:55 | Compilado: {{ gitbook.time }}

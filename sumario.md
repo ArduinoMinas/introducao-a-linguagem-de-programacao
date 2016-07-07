@@ -1,4 +1,4 @@
-# Summary
+# Sumário
 
 * [Introdução](introducao.md)
 * [Licença](licenca.md)
@@ -22,6 +22,8 @@
 ### Segunda Parte
 
 * [C/C++ - Introdução a Linguagem](capitulo4.md)
+  * [História da Linguagem C e C++](capitulo41.md)
+  * [Nossa IDE para aprendermos C](capitulo42.md)
 * [Arduino](capitulo5.md)
  * [Introdução ao Arduino](capitulo51.md)
   * [Exemplos Básicos de Uso do Arduino](exemplos.md)
@@ -42,3 +44,5 @@
 * [Imagens](imagens.md)
 * [Sumário](sumario.md)
 
+---
+Revisado: 07/07/2016 - 11:55 | Atualizado: 07/07/2016 - 11:55 | Compilado: {{ gitbook.time }}
