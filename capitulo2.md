@@ -108,3 +108,5 @@ Veja que esta caixa durante a execução de seu algortimo tem os valores em cont
 # Próximo Capítulo
 por hora é o que estudaremos de forma teórica referente a IDE do VisuAlg, já no próximo capítulo iremos estudar a "**Portugol**" com enfase no que o VisuAlg nos oferece como recursos.
 
+---
+Atualizado: {{ gitbook.time }}
