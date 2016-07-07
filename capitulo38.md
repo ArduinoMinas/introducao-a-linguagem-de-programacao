@@ -9,7 +9,7 @@ Para convertermos uma formula matemática como esta:
 em um Algoritmo computacional é preciso linearizar as expressões, ou seja transforma-la em uma sequências simples de operações, veja:
 
 {% math %}
-{[(2 \div 3) - ( 5 - 3) + 1 ] } .5 [(2÷3)−(5−3)+1].5
+\{[(2 \div 3) - ( 5 - 3) + 1 ] \} .5 
 {% endmath %}
 
 E posteriormente substituir os operadores matemáticos pelos equivalentes na linguagem escolhida:
