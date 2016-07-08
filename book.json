@@ -6,6 +6,7 @@
         "summary": "sumario.md"
     },
     "plugins": [
+        "richquotes",
         "anchors",
         "layout",
         "disqus",
