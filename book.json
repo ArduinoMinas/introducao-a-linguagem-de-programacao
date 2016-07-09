@@ -24,7 +24,7 @@
     ],
     "pluginsConfig": {
         "richquotes": {
-            "default": false
+            "default": true
         },
         "layout": {
             "headerPath": "layouts/header.html",
