@@ -12,7 +12,9 @@ Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura des
 
 Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do **VisuAlg** uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **AutoDesk** que pode ser encontrado no site [https://circuits.io/](https://circuits.io/), mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
 
-"O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
+> **Note**:Note
+> 
+> "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
 Como veremos o **VisuAlg** é um programa, um software, uma interface de desenvolvimento para aprendizado de programação, e não a linguagem propriamente, a linguagem usada nos primeiros passos será o **Portugol** e com ela aprenderemos sobre o **algoritmo** no **capítulo 1** mas somente no **capítulo 3** veremos o  **Portugol**. Por hora é suficiente sabermos que o Portugol é uma **linguagem estruturada** totalmente baseada no Português, onde seu comandos e funções são verbos de nosso idioma, no infinitivo ou imperativo ("se", "escrever" ou "escreva", "calcular" ou "calcule"). 
 
@@ -28,4 +30,5 @@ Bem para fechar deixaremos um capítulo de bonus, o capítulo 6, onde veremos ou
 
 Boa sorte, você é um privilegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
 
-Atualizado: {{ gitbook.time }}
+---
+Atualizado: 09/07/2016 - 16:20 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

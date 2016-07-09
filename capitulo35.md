@@ -37,4 +37,4 @@ Vamos aproveitar o momento e analisar o comportamento também do comando `escrev
 Iremos aprender a seguir como diagramar nosso Algoritmo usando o conceito de fluxograma, há diversas formas de se diagramar Algoritmos, mas usaremos apenas o mais conhecido e prático.
 
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

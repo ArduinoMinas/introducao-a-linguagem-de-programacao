@@ -355,6 +355,5 @@ Variável  (VARIÁVEL)
 Variavel  (VARIAVEL)
 
 
-
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

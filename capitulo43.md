@@ -79,7 +79,7 @@ No C/C++ temos uma função principal que deve ser escrita e será o nosso ponto
 
 No portugol vimos que precisamos definir uma seção chamada **Inicio** onde conterá o código principal que será chmado para dar partida em nossa aplicação, já no C/C++ precisamos definir uma função de nome `main`vamos então entender o que é uma função, e então em seguida voltar e vermos como definirmos variáveis globais, locais e a ordem que isso deve ser feito no C/C++.
 
-### Entendo o conceito de Funções
+### Entendendo o conceito de Funções
 
 A função é um dos conceitos mais importantes da programação, é através da função que estruturamos ainda mais nosso código, pois podemos através delas, agrupar um conjunto de comandos, uma função em programa funciona de forma bem similar a funções matemáticas, passamos um grupo de parametros, um calculo é feito e se retorna o resultado.
 
@@ -100,5 +100,10 @@ O nome da função deve seguir o que já foi ensinado sobre nomeação de variá
 Por exemplo nomes como `int \_andar(int)`, ou `bool AtivarSistema()`, `void UseAlgortimoC45()`, são nomes válidos. 
 
 > **Note**:Note
-> Veja que ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parametro, chamos isso de assinatura da função.
+> 
+> Veja que, ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parametro, chamos isso de assinatura da função.
 
+
+
+---
+Atualizado: 09/07/2016 - 17:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

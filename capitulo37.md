@@ -28,4 +28,4 @@ A seguir é apresentado os principais símbolos que usaremos para representaçã
 Vamos ver agora como controlar a execução de um determinado bloco de código além do principal, veremos os operadores lógicos para que possamos ajudar na tomada de decisão. Após este passo veremos os operadores matemáticos.
 
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

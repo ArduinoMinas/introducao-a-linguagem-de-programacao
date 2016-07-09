@@ -36,7 +36,9 @@ Que tal tentar seguimentar sua perna e tentar descrever como você anda, ou seus
 Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
 
 ## Algumas dicas para escrever seus primeiros Algoritmos 
+
 * Seja sucinto e procure não entrar em detalhes de ações que não seja especificamente ligadas a atividade;
+* Use comentários se preciso detalhar a execução e deixar o algoritmo mais claro;
 * Ações auxiliares podem ser descritas por frases curtas, como "verificar se há pães quentes", ou "pegar a chave de boca", estas ações auxiliares serão outros algoritimos que podem ser reutilizados;
 * Use os verbos os verbos no infinitivo e iperativo, "pegar", "andar", "corra";
 * Procure identificar parametros que auxiliem a tomada de decisão "exist~encia de pães", "Quentes ou não", "Pneu furado";
@@ -48,4 +50,5 @@ Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprend
 
 
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:20 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+

@@ -11,4 +11,6 @@ Eu escolhi liberar este trabalho para que pudesse ser copiado por todos, e permi
 
 Todo profissional sabe o quanto custa sua hora de trabalho, e o quanto é valiosa para sua subexistência, por isso convido a todos a esta reflexão e me ajude a continuar tendo tempo para me dedicar a construção e compartilhamento de conhecimentos como este.
 
-Atualizado: {{ gitbook.time }}
+
+---
+Atualizado: 09/07/2016 - 16:20 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

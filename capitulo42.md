@@ -59,6 +59,8 @@ Abaixo vemos a linha com o breakpoint ativo:
 ![Linha com BreakPoint Ativo no Pelles C](telas/pellesc/Pelles C for Windows - BreakPoint Ativo - 2016-07-09 14.04.02.png)
 
 ## Próximos Passos
+
 Veremos agora a estrutura básica de um programa em C, apenas o que é importante para entendermos como ter sucesso no Hello World, o que já são dois novos conceitos além do que já aprendemos agora, porém na ótica da linguagem C.
+
 ---
 Atualizado: 09/07/2016 - 14:08 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
