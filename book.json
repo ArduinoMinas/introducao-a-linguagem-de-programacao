@@ -20,7 +20,8 @@
         "indexes",
         "customtheme",
         "theme-api",
-        "theme-default"
+        "theme-default",
+        "highlightt"
     ],
     "pluginsConfig": {
         "layout": {
