@@ -1,6 +1,6 @@
-Iremos neste capítulo entender como se deve estruturar um código em C, e o que é cada parte. Iremos aprender dois novos conceitos muito importantes, "Bibliotecas" e "Funções", com estes dois conceitos tornamos nosso algortimos bem mais simples.
+Iremos neste capítulo entender como se deve escrever um código em C, e o que é cada parte. Iremos aprender dois novos conceitos muito importantes, "Bibliotecas" e "Funções", com estes dois conceitos tornamos nosso algortimos bem mais simples e mais estruturados ainda.
 
-Vejamos então o nosso primeiro código em C que já vimos no capítulo anterior, o "Hello World", abaixo temos o fonte que copiamos da interface do **Pelles C**.
+Vejamos então o nosso primeiro código em C que já vimos no capítulo anterior, o "Hello World", abaixo temos o fonte que copiamos do **Pelles C**.
 
 ```
 /****************************************************************************
@@ -24,13 +24,13 @@ int main(void)
 }
 ```
 
-Acima podemos identificar três seções em nosso código, Comentários principais e relativos a documentação do projeto e arquivo, Diretivas da Aplicação, como inclusão de outros arquivos e finalmente nosso código.
+Acima podemos identificar três seções em nosso código, Comentários principais, relativos a documentação do projeto e ao arquivo, diretivas de compilação da Aplicação, como inclusão de outros arquivos ou bibliotecas e finalmente nosso código.
 
 ### Comentários do Projeto e Documentação do Arquivo
 
-A primeira seção de nosso código, se trata apenas de comentários onde vemos que existe umanova forma de se fazer comantários além do uso apenas de duas barras **//**, podemos no C/C++ e em outras linguagens usar comentários de multiplas linhas com o par **/\*** e **\*/** ou seja na primeira linha iniciamos o comentário multilinha com **/\*** no inicio da linha e na última linha finalizamos no final da linha com **\*/**.
+A primeira seção de nosso código, se trata apenas de comentários onde vemos que existe uma nova forma de se fazer comantários, além do uso apenas de duas barras **//**, podemos no C/C++ e em outras linguagens usar comentários de multiplas linhas com o par **/\*** e **\*/** ou seja na primeira linha iniciamos o comentário multilinha com **/\*** no inicio da linha e na última linha finalizamos no final da linha com **\*/**.
 
-Na primeira seção é fundamental, que documentemos nosso código como já aprendemos com o VisuAlg para a linguagem Portugol, como podem ver esta é uma prática muito saudável para o programador e o sucesso do projeto, permitindo que os futuros mantenedores entendam tudo que aconteceu em seu código.
+Na primeira seção, é fundamental que documentemos nosso código, como já aprendemos com o VisuAlg para a linguagem Portugol. Como podem ver, esta é uma prática muito saudável para o programador e o sucesso do projeto, permitindo que os futuros mantenedores entendam tudo que aconteceu em seu código.
 
 Vejamos em detalhes uma sugestão muito válida para construirmos o comentário que será usado como documentação de nosso projeto:
 
@@ -47,13 +47,13 @@ Vejamos em detalhes uma sugestão muito válida para construirmos o comentário 
  ****************************************************************************/
 ```
 
-`Filename:` por negociação com a equipe fica então determinado que na primeira linha do comentário será o nome do arquivo, podemos também colocar ai o nome do projeto como um todo, se este tiver muitos arquivos.
+`Filename:`, por negociação com a equipe fica então determinado que na primeira linha do comentário será o nome do arquivo, podemos também colocar ai o nome do projeto como um todo, se este tiver muitos arquivos.
 
-Na terceira linha podemos ter o proposito, a descrição, do projeto ou especificamente do arquivo caso ele faça parte de um projeto maior e não seja o arquivo principal, o ponto de entrada de nosso projeto. Esta linha pode se estender por diversas linhas, lembrando-se de indentar sempre o texto para melhorar a formatação do comentário e assim não haver dificuldades de leitura, lembre-se também de evitar ultrapassar o limite de 80 colunas em cada linha.
+Na terceira linha podemos ter o proposito, a descrição do projeto ou especificamente do arquivo caso ele faça parte de um projeto maior e não seja o arquivo principal, o ponto de entrada de nosso projeto. Esta linha pode se estender por diversas outras, lembrando-se de indentar sempre o texto para melhorar a formatação do comentário e assim não haver dificuldades de leitura, lembre-se também de evitar ultrapassar o limite de 80 colunas em cada linha.
 
-E para finalizar faça uma seção de histórico (History) em sua documentação, apresentando a data (Date) e o motivo (Reason) da edição de seu arquivo. O que ajudará a encontrar erros e retornar seu código a um estado anterior para testes, e justificar seu trabalho na esquipe.
+E para finalizar faça uma seção de histórico (History) em sua documentação, apresentando a data (Date) e o motivo (Reason) da edição de seu arquivo. O que ajudará a encontrar erros e retornar seu código a um estado anterior para testes, e justificar seu trabalho na esquipe. Esto poderá lhe ajudar também quando estiver usando sistema de versionamento como GIT, CVS e outros.
 
-Os asteriscos usados de forma extra no comentário acima, são apenas para melhorar a formatação, você pode usar também outros simbolos dentro de seu comentário de multiplas linhas desde que inicie e finalize o bloco corretamente com os pares: **/\*** e **\*/**.
+Os asteriscos usados de forma extra no comentário acima, são apenas para melhorar a formatação, você pode usar também outros símbolos dentro de seu comentário de multiplas linhas desde que inicie e finalize o bloco corretamente com os pares: **/\*** e **\*/**.
 
 ### Seção de Inclussão e diretivas de programa.
 
@@ -61,27 +61,27 @@ Na linguagem C e C++ temos diretivas de compilação que ajudam a automatizar al
 
 Iremos por hora aprender apenas uma diretiva de compilação, **#include**.
 
-`#include`, diz ao compilador que inclua um outro arquivo ao presente, para que quando este for compilado seja encontrado todas as informações necessárias para sua construção.
+`#include`, diz ao compilador que inclua um outro arquivo ao presente, para que quando este for compilado seja encontrado todas as informações necessárias para sua construção. Esta diretiva é normalmente usada para incluir cabeçalhos de bibliotecas onde as assinaturas das funções fornecidas poruma biblioteca estarão descritas.
 
-No caso de nosso programa, é incluido o arquivo "stdio.h", que é um cabeçalho que define funções básicas para entrada e saida em C, arquivos de cabeçalho são sempre criados com extenção `.h` e contem apenas a descrição das funções (iremos aprender mais um pouco a frente sobre funções, e entenderemos melhor como este arquivo funciona).
+No caso de nosso programa, é incluido o arquivo "stdio.h", que é um cabeçalho que define funções básicas para entrada e saida em C, arquivos de cabeçalho são sempre criados com extenção `.h` e contém apenas a descrição das funções (iremos aprender mais um pouco a frente sobre funções, e entenderemos melhor como este arquivo funciona).
 
-A frente veremos que usamos uma função chamada `printf` ela é definida neste aquivo que é o ponto de entrada para a biblioteca de mesmo nome, **STDIO**, neste biblioteca há diversas funções que ajudam tanto na escrita de arquivos e tela como sua leitura.
+A frente veremos que usamos uma função chamada `printf` ela é definida neste aquivo que é o ponto de entrada para a biblioteca de mesmo nome, [**STDIO**](http://www.nongnu.org/avr-libc/user-manual/group__avr__stdio.html) (o link irá lhe levar a uma biblioteca especifica para controladores AVR, como pode ver há diversas versões da STDIO, conforme a plataforma se está trabalhando, o compilador cuida de escolher a biblioteca correta), neste biblioteca há diversas funções que ajudam tanto na escrita de arquivos e também com a sua leitura.
 
 > **Note**: Note
 > 
-> Tudo no C e C++ é tratado como arquivo, isso é uma erança do Unix, procurem pesquisar como o Unix trata dispositivos e recursos do Sistema Operacional.
+> Tudo no C e C++ é tratado como arquivo, isso é uma herança do Unix, procurem pesquisar como o Unix trata dispositivos e recursos do Sistema Operacional. Portanto se estiver programando para um computador esta biblioteca irá escrever no arquivo "tela" e ler do arquivo "teclado", se estiver em um microcontrolador, conforme a estrutura do mesmo poderá estar lendo e escrevendo no arquivo que dá saida para a porta serial.
 
 ### Seção de Código
 
 Como no C/C++ podemos ter arquivos apenas com código de apoio (bibliotecas de funções e parametros) que serão usados para serem incluidos (`#include`) em outros arquivos, e finalmente no arquivo principal para que nosso aplicativo seja construido e se torne funcional, a seção de código abrange tanto a seção de definição de variáveis quando a seçaão de códigos propriamente.
 
-No C/C++ temos uma função principal que deve ser escrita e será o nosso ponto de entrada para o programa,veremos a seguir o que é uma função, mas por hora iremos entender como é este ponto de entrada no código escrito em C/C++.
+No C/C++ temos uma função principal de nome `int main(void)` que deve ser escrita pelo programador e será o ponto de entrada para o programa **EXE** ou para o inicio de execução no microcontrolador, veremos a seguir o que é uma função, mas por hora iremos entender como é este ponto de entrada no código escrito em C/C++.
 
-No portugol vimos que precisamos definir uma seção chamada **Inicio** onde conterá o código principal que será chmado para dar partida em nossa aplicação, já no C/C++ precisamos definir uma função de nome `main`vamos então entender o que é uma função, e então em seguida voltar e vermos como definirmos variáveis globais, locais e a ordem que isso deve ser feito no C/C++.
+No portugol vimos que precisamos definir uma seção chamada **Inicio** onde conterá o código principal que será chmado para dar partida em nossa aplicação, já no C/C++ precisamos definir uma função de nome `int main(void)` vamos então entender o que é uma função, e então em seguida voltar e vermos como definirmos variáveis globais, locais e a ordem que isso deve ser feito no C/C++.
 
 ### Entendendo o conceito de Funções
 
-A função é um dos conceitos mais importantes da programação, é através da função que estruturamos ainda mais nosso código, pois podemos através delas, agrupar um conjunto de comandos, uma função em programa funciona de forma bem similar a funções matemáticas, passamos um grupo de parametros, um calculo é feito e se retorna o resultado.
+A função é um dos conceitos mais importantes da programação, é através da função que estruturamos ainda mais nosso código, pois podemos através delas, agrupar um conjunto de comandos, uma função em programa atua de forma bem similar a funções matemáticas, passamos um grupo de parametros, um calculo é feito e se retorna o resultado.
 
 Em C/C++ funções podem retornar ou não valores, vejamos como é a função principal que devemos definir seu conteúdo para que tenhamos um programa funcional:
 
@@ -101,8 +101,39 @@ Por exemplo nomes como `int \_andar(int)`, ou `bool AtivarSistema()`, `void UseA
 
 > **Note**:Note
 > 
-> Veja que, ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parametro, chamos isso de assinatura da função.
+> Veja que, ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parâmetro, chamamos isso de assinatura da função. E assim evitamos enganos sobre qual função estamos falando.
 
+Como foi dito uma declaração de função tem quatro seções importantes, a quara parte é o código que será executado quando esta função for chamado, todo bloco de código em C/C++ é delimitado por chaves **{** e **}**, isso define o escopo das variáveis e delimita o bloco, ajudando a administrar nosso código em memória.
+
+Portanto nossa função **main** completa fica assim:
+
+```
+int main(void)
+{
+    printf("Hello, world!\n");
+    return 0;
+}
+```
+
+Veja que o bloco de código fica indentado, dentro das chaves, e que o ideal é que a chaves se abra abaixo do nome da função, e na linha a seguir a ultima linha da função.
+
+É importante também saber que toda função ao terminar deve chamar a função return, principalmente se retorna algum valor, e o comando return deve ter o que será retornado, no caso de nossa função ele retorna 0, um ineiro.
+
+Sendo **main** uma função chamada como ponto de entrada da aplicação, o valor retornado representa o resultado de nossa aplicação, no caso 0 retorna que tudo correu bem no programa, qualquer outro valor retornado representa um código de erro do programa.
+
+Em se tratando de microcontrolador uma função main nunca deve retornar, uma vez que isso aconteça o microcontrolador ficará parado, podendo alguns em casos especiais reinicializar e voltar a execução de seu firmware ao estado zero.
+
+> Note Para mais informações veja códigos de erros dos aplicativos no DOS ou UNIX/Linux.
+
+### Variáveis Globais e Locais
+
+Antes de usar qualquer variável estas devem ser declaradas, iremos ver por hora apenas as funções de escopo Global e Local.
+
+As variáveis de escopo global podem ser vistas em qualquer parte do aplicativo, já as variáveis Locais, apenas dentro do bloco de código onde foram declaradas.
+
+Quando declarar uma variável global, declare antes de todas as funções de  seu aplicativo, e depois das diretivas de compilação.
+
+As variáveis locais devem ser declaradas no inicio do bloco de código no qual pertencem.
 
 
 ---

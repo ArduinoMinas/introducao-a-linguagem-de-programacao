@@ -25,6 +25,10 @@ Bascom é uma plataforma de desenvolvimento para Microcontroladores, em especial
 
 Veja Bell Labs
 
+## Bell Labs
+
+Bell Telephone Laboratories  era originalmente o braço de pesquisa e de desenvolvimento AT&T dos Estados Unidos, desenvolvendo uma série de tecnologias consideradas revolucionárias desde comutadores 
+
 ## Bjarne Stroustrup
 
 Diretor na divisão de tecnologia da Morgan Stanley em Nova York e professor visitante na Univerdadie de Columbia em Ciência da Computação.
@@ -56,6 +60,10 @@ A gestalt (guès) (do alemão Gestalt, "forma"), também conhecida como gestalti
 ## IDE
 
 Veja "Integrated Development Environment"
+
+## indentar
+
+Veja: Intentação
 
 ## Integrated Development Environment
 
@@ -129,11 +137,10 @@ A UML (Unified Modeling Language), que significa Linguagem Unificada de Modelage
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
-## Bell Labs
+## Intenção
 
-Bell Telephone Laboratories  era originalmente o braço de pesquisa e de desenvolvimento AT&T dos Estados Unidos, desenvolvendo uma série de tecnologias consideradas revolucionárias desde comutadores 
+Em tipografia, indentação é o recuo de um texto em relação à sua margem.
 
-Fundador: Alexander Graham Bell
-Fundada em: 1925
+Em ciência da computação, indentação (recuo, neologismo derivado da palavra em inglês indentation) é um termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo.
 
-fonte:  Wikipédia
+Fonte: https://pt.wikipedia.org/wiki/Indenta%C3%A7%C3%A3o
