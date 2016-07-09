@@ -27,10 +27,10 @@ O mais interessante desta versão de C era que os programas-fonte criados para r
 Em 1985, ANSI (American National Standards Institute) estabeleceu um padrão oficial de C o chamado "C ANSI", e o usuaremos apartir de agora..
 
 ## Próximos Passos
-Iremos no próximo capítulo identificar e instalar qual ferramenta iremos usar para aprendermos o C, e quais as opções que temos para isso.
+Iremos no [próximo capítulo]({{ page.next }}) identificar e instalar qual ferramenta iremos usar para aprendermos o C, e quais as opções que temos para isso.
 
 ---
-Revisado: 07/07/2016 - 13:40 | Atualizado: 07/07/2016 - 13:40 | Compilado: {{ gitbook.time }}
+Revisado: 09/07/2016 - 12:45 | Atualizado: 07/07/2016 - 13:40 | Compilado: {{ gitbook.time }}
 
 ---
 Referencias: 
