@@ -29,11 +29,13 @@ Em 1985, ANSI (American National Standards Institute) estabeleceu um padrão ofi
 ## Próximos Passos
 Iremos no [próximo capítulo]({{ page.next }}) identificar e instalar qual ferramenta iremos usar para aprendermos o C, e quais as opções que temos para isso.
 
+
 ---
-Revisado: 09/07/2016 - 12:45 | Atualizado: 07/07/2016 - 13:40 | Compilado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 12:45 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
 
 ---
 Referencias: 
+
  * http://www.cpluplus.com
  * http://www.inf.pucrs.br/~pinho/LaproI/Historico/Historico.htm
  * C Completo e Total, Coleção Osborne, Editora Makron Books, Autor Herbert Schildt.

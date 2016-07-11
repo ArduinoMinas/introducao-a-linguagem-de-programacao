@@ -99,7 +99,7 @@ O nome da função deve seguir o que já foi ensinado sobre nomeação de variá
 
 Por exemplo nomes como `int \_andar(int)`, ou `bool AtivarSistema()`, `void UseAlgortimoC45()`, são nomes válidos. 
 
-> **Note**:Note
+> **Note** 
 > 
 > Veja que, ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parâmetro, chamamos isso de assinatura da função. E assim evitamos enganos sobre qual função estamos falando.
 
