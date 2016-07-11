@@ -20,7 +20,7 @@ $$ $$
  K = C + 273.15
 $$ 
 
-6. Reajustar um salario em 17,75%
+6. Reajustar um sal&aacute;rio em 17,75%
 
 7. Calcular o desconto de 23% sobre o preço de um produto.
 
