@@ -68,6 +68,21 @@ while(true){
 ```
 
 
+### Do While
+
+A estrutura `do while` permite que um laço seja executado pelo menos uma vez, então é verificado se deve executar novamente, e se verdadeiro continua até que seja a condição falsa, como podem ver o laço `do while` tem comportamento diferente ao laço `faca ate` do portugol, já que não é o inverso o raciocinio relativo ao `while` puro. Vejamos um exemplo abaixo:
+
+```
+char a = 0;
+do{
+  printf("Escolha uma das opções, a ou c");
+  a = getchar();
+}while(a != 'a' && a != 'c')
+printf("Você escolheu uma opção %c",a);
+```
+Veja que usei o mesmo exemplo anterior aplicado no `while` e o raciocinio lógico continua o mesmo.
+
+
 ---
 
 Atualizado: 11/07/2016 - 13:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
