@@ -16,7 +16,7 @@ $$
  F=(C * 1.8) + 32
 $$ $$
  C = (F -32 ) / 1.8 
- $$$$
+$$$$
  K = C + 273.15
 $$
 
@@ -108,12 +108,15 @@ $$
 
 21. Ler um número real e escrever se é negativo, nulo ou positivo.
 
-22. Desenvolver algortmo que, dada duas notas, inofrma se o aluno foi aprovado ou não.
+22. Desenvolver algoritmo que, dada duas notas, inofrma se o aluno foi aprovado ou não.
+
 23. No exemplo anterior, informar se o aluno foi aprovado, está em recuperação ou foi reprovado.
+
 24. Desenvolver um algoritmo que dado um salário, calcule o novo salário, sabendo-se que o aumento é diferenciado da seguinte forma: quem tem salário menor que R$ 500,00 vai ter um aumento de 30% e quem receber isso ou mais, terá um aumento de 20%
+
 25. Calcular imposto sobre salário: até 1.100 não paga imposto, até 2.200 paga 11% e acima de 2.200 paga 20%.
 
 
 
 ---
-Atualizado: 10/07/2016 - 18:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Atualizado: 11/07/2016 - 01:47 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
