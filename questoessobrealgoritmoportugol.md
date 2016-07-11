@@ -82,7 +82,7 @@ $$
      
 17. Elabore um algortimo para resolver cada um dos seguintes problemas usando a linguagem algoritma do Visualg:
    1. Ler três numeros inteiros e positivos (A, B, C), calcular e mostrar o resultado da seginte expressão: $$ D = (R + S) / 2$$, em que $$ R = (A + B)^2$$ e $$S=(A=C)^2$$.
-   2. Calcular e exibir a área de uma circunferência. Usar a expressão $$ Área = pi * R^2$$ onde **pi** é uma constante no valor de 32,1416
+   2. Calcular e exibir a área de uma circunferência. Usar a expressão $$ area = pi * R^2$$ onde **pi** é uma constante no valor de 32,1416
    3. Calcular e mostrar o ** índice de massa corpórea** e uma pessoa a partir de sua altura e peso, dado pela fórula $$ IMC = P / H^2$$ , onde **P** é o peso  em Kg e **H** é altura em metros.
 
 18. Converta cada uma das expressões abaixo para a forma algorítmica e calcule o valor da variável X utilizando os valores informados a seguir:
