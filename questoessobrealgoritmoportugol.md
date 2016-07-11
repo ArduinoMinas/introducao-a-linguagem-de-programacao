@@ -32,7 +32,7 @@ $$
 
 11. Calcular e exibir a área de um triângulo.
 $$
-Área = \frac{B * H}{2}
+area = \frac{B * H}{2}
 $$
 
 12.  Escreva o comando de atribuição e resolva a expressão das seguintes fórmulas matemáticas. Onde A=2, B=6, C=3, D=4, E=8, F=4, X=2
