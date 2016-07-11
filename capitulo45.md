@@ -46,3 +46,10 @@ for(int i = 0, int x = strlen (nome); nome[i] |= '\0' && i < strlen (nome); x--,
 }
 printf(nomeInv);
 ```
+
+
+
+---
+
+Atualizado: 11/07/2016 - 13:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+
