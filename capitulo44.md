@@ -41,7 +41,22 @@ Para se obter a referência para uma variável, devemos usar o simbolo `&` (aper
 
 Veremos um caso especial que é quando tratamos de arrays, logo a seguir.
 
+## Lidando com Arrays
+Quando precisamos lidar com uma certa coleção de dados, do mesmo tipo, podemos usar um array para armazena-los em memória, assim se tivermos 10 dados do tipo inteiro, referentes ao mesmo assunto, por exemplo 10 coordenadas no eixo `x` podemos então usar a seguinte estrutura:
 
+```
+int x[] = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
+```
+
+Quando lidamos com o array, fazemos referência ao primeiro indice através da posição 0, e ao seu último indice, a posição 9.
+
+Isso se faz muito valido, quando somamos o conhecimento de ponteiros com array, porque arrays são ponteiros, ou seja, ao declarar um tipo como array, estamos fazendo a mesma declaração a seguir:
+
+```
+int *xPonteiro = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
+```
+
+Quando fazemos referência a uma posição de array, como dissemos a posição começa em `0`, portanto seria como se estivessemos somando o indice ao ponteiro.
 
 ## Tipos para Caracter e Strings
 
@@ -54,7 +69,7 @@ Então como lidar com strings de texto na linguagem C pura? para isso usamos um 
 Assim no código abaixo:
 
 ```
-char umaString[] = "Um texto qualquer]
+char umaString[] = "Um texto qualquer"
 ```
 
 Temos um vetor de 18 posições do tipo char, sendo a ultima posição preenchida com \0.
@@ -73,4 +88,4 @@ Veremos em momento oportuno como manipular este tipo de vetor que armazena strin
 Referências: http://www.cplusplus.com/doc/tutorial/variables/
 
 ---
-Atualizado: 10/07/2016 - 12:42 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Atualizado: 11/07/2016 - 00:42 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
