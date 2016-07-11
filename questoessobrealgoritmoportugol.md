@@ -49,11 +49,17 @@ $$
   8. $$Y < Z$$;
 
 14. Qual será o valor armazenado em X se X possui o valor 15 e foram execuadas as seguintes instruções?
-$$X \leftarrow X +3;  \\
-X \leftarrow X - 6; \\
-X \leftarrow X / 2; \\
-X \leftarrow 3 * X; \\
-X \leftarrow X -X+X*X/X$$
+$$
+X \leftarrow X +3;  
+$$$$
+X \leftarrow X - 6;
+$$$$
+X \leftarrow X / 2; 
+$$$$
+X \leftarrow 3 * X;
+$$$$
+X \leftarrow X -X+X*X/X
+$$
 
 15. Supondo que A, B e C são variáveis de tipo inteiro, com valores iguais a 5, 10 e -8, respectivamente, e uma variável real D, com valor de 1,5, quais os resultados das expressões aritméticas abaixo:
      1. $$2 * A \space mod \space 3- c $$
