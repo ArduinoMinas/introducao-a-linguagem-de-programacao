@@ -47,6 +47,25 @@ for(int i = 0, int x = strlen (nome); nome[i] |= '\0' && i < strlen (nome); x--,
 printf(nomeInv);
 ```
 
+### While
+
+O laço `while` é o mesmo que `enquanto` no portugol, veja o exemplo abaixo:
+
+```
+char a = 0;
+printf("Escolha uma das opções, a ou c");
+while(a != 'a' && a != 'c'){
+  a = getchar();
+}
+  printf("Você escolheu uma opção %c",a);
+```
+
+O laço `while` pode também ser utilizado para que um determinado código seja executado infinitamente, isso é muito util em microcontroladores já que o código não pode nunca deixar de seer executado:
+
+```
+while(true){
+// ação que deve ser executada infinitamente
+```
 
 
 ---
