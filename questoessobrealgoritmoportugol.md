@@ -51,10 +51,9 @@ $$
 14. Qual será o valor armazenado em X se X possui o valor 15 e foram execuadas as seguintes instruções?
 $$
 X \leftarrow X +3  
-$$     $$
+$$   $$
 X \leftarrow X - 6
-$$  
-  $$ 
+$$  $$ 
 X \leftarrow X / 2 
 $$   $$
 X \leftarrow 3 * X
