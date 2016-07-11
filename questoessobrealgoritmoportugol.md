@@ -106,3 +106,6 @@ X \leftarrow X -X+X*X/X$$
 25. Calcular imposto sobre salário: até 1.100 não paga imposto, até 2.200 paga 11% e acima de 2.200 paga 20%.
 
 
+
+---
+Atualizado: 10/07/2016 - 18:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
