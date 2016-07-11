@@ -23,4 +23,26 @@ Veja que no C, uma estrutura de controle se asssemelha a funções, mas não sã
 
 ## FOR
 
-A a operação de controle `for` é o mesmo que o `para` em portugol, tendo 
+A a operação de controle `for` é o mesmo que o `para` em portugol, tendo o formato a seguir:
+
+```
+for(int i = 0; i < 10; i++){
+   printf("Valor= %d",i);
+}
+```
+
+O comando `for` em C, pode receber até 3 parametros, separados por ponto e vírgula, o primeiro declara variáveis usadas para controle e as inicializa, o segundo é a operação lógica que define se o laço irá continuar ou não executando, conforme o resultado veradeiro ou falso, respectivamente, o terceiro parametro é como a variável de controle será alterada para que o laço continue em execução.
+
+a Inicialização de variável pode ser feita para apenas uma variável ou mais, ou mesmo não existir, inserindo apenas o ponto virgula, neste caso deverá haver a variável externa ao laço para ser usada como referência.
+
+O terceiro parametro onde a variável sobre interferência a cada nova interação, pode intervir somando, subtraindo ou outras formulas, porém cuidado, o ideal é apenas que o `for` seja usado como um incremento para indices de arrays.
+
+```
+int nome[] = {"um nome qualquer"};
+int nomeInv[len(nome)];
+
+for(int i = 0, int x = strlen (nome); nome[i] |= '\0' && i < strlen (nome); x--, i++){
+   nomeInv[x] = nome[i];
+}
+printf(nomeInv);
+```
