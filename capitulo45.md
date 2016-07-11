@@ -72,3 +72,6 @@ while(true){
 
 Atualizado: 11/07/2016 - 13:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
 
+---
+
+Referência: http://www.cprogressivo.net/2012/12/Recebendo-letras-do-usuario--As-funcoes-scanf-getchar-getc-e-fgetc.html
