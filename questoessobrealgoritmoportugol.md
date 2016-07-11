@@ -12,13 +12,15 @@
 
 5. Converter uma temperatura em Fahrenheit para Celsius e mostrar o resultado:
 
- $$ 
- F=(C * 1.8) + 32 \\
- C = (F -32 ) / 1.8 \\
+$$
+ F=(C * 1.8) + 32
+$$  $$
+ C = (F -32 ) / 1.8 
+$$ $$
  K = C + 273.15
- $$
+$$ 
 
-6. Reajustar um salário em 17,75%
+6. Reajustar um sal&aacute;rio em 17,75%
 
 7. Calcular o desconto de 23% sobre o preço de um produto.
 
@@ -30,7 +32,7 @@
 
 11. Calcular e exibir a área de um triângulo.
 $$
-Área = \frac{B * H}{2}
+area = \frac{B * H}{2}
 $$
 
 12.  Escreva o comando de atribuição e resolva a expressão das seguintes fórmulas matemáticas. Onde A=2, B=6, C=3, D=4, E=8, F=4, X=2
@@ -47,11 +49,18 @@ $$
   8. $$Y < Z$$;
 
 14. Qual será o valor armazenado em X se X possui o valor 15 e foram execuadas as seguintes instruções?
-$$X \leftarrow X +3;  \\
-X \leftarrow X - 6; \\
-X \leftarrow X / 2; \\
-X \leftarrow 3 * X; \\
-X \leftarrow X -X+X*X/X$$
+$$
+X \leftarrow X +3  
+$$     $$
+X \leftarrow X - 6
+$$  
+  $$ 
+X \leftarrow X / 2 
+$$   $$
+X \leftarrow 3 * X
+$$    $$
+X \leftarrow X -X+X*X/X
+$$ 
 
 15. Supondo que A, B e C são variáveis de tipo inteiro, com valores iguais a 5, 10 e -8, respectivamente, e uma variável real D, com valor de 1,5, quais os resultados das expressões aritméticas abaixo:
      1. $$2 * A \space mod \space 3- c $$
@@ -74,7 +83,7 @@ X \leftarrow X -X+X*X/X$$
      
 17. Elabore um algortimo para resolver cada um dos seguintes problemas usando a linguagem algoritma do Visualg:
    1. Ler três numeros inteiros e positivos (A, B, C), calcular e mostrar o resultado da seginte expressão: $$ D = (R + S) / 2$$, em que $$ R = (A + B)^2$$ e $$S=(A=C)^2$$.
-   2. Calcular e exibir a área de uma circunferência. Usar a expressão $$ Área = pi * R^2$$ onde **pi** é uma constante no valor de 32,1416
+   2. Calcular e exibir a área de uma circunferência. Usar a expressão $$ area = pi * R^2$$ onde **pi** é uma constante no valor de 32,1416
    3. Calcular e mostrar o ** índice de massa corpórea** e uma pessoa a partir de sua altura e peso, dado pela fórula $$ IMC = P / H^2$$ , onde **P** é o peso  em Kg e **H** é altura em metros.
 
 18. Converta cada uma das expressões abaixo para a forma algorítmica e calcule o valor da variável X utilizando os valores informados a seguir:
@@ -100,12 +109,15 @@ X \leftarrow X -X+X*X/X$$
 
 21. Ler um número real e escrever se é negativo, nulo ou positivo.
 
-22. Desenvolver algortmo que, dada duas notas, inofrma se o aluno foi aprovado ou não.
+22. Desenvolver algoritmo que, dada duas notas, inofrma se o aluno foi aprovado ou não.
+
 23. No exemplo anterior, informar se o aluno foi aprovado, está em recuperação ou foi reprovado.
+
 24. Desenvolver um algoritmo que dado um salário, calcule o novo salário, sabendo-se que o aumento é diferenciado da seguinte forma: quem tem salário menor que R$ 500,00 vai ter um aumento de 30% e quem receber isso ou mais, terá um aumento de 20%
+
 25. Calcular imposto sobre salário: até 1.100 não paga imposto, até 2.200 paga 11% e acima de 2.200 paga 20%.
 
 
 
 ---
-Atualizado: 10/07/2016 - 18:30 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Atualizado: 11/07/2016 - 10:34 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

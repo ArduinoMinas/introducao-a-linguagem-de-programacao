@@ -21,7 +21,7 @@
         "customtheme",
         "theme-api",
         "theme-default",
-        "highlightt"
+        "highlight"
     ],
     "pluginsConfig": {
         "richquotes": {

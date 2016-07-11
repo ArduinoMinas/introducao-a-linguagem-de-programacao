@@ -21,6 +21,7 @@
    * [Nossa IDE para aprendermos C](capitulo42.md)
    * [Estrutura Básica de um Algortimo em C](capitulo43.md)
    * [Tipos de Dados em C](capitulo44.md)
+   * [Estrtura de Controle em C](capitulo45.md)
 * [Arduino](capitulo5.md)
    * [Introdução ao Arduino](capitulo51.md)
    * [Exemplos Básicos de Uso do Arduino](exemplos.md)
