@@ -40,6 +40,8 @@ Finalmente damos inicio ao nosso algoritmo, usando a palavra reservada "'inicio'
 Um grande erro cometido pelos programadores inciantes, é a não identação do código, assim, blocos de códigos ficam ilegíveis e de difícil correção. No Portugol, a delimitação de bloos se dá sempre pelo uso da palavra chave respectiva ao tipo de bloco de controle e finalizado pela palavra chave de finalização, veremos em detalhes mais a frente quando formos tratar cada bloco de código.
 
 ### O que é Indentação?
+
+
 Identação é o ato de organizar cada linha em níveis, inserindo espaços no inicio da linha para que esta linha fique subordina a anterior, ou seja, pertence ao bloco que esteja mais a dentro na estrutura.
 
 No **Portugol** usaremos ***três espaços***, as linguagens não obrigam uma quantidade especifica de espaço, sendo a quantidade, sempre acordado entre os programadores antes de inciar o projeto, porém já se tornou uma convenção de boa prática o uso de três (3) espaço, em alguns casos quadro (4) espaços, podendo neste caso ser substituido por uma tabulação para cada intentação.
@@ -60,7 +62,8 @@ fimalgoritmo
 
 Como podem ver o código estruturado é indentado, e de fácil leitura, e rápidamente identificamos o inicio e fim de cada bloco de códigos, independente do seu objetivo.
 
-## Próximo passo (proxímo subcapítulo)
+## Próximo passo 
+
 Veremos a seguir como dar nomes as variáveis e funções no Portugol, porém usaremos a prática de CamelCase, que não é obrigatória no Portugol, muito menos no VisuAlg, mas é uma boa prática importante para o amadurecimento como desenvolvedor.
 
 ---
