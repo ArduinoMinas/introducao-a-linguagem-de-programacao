@@ -1,6 +1,6 @@
 O **VisuAlg** não é uma linguagem de programação, mas uma ferramenta que auxilia no aprendizado da linguagem "**Portugol**", VisuAlg tem algumas peculiaridades, que torna esta versão do Portugol proprietário e mais adequado ao uso com sua Interface. Isso não é um problema paran ós, já que o aprendizado desta versão do Portugal tem como objetivo panea o desenvolvimento de nossa capacidade de pensar de forma estruturada, e não usaremos esta linguagem por muito tempo, é apenas um estágio em nosso parendizado.
 
-(Para baixar a ferramenta VisuAlg, clique aqui](https://drive.google.com/a/carlosdelfino.eti.br/file/d/0B_nY5U9uO3kPa3dxZWFkUHJHVEU/view?usp=sharing)
+[Para baixar a ferramenta VisuAlg, clique aqui](https://drive.google.com/a/carlosdelfino.eti.br/file/d/0B_nY5U9uO3kPa3dxZWFkUHJHVEU/view?usp=sharing)
 
 A partir deste ponto chamaremos a Ferramenta ou Interface do VisuAlg de **IDE** (Integrated Development Environment) em português *Ambiente de Desenvolvimento Integrado*, um software que possui todas ferramentas e viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
 
