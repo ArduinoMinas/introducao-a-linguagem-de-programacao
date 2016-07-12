@@ -1,6 +1,7 @@
 Em toda linguagem de programação é possível usar nomes especiais, tanto para chamar comandos, funções, quando procedimentos quando ouver o conceito. Não veremos ainda em detalhes o que são procedimentos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimetnos também)
 
 ## Nomeando Variáveis
+
 Ainda não estudamos o que são variáveis, por hora basta saber que são espaços no computador, onde dados são gravados, e podem ser reutilizados e alterados.
 
 Os nomes das variáveis devem obrigatoriamente começar por uma letra. Após a primeira letra, poderá conter letras, números ou underline ( _ ), até um limite de 30 caracteres. As variáveis podem ser simples ou estruturadas (vetores de uma ou duas dimensões). 
@@ -39,7 +40,32 @@ Usaremos sempre a primeira letra de cada palavra em maiúscula, com as seguintes
 
 para conhecer a história da Notação CamelCase e conhecer melhor como adota-la, visite o link http://c2.com/cgi/wiki?CamelCase, C2 vem de Cunningham and Cunningham, epresa criada por Ward Cunningham e sua filha para consultoria em desenvolvimento de softwares, são os principais influênciadores da engenharia de desenvolvimento de software no mundo, juntamene com Erik Evans (Erik J. Evans) e Martim Fowler.
 
-## Próximo Passo (Próximo Subcapítulo)
+
+## Palavras Reservadas
+
+Algumas palavras não podem ser usadas além da forma definina pelo Portugol, sendo assim são consideradas reservadas, no VisuAlg o portugol tem as seguintes palavras como reservadas:
+
+* Algoritmo
+* var
+* Inicio
+* FimAlgoritmo
+* Cronometro
+* Timer
+* On
+* Off
+* Eco (ECO)
+* Aleatorio (ALEATÓRIO)
+* Perfil
+* Dos (DOS)
+* Debug (DEBUG)
+* Tipo (TIPO)
+* var (VAR)
+* const (CONST)
+
+Evite usar nomes de funções e comandos internos como variáveis principalmente.
+
+## Próximo Passo 
+
 Veremos a seguir os tipos de dados que podemos declarar. Durante as nossas práticas discutiremos o conceito prático das variáveis e como isso funciona nos computadores, posteriormente quando estudarmos a linguagem C/C++ veremos como as variáveis são armazenadas em memória, isso é importante para uso com Microcontroladores.
 
 ---
