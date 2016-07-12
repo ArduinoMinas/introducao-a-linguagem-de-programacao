@@ -4,6 +4,8 @@
 
 **ATENÇÃO: Esta apostila está sendo escrita, portanto está em constante alteração, visite regularmente o site para obter novas atualizações**
 
+**Sugestões e Correções:** Para enviar sugestões e correções, envie por e-mail consultoria@carlosdelfino.eti.br descreva no assunto o que se trata, e lembre-se de sitar o link e capítulo, procure dar detalhes. Sua sugestão será bem vinda.
+
 Apostila Versão: {{ book.Version }}
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
