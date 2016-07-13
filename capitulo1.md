@@ -10,6 +10,16 @@ Ou seja, mesmo que o computador seja instruido a esperar um comando, sequência 
 
 Veja com isso percebemos que a melhor forma de programar um Algoritimo não importa a linguagem é través de blocos de sequência de comandos, assim fica inclusive fácil para diagnosticar problemas. Cada linguagem adota uma nomenclatura para estes blocos de código, usaremos aqui a nomeclatura do C/C++, cada bloco de código pode ser identificado e acionado como função, recebendo ou não uma lista de dados que é chamado parâmetros.
 
+## E o que é Linguagem de Programação?
+
+Bem antes de continuarmos temos que entender bem ó que é  uma linguagem de programação.
+
+Linguagem de Programação é um método padronizado de se inscrever instruções para um microcomputador, através da linguagem de programação escolhida, conseguimos informar ao computador o que deve ser feito.
+
+Temos linguagens de baixo nível, que são aquelas linguagens que são escritas em um formato, uma sintaxe bem próxima dos códigos de computadores, como por exemplo o **Assembly**, e temos linguagens de programação de alto nível como por exemplo o **Cobol** que usa textos declarativos, e uma estrutura muito bem estabelecida para ser escrita e altamente legível até por um leigo com boa capacidade de interpretação.
+
+No nosso curso iremos estudar linguagens de alto nível, mas não tal alto nível assim, inicialmente o Portugol, e posteriormente uma linguagem meio termo entre alto nível e baixo nível, mas ainda assim alto nível, pois será bem legível por um especialista, como você será depois desta dissiplina.
+
 ## Mas como posso criar meus próprios Algoritmos?
 O que mais nos importa agora é o Algoritmo propriamente, e veremos então como construi-lo, não usaremos até este capítulo nenhuma ferramenta que possa nos ajudar, já que queremos desenvolver mentalmente esta habilidade.
 
@@ -36,7 +46,9 @@ Que tal tentar seguimentar sua perna e tentar descrever como você anda, ou seus
 Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
 
 ## Algumas dicas para escrever seus primeiros Algoritmos 
+
 * Seja sucinto e procure não entrar em detalhes de ações que não seja especificamente ligadas a atividade;
+* Use comentários se preciso detalhar a execução e deixar o algoritmo mais claro;
 * Ações auxiliares podem ser descritas por frases curtas, como "verificar se há pães quentes", ou "pegar a chave de boca", estas ações auxiliares serão outros algoritimos que podem ser reutilizados;
 * Use os verbos os verbos no infinitivo e iperativo, "pegar", "andar", "corra";
 * Procure identificar parametros que auxiliem a tomada de decisão "exist~encia de pães", "Quentes ou não", "Pneu furado";
@@ -48,4 +60,5 @@ Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprend
 
 
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:20 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+

@@ -52,7 +52,7 @@ Iremos ver dois controles de desvios de execução, que nos ajudará a dar mais 
 ### Se
 
 O comando `se` espera em seguência uma expressão lógica que irá definir "se" executará "então" um bloco de código, seja de apenas uma linha, ou seja de muitas linhas, ou "se não" executará outro bloco.
-
+ 
 A estrutura padrão do comando é:
 
 ```
@@ -62,35 +62,48 @@ Senao
    Escreva ("APROVADO")
 fimse
 ```
-No pedaço de algortimo acima, temos o seguinte algortimo interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
 
+Representamos o exemplo acima com o fluxograma:
+
+![Estrutura de Controle SE](fluxograma/simbolos de fluxograma - estrutura de controle Se.png)
+
+No pedaço de algortimo acima, temos o seguinte a ser interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
+ 
 É possível inserir uma estrutura de decisão dentro da outra, veremos tal prática com exercícios.
 
 ### Escolha
+
 o comando `escolha` em algumas situações é melhor que o comando `se`, quando temos uma quantidade de analise de decisão maior, como por exemplo em códigos de menu, ou que receba caracteres como resposta e precisa tomar decisões.
 
 Vejamos um exemplo da estrutura do uso do `escolha`:
 
 ```
-escolha acao
-   caso "correr", "andar"
-      escreverl("vou andar")
-   caso "pular"
-      escreverl("vou pular")
+leia(op) // apenas para auxiliar o entendimento, não faz parte da estrutura de controle
+escolha op
+   caso "Carioca", "carioca", "CARIOCA"
+      escreverl("preparar café carioca")
+   caso "Expresso", "expresso", "EXPRESSO"
+      escreverl("preparar café expresso")
    outrocaso
-      escreverl("faço o que tiver vontade")
+      escreverl("não tenho este tipo de café.")
 fimescolha
 ```
+O fluxograma para o código acima pode ser desenhado da seguinte forma:
 
-Como podem ver o comando `escolha` permite diversos casos, no **Portugol** do **VisuAlg**, não executam um após outro apartir do escolhido, mas cuidado o outras linguagem como o C/C++ exige um comando de interrupção.
+![Estrutura de Controle "Escolha - Caso"](fluxograma/simbolos de fluxograma - estrutura de controle Escolha - Caso.png)
+
+Como podem ver o comando `escolha` permite diversos casos, no **Portugol** do **VisuAlg**, não executam um após outro apartir do escolhido, mas cuidado em outras linguagem como o C/C++ exige um comando de interrupção.
 
 No comando `escolha` também podendo ter uma opção `outrocaso` que será executado caso nenhuma outra opçao seja identificada.
+
+E se mais de uma opção for possível, basta inseri-las separando cada um apor virgula.
 
 ### Controles de Laços (loops)
 
 Alguns blocos de código precisam ser executados durante um periodo de tempo ou enquanto uma determianda condição é mantida. Para isso existens três instruções no **Portugol** que nos permitem controlar de forma diferente um bloco de código.
 
 #### Enquanto
+
 A instrução de controle de laços `enquanto`, é usada para permitir a execução de um bloco de instruções finitamente, antes de cada execução do bloco uma condição é analisada, enquanto ela retornar verdadeiro.
 
 Vejamos como é a instrução de forma completa:

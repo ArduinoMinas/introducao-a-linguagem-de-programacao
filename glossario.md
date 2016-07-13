@@ -7,7 +7,7 @@ O nome é escrito ALGOL ou Algol, dependendo da fonte de consulta.
 
 ## Algoritmo
 
-substantivo masculino+
+substantivo masculino, 1. mat sequência finita de regras, raciocínios ou operações que, aplicada a um número finito de dados, permite solucionar classes semelhantes de problemas, 2. inf conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.
 
 ## Arvore de Decisão
 
@@ -24,6 +24,10 @@ Bascom é uma plataforma de desenvolvimento para Microcontroladores, em especial
 ## Bell
 
 Veja Bell Labs
+
+## Bell Labs
+
+Bell Telephone Laboratories  era originalmente o braço de pesquisa e de desenvolvimento AT&T dos Estados Unidos, desenvolvendo uma série de tecnologias consideradas revolucionárias desde comutadores 
 
 ## Bjarne Stroustrup
 
@@ -45,9 +49,9 @@ Ponto de interrupção, condicional ou não, inserido no código através de sin
 
 CamelCase é a denominação em inglês para a prática de escrever palavras compostas ou frases, onde cada palavra é iniciada com Maiúsculas e unidas sem espaços. É um padrão largamente utilizado em diversas linguagens de programação, como Java, C#, Ruby, PHP e Python, principalmente nas definições de Classes e Objetos. Pela sua associação com tecnologia, o marketing se apropriou dessa maneira de escrever, injetando certo ar de "tecnologia" nos produtos assim nomeados: iPod, GameCube, OpenOffice.org, StarCraft, dentre outros.
 
-## Definição de Peculiaridade
+## Peculiaridade
 
-Classe gramatical: substantivo feminino
+Classe gramatical: substantivo feminino, 1. qualidade ou condição do que é peculiar; característica de alguém ou de algo que se distingue por traços particulares; originalidade, singularidade, particularidade, 2. traço peculiar, próprio de alguém ou de algo; característica, modalidade.
 
 ## GESTALT
 
@@ -56,6 +60,10 @@ A gestalt (guès) (do alemão Gestalt, "forma"), também conhecida como gestalti
 ## IDE
 
 Veja "Integrated Development Environment"
+
+## indentar
+
+Veja: Intentação
 
 ## Integrated Development Environment
 
@@ -99,7 +107,7 @@ Pelles C for Windows is a complete development kit for Windows and Pocket PC. It
 
 ## Portugol
 
-é uma pseudo-linguagem de programação, criada para demonstrar o uso de algoritmos e programação estruturada. Está presente em muitos materiais didáticos de programação, em português, sobre o assunto. Apesar disso, não existe um padrão sintático ou léxico para essa linguagem.
+É uma pseudo-linguagem de programação, criada para demonstrar o uso de algoritmos e programação estruturada. Está presente em muitos materiais didáticos de programação, em português, sobre o assunto. Apesar disso, não existe um padrão sintático ou léxico para essa linguagem.
 
 ## Pseudo-Código
 
@@ -129,11 +137,6 @@ A UML (Unified Modeling Language), que significa Linguagem Unificada de Modelage
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
-## Bell Labs
+## Intenção
 
-Bell Telephone Laboratories  era originalmente o braço de pesquisa e de desenvolvimento AT&T dos Estados Unidos, desenvolvendo uma série de tecnologias consideradas revolucionárias desde comutadores 
-
-Fundador: Alexander Graham Bell
-Fundada em: 1925
-
-fonte:  Wikipédia
+Em tipografia, indentação é o recuo de um texto em relação à sua margem. Em ciência da computação, indentação (recuo, neologismo derivado da palavra em inglês indentation) é um termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Fonte: https://pt.wikipedia.org/wiki/Indenta%C3%A7%C3%A3o

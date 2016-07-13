@@ -1,6 +1,11 @@
 # Introdução a Linguagem de Programação
 ## Com VisuAlg, Portugol e C/C++ para os primeiros passos na Programação para Arduino
 
+
+**ATENÇÃO: Esta apostila está sendo escrita, portanto está em constante alteração, visite regularmente o site para obter novas atualizações**
+
+**Sugestões e Correções:** Para enviar sugestões e correções, envie por e-mail consultoria@carlosdelfino.eti.br descreva no assunto o que se trata, e lembre-se de sitar o link e capítulo, procure dar detalhes. Sua sugestão será bem vinda.
+
 Apostila Versão: {{ book.Version }}
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
@@ -12,7 +17,7 @@ Sejam bem vindos, acredito que fizeram uma boa escolha em começar a leitura des
 
 Nesta apostila iremos aprender a programar para **Arduino**, porém adotaremos a abordagem do aprendizado de **pequenos algortimos** através do **VisuAlg** uma interface de aprendizado baseada na linguagem **Portugol** que torna o entendimento das estruturas de código mais intuitiva para quem nunca programou antes. Uma vez dominado tais algoritmos partiremos para o aprendizado da linguagem **C/C++** usando o **Arduino**, através de emulador no site **123D** da **AutoDesk** que pode ser encontrado no site [https://circuits.io/](https://circuits.io/), mas nada impede que use um Arduino real, se o tiver e claro pequenos componentes como leds, resistores, e potênciometros.
 
-"O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
+> **Note**  "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
 Como veremos o **VisuAlg** é um programa, um software, uma interface de desenvolvimento para aprendizado de programação, e não a linguagem propriamente, a linguagem usada nos primeiros passos será o **Portugol** e com ela aprenderemos sobre o **algoritmo** no **capítulo 1** mas somente no **capítulo 3** veremos o  **Portugol**. Por hora é suficiente sabermos que o Portugol é uma **linguagem estruturada** totalmente baseada no Português, onde seu comandos e funções são verbos de nosso idioma, no infinitivo ou imperativo ("se", "escrever" ou "escreva", "calcular" ou "calcule"). 
 
@@ -26,6 +31,14 @@ Como dito o **capitulo 5** teremos uma introdução ao Arduino, veremos o que ap
 
 Bem para fechar deixaremos um capítulo de bonus, o capítulo 6, onde veremos outros algortimos como o PID que será muito útil para uso em robótica e controles autonomos.
 
+## Download
+
+Para baixar esta apostila, clique nas oções abaixo:
+
+* [PDF](https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao)
+* [ePUB](https://www.gitbook.com/download/epub/book/cursoarduino/introducao-a-linguagem-de-programacao)
+
 Boa sorte, você é um privilegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
 
-Atualizado: {{ gitbook.time }}
+---
+Atualizado: 09/07/2016 - 18:56 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

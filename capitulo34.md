@@ -51,6 +51,5 @@ Faça testes de formtação com ambos os comando sde escrita na tela.
 ## Próximo Passo (Próximo subcapítulo)
 Agora que vimos como nos comunicar com o mundo externo apresentando dados, veremos no próximo capítulo como solicitar ao mundo externo dados, pedindo ao usuário que digite através do teclado os dados necessários ao nosso algoritmo.
 
-
 ---
-Atualizado: {{ gitbook.time }}
+Atualizado: 09/07/2016 - 16:25 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

@@ -6,6 +6,7 @@
         "summary": "sumario.md"
     },
     "plugins": [
+        "richquotes",
         "anchors",
         "layout",
         "disqus",
@@ -18,9 +19,13 @@
         "indexes",
         "customtheme",
         "theme-api",
-        "theme-default"
+        "theme-default",
+        "highlight"
     ],
     "pluginsConfig": {
+        "richquotes": {
+            "default": true
+        },
         "layout": {
             "headerPath": "layouts/header.html",
             "footerPath": "layouts/footer.html"

@@ -13,8 +13,4 @@ No final deste capítulo há uma relação de todos os comandos do VisuAlg 3.0 p
 Estuaremos no próximo capítulo o código estruturado, veremos rápidamente como devem ser delimitados nossos algoritmos e como faze-lo com o Portugol.
 
 ---
-Atualizado: {{ gitbook.time }}
-
-
-
-
+Atualizado: 09/07/2016 - 16:25 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
