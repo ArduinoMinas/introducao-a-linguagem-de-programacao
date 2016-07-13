@@ -103,6 +103,7 @@ E se mais de uma opção for possível, basta inseri-las separando cada um apor 
 Alguns blocos de código precisam ser executados durante um periodo de tempo ou enquanto uma determianda condição é mantida. Para isso existens três instruções no **Portugol** que nos permitem controlar de forma diferente um bloco de código.
 
 #### Enquanto
+
 A instrução de controle de laços `enquanto`, é usada para permitir a execução de um bloco de instruções finitamente, antes de cada execução do bloco uma condição é analisada, enquanto ela retornar verdadeiro.
 
 Vejamos como é a instrução de forma completa:
