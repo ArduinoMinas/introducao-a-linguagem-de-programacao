@@ -15,7 +15,7 @@
   * [Fluxograma](capitulo37.md)
   * [Instruções de Controle e Operadores Lógicos](capitulo36.md)
   * [Operações e Funções Matemáticas](capitulo38.md)
-  * \[Tabela de Verdade e Depurando seu Algoritmo\]\(capitulo39.md\)
+  * [Tabela de Verdade e Depurando seu Algoritmo(capitulo39.md\)
   * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
 
 * [Questões para fixação da Primeira Parte](questoessobrealgoritmoportugol.md)
@@ -39,9 +39,11 @@
 
   * [Algoritmos para Arduino](capitulo6.md)
 
+
 * [Softwares](softwares.md)
 
 * [Planejamento de Aulas](planejamentodeaulas.md)
+
 * [Glossário](glossario.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
 * [Bibliografia](bibliografia.md)
