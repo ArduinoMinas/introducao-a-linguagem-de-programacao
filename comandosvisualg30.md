@@ -23,9 +23,17 @@ Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
 #####Cos( )
 
-#####Rand( )
+#####Rand()
 
-#####Randi( )
+Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatório gerado é entre 0 e 1,  sendo a precisão de de 15 casas após a virgula, como no exemplo abaixo:
+
+```
+0.454236520919949
+```
+
+#####Randi(x)
+
+Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado como parâmetro.
 
 #####Quad( )
 
