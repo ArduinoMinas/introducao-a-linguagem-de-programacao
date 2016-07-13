@@ -52,7 +52,7 @@ Iremos ver dois controles de desvios de execução, que nos ajudará a dar mais 
 ### Se
 
 O comando `se` espera em seguência uma expressão lógica que irá definir "se" executará "então" um bloco de código, seja de apenas uma linha, ou seja de muitas linhas, ou "se não" executará outro bloco.
-
+ 
 A estrutura padrão do comando é:
 
 ```
@@ -62,9 +62,16 @@ Senao
    Escreva ("APROVADO")
 fimse
 ```
-No pedaço de algortimo acima, temos o seguinte algortimo interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
 
+Representamos o exemplo acima com o fluxograma:
+
+![Estrutura de Controle SE](fluxograma/simbolos de fluxograma - estrutura de controle Se.png)
+
+No pedaço de algortimo acima, temos o seguinte a ser interpretado: Se "m" menor que o valor real 7.0 então escreva "Em EXAME" na tela, agora se "m" não for menor nem igual, então, escreva "APROVADO" na tela.
+ 
 É possível inserir uma estrutura de decisão dentro da outra, veremos tal prática com exercícios.
+
+
 
 ### Escolha
 o comando `escolha` em algumas situações é melhor que o comando `se`, quando temos uma quantidade de analise de decisão maior, como por exemplo em códigos de menu, ou que receba caracteres como resposta e precisa tomar decisões.
