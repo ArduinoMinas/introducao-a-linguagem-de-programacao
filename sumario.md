@@ -1,6 +1,8 @@
 # Summary
 
 * [Introdução](introducao.md)
+  * [PDF](https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao)
+  * [ePub](https://www.gitbook.com/download/epub/book/cursoarduino/introducao-a-linguagem-de-programacao)
 * [Licença](licenca.md)
 * [ToDo](todo.md)
 * [Algoritmo](capitulo1.md)
