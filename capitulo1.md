@@ -30,6 +30,14 @@ Outras linguagens que podemos sitar neste mesmo contextos são:
 
 No nosso curso iremos estudar linguagens de alto nível, mas não tal alto nível assim, inicialmente o Portugol, e posteriormente uma linguagem meio termo entre alto nível e baixo nível, mas ainda assim alto nível, pois será bem legível por um especialista, como você será depois desta dissiplina.
 
+### Programação Estruturada
+
+A programação estruturada é uma forma de programação de computadores que estabelece uma disciplina de desenvolvimento de algoritmos, criando assim padrões e estruturas sejam simples ou complexas que podem ser agrupadas em blocos de códigos, reaproveitaveis e repetiveis.
+
+Na programação estruturada, temos um conjunto de palavras reservadas utilizadas para identificar as seções de nosso código, agrupando assim as ações, permitindo assim que haja estruturas de tomadas de decisão, estruturas de repetição, e modularização de códigos.
+
+A Programação estruturada, presa pela legibilidade do código usando recursos de formatação como a identação para que o código se apresente de forma organizada e legível.
+
 ### Linguagens Especializadas
 Em cada setor de atuação pode haver linguagens especializadas ao contexto do setor, por exemplo para o Arduino apesar de termos a linguagem C/C++ temos o Wire que é um dialeto do C/C++ na verdade é um framework que nos traz diversas funções, constantes e macros que permite ao programador programar o Arduino de uma forma mais amigável.
 
