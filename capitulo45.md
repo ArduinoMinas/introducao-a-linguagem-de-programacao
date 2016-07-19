@@ -1,92 +1,91 @@
-Em C temos as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**.
+A linguagem C tem alguns tipos de dados extras, além do que vimos no Portugol. Veremos os tipos de dados úteis para quem programa para microcontroladores. Veremos também um pouco sobre Array e como usa-los no C, seu impacto na segurança, e como manipula-los aprendendo assim um pouco sobre ponteiros, mas só o necessário.
 
-## IF ELSE
 
-A estrutura de controle `if` é a mesma estrutura `se` do portugol, e `else`é como `senao`em portugol, e deve ser escrita em C como apresentada abaixo:
+## Tipos Númericos
 
-```
-if (x < y) 
-{
-  printf("X é menor que Y");
-}
-else
-{
-  printf("X é maior que Y");
-}
-```
+A definição para tipos númericos é bem vasta na linguagem em C, veremos alguns tipos muito importantes mas não veremos em detalhes seus limites, já que variam de plataforma para plataforma.
 
-Veja que no C, uma estrutura de controle se asssemelha a funções, mas não são, no caso entre parenteses se encontra a operação lógica desejada.
+> **Note** 
+> Cada tipo de dado númerico tem seus limites tanto para números possitivos como para valores negativos, no arquivo ``stdint.h`` é possível ter acesso a constantes que nos ajudam a lidar com estes limites, no link http://www.nongnu.org/avr-libc/user-manual/group__avr__stdint.html é possível tomar conhecimento dos limites conforme a plataforma AVR. A mesma usada no Arduino UNO.
 
-É importante observar que os blocos de códigos escolhidos a executar nas estrutura de controle são delimitados por pares **{** e **}**.
+### Inteiros
 
-É também importante saber, que as variáveis que forem declaradas internamente nestes blocos são vistas apenas localmente, e são recriadas sempre que os blocos são executados, portanto tenha cautela ao criar variáveis dentro de blocos de controle.
+Para lidar com inteiros trabalharemos apenas com um tipo, o tipo `int` que nos permite trabalhar típicamente com números de tamanho equivalentes a 16 bits, sejam positivos ou negativos, com ou sem sinal.
 
-## FOR
+### Frações e ponto flutuante.
 
-A a operação de controle `for` é o mesmo que o `para` em portugol, tendo o formato a seguir:
+Os números fracionados e números usados em engenhária como os de ponto flutuantes, são representados especialmente no C/C++ e temos 3 tipos, porém somente veremos dois deles `float` e `double`, estes tipos são como os tipos `real` portugol.
 
-```
-for(int i = 0; i < 10; i++){
-   printf("Valor= %d",i);
-}
-```
+### Valores Lógicos
 
-O comando `for` em C, pode receber até 3 parametros, separados por ponto e vírgula, o primeiro declara variáveis usadas para controle e as inicializa, o segundo é a operação lógica que define se o laço irá continuar ou não executando, conforme o resultado veradeiro ou falso, respectivamente, o terceiro parametro é como a variável de controle será alterada para que o laço continue em execução.
+Para valores lógicos como verdadeiro e falso, temos o tipo `bool` que pode ser usado para identificar variáveis que irão guardar resultados de expressões lógicas e relacionais.
 
-a Inicialização de variável pode ser feita para apenas uma variável ou mais, ou mesmo não existir, inserindo apenas o ponto virgula, neste caso deverá haver a variável externa ao laço para ser usada como referência.
+## Ponteiros
+Como já sabemos cada variável ocupa um espaço de momória, este espaço tem o tamanho do tipo de dado utilizado, como vimos no portugol, um tipo inteiro pode ocupar 2 bytes, no C isso pode ser diferente, um tipo como `caracter` é variável no portugol porque guarda sequências que representam texto ou sejam strings de caracteres.
 
-O terceiro parametro onde a variável sobre interferência a cada nova interação, pode intervir somando, subtraindo ou outras formulas, porém cuidado, o ideal é apenas que o `for` seja usado como um incremento para indices de arrays.
+No C, não temos o conceito de string, mas como veremos a frente temos o tipo `char` que pode ser um array e assim representar uma string.
+
+Para manipular as variávels de forma mais eficiente, em especial arreis é preciso enteder pelo menos superficlamente o conceito de ponteiro.
+
+Ponteiro é um tipo de variável que armazena o endereço de mémoria onde está armazenado a variável então referenciada, o tamanho desta variável é compátivel com o espaço de endereçamento de memória. Ou seja se temos um computador que é 16bits teremos um ponteiro de 2 bytes, se for 32bits no ambiente windows comum teremos 4 bytes, e se for 64 bits como nos computadores modernos e windows 64Bits teremos um ponteiro de 8 bytes.
+
+A variável que irá armazenar um ponteiro, deverá ser do mesmo tipo que a variável que será referência do ponteiro, portanto um ponteiro para uma variável do tipo `double` deve ser do mesmo tipo. Abaixo segue uma declaração para um ponteiro do tipo `int`.
 
 ```
-int nome[] = {"um nome qualquer"};
-int nomeInv[len(nome)];
-
-for(int i = 0, int x = strlen (nome); nome[i] |= '\0' && i < strlen (nome); x--, i++){
-   nomeInv[x] = nome[i];
-}
-printf(nomeInv);
+int *ponteiro;
 ```
 
-### While
+Como vê o simbolo `*` (asterisco) quando antecede uma variável, está informando que ela é um ponteiro para uma posição de memória.
 
-O laço `while` é o mesmo que `enquanto` no portugol, veja o exemplo abaixo:
+Para se obter a referência para uma variável, devemos usar o simbolo `&` (apersante) que retorna quando usado com a variável que se deseja obtero endereõ, sua posição na memória.
 
-```
-char a = 0;
-printf("Escolha uma das opções, a ou c");
-while(a != 'a' && a != 'c'){
-  a = getchar();
-}
-  printf("Você escolheu uma opção %c",a);
-```
+Veremos um caso especial que é quando tratamos de arrays, logo a seguir.
 
-O laço `while` pode também ser utilizado para que um determinado código seja executado infinitamente, isso é muito util em microcontroladores já que o código não pode nunca deixar de seer executado:
+## Lidando com Arrays
+Quando precisamos lidar com uma certa coleção de dados, do mesmo tipo, podemos usar um array para armazena-los em memória, assim se tivermos 10 dados do tipo inteiro, referentes ao mesmo assunto, por exemplo 10 coordenadas no eixo `x` podemos então usar a seguinte estrutura:
 
 ```
-while(true){
-// ação que deve ser executada infinitamente
+int x[] = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
 ```
 
+Quando lidamos com o array, fazemos referência ao primeiro indice através da posição 0, e ao seu último indice, a posição 9.
 
-### Do While
-
-A estrutura `do while` permite que um laço seja executado pelo menos uma vez, então é verificado se deve executar novamente, e se verdadeiro continua até que seja a condição falsa, como podem ver o laço `do while` tem comportamento diferente ao laço `faca ate` do portugol, já que não é o inverso o raciocinio relativo ao `while` puro. Vejamos um exemplo abaixo:
+Isso se faz muito valido, quando somamos o conhecimento de ponteiros com array, porque arrays são ponteiros, ou seja, ao declarar um tipo como array, estamos fazendo a mesma declaração a seguir:
 
 ```
-char a = 0;
-do{
-  printf("Escolha uma das opções, a ou c");
-  a = getchar();
-}while(a != 'a' && a != 'c')
-printf("Você escolheu uma opção %c",a);
+int *xPonteiro = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
 ```
-Veja que usei o mesmo exemplo anterior aplicado no `while` e o raciocinio lógico continua o mesmo.
 
+Quando fazemos referência a uma posição de array, como dissemos a posição começa em `0`, portanto seria como se estivessemos somando o indice ao ponteiro.
+
+## Tipos para Caracter e Strings
+
+Em C não existe strings, porém no C++ temos um tipo especial de nome `string`, não o veremos aqui, mas veremos como trabalhar com strings no C puro.
+
+Para lidar com caracteres em C, temos o tipo `char`, este tipo permite armazenar representações números dos caracteres da tabela ASCII. Ou seja valores de 0 a 255, existem outros representações de caracteres muito úteis, porém não entraremos neste tipo neste curso.
+
+Então como lidar com strings de texto na linguagem C pura? para isso usamos um vetor terminado com o valor nulo, tal valor é presentado por \0 que na tabela ASCII é representado por `null`, assim toda string automáticamente recebe o código \0 em seu final.
+
+Assim no código abaixo:
+
+```
+char umaString[] = "Um texto qualquer"
+```
+
+Temos um vetor de 18 posições do tipo char, sendo a ultima posição preenchida com \0.
+
+Se declararmos um vector assim:
+
+```
+char umaStringGrande[400];
+```
+
+Este será capaz de armazenar uma string com até 399 caracteres, já que o último espaço do vetor deverá conter um \0 (null) para indicar o fim da string.
+
+Veremos em momento oportuno como manipular este tipo de vetor que armazena strings, no C e C++ há cuidados muito importantes para se manipular strings, que se não forem observados, causaram mau funcionamento e até perda de dados importantes.
 
 ---
-
-Atualizado: 11/07/2016 - 13:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Referências: http://www.cplusplus.com/doc/tutorial/variables/
 
 ---
-
-Referência: http://www.cprogressivo.net/2012/12/Recebendo-letras-do-usuario--As-funcoes-scanf-getchar-getc-e-fgetc.html
+Atualizado: 11/07/2016 - 00:42 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
