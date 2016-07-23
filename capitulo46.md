@@ -88,7 +88,7 @@ Veja que usei o mesmo exemplo anterior aplicado no `while` e o raciocinio lógic
 
 ---
 
-Atualizado: 11/07/2016 - 13:00 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
 
 ---
 

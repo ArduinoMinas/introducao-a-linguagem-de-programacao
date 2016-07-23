@@ -1,6 +1,6 @@
 Diferente do portugol e algumas outras linguagens como Cobol e Fortram, o C não tem palavras reservadas para executar certas ações como por exemplo ler teclado ("leia") ou escrever na tela ("escreva" ou "escreval"), mas funções que recebem parametros para que execute tais ações.
 
-LIBC é a biblioteca padrão do C é um conjunto de funções padronizadas que permitem que a linguagem "C" faça operações comuns como entrada e saída e manipulação de cadeiras de caracteres.
+LibC é a biblioteca padrão do C é um conjunto de funções padronizadas que permitem que a linguagem "C" faça operações comuns como entrada e saída e manipulação de cadeiras de caracteres.
 
 Abaixo listo as bibliotecas e o cada uma é especializada, veremos em seguida as principais funções. E iremos destacar quais não se aplicam ao Arduino, e veremos no módulo sobre Arduino as opções adequadas.
 
@@ -45,6 +45,21 @@ Não precisamos dizer que há fornecedores de compiladores em especila a MicroSo
 
 A distribuição mais fiel no mercado é a GCC, muito utilizada por sinal.
 
+### Embarcados
+
+O nosso contexto é sistemas embarcdos e microcontroladores, e neste universo algumas coisas mudam, não veremos neste curso detalhes sobre desenvolvendo para sistemas embarcados, o mais próximo que chegaremos é o Arduino.
+
+Abaixo listo algumas bibliotecas que podem ser interessantes para quem pretende trabalhar com microcontroladores e sistemas embarcados, porém é um tema muito avançado para nosso curso.
+
+* dietlibc, uma pequena implementação alternativa criada do zero com extritamente necessário, criada por Felix von Leitner 
+* uClibc, implementação para sistema embarcado Linux
+* Newlib, implementação para sistema embarcado Linux
+* EGLIBC, variante da glibc para sistemas embarcados
+
 ## Próximo Passo
 
-Vamos agora aprender a ler caracteres do teclado e imprimiri nformações na tela.
+Vamos agora aprender a ler caracteres do teclado e imprimir informações na tela.
+
+---
+
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
