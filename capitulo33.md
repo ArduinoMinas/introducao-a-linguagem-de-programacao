@@ -43,8 +43,6 @@ Define variáveis do tipo string, ou seja, cadeia de caracteres.
 Exemplo de uso: nome, endereço, frase
 
 ##### Lógico
-
-
 Define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
 
 O VisuAlg permite também a declaração de variáveis estruturadas através da palavra chave vetor.
