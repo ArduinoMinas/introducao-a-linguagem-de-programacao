@@ -24,7 +24,10 @@ int main(void)
 }
 ```
 
-Acima podemos identificar três seções em nosso código, Comentários principais, relativos a documentação do projeto e ao arquivo, diretivas de compilação da Aplicação, como inclusão de outros arquivos ou bibliotecas e finalmente nosso código.
+Acima podemos identificar três seções em nosso código:
+* Comentários principais, relativos a documentação do projeto e ao arquivo, 
+* Diretivas de compilação da Aplicação, como inclusão de outros arquivos ou bibliotecas e 
+* Finalmente nosso código.
 
 ### Comentários do Projeto e Documentação do Arquivo
 
@@ -55,7 +58,7 @@ E para finalizar faça uma seção de histórico (History) em sua documentação
 
 Os asteriscos usados de forma extra no comentário acima, são apenas para melhorar a formatação, você pode usar também outros símbolos dentro de seu comentário de multiplas linhas desde que inicie e finalize o bloco corretamente com os pares: **/\*** e **\*/**.
 
-### Seção de Inclussão e diretivas de programa.
+### Seção de Inclussão e Diretivas de programa.
 
 Na linguagem C e C++ temos diretivas de compilação que ajudam a automatizar alguns processos e orientar o compilador a entender o que deve ser feito para se ter sucesso na montagem de seu projeto, ainda mais quando este tiver multiplos arquivos.
 
@@ -142,4 +145,5 @@ A linguagem C/C++ tem algumas palavras que são reservadas e não podem ser usad
 alignas, alignof, and, and_eq, asm, auto, bitand, bitor, bool, break, case, catch, char, char16_t, char32_t, class, compl, const, constexpr, const_cast, continue, decltype, default, delete, do, double, dynamic_cast, else, enum, explicit, export, extern, false, float, for, friend, goto, if, inline, int, long, mutable, namespace, new, noexcept, not, not_eq, nullptr, operator, or, or_eq, private, protected, public, register, reinterpret_cast, return, short, signed, sizeof, static, static_assert, static_cast, struct, switch, template, this, thread_local, throw, true, try, typedef, typeid, typename, union, unsigned, using, virtual, void, volatile, wchar_t, while, xor, xor_eq
 
 ---
-Atualizado: 09/07/2016 - 20:12 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

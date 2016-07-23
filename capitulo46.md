@@ -1,4 +1,4 @@
-Em C temos as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**.
+Em C temos as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**. Porém apresentam uma sintaxe diferênciada além de ser no idioma inglês, ou seja "Se" passa a ser "If", "se não" passa a ser "else", 
 
 ## IF ELSE
 

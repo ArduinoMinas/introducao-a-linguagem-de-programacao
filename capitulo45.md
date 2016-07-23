@@ -1,6 +1,5 @@
 A linguagem C tem alguns tipos de dados extras, além do que vimos no Portugol. Veremos os tipos de dados úteis para quem programa para microcontroladores. Veremos também um pouco sobre Array e como usa-los no C, seu impacto na segurança, e como manipula-los aprendendo assim um pouco sobre ponteiros, mas só o necessário.
 
-
 ## Tipos Númericos
 
 A definição para tipos númericos é bem vasta na linguagem em C, veremos alguns tipos muito importantes mas não veremos em detalhes seus limites, já que variam de plataforma para plataforma.
@@ -74,6 +73,24 @@ char umaString[] = "Um texto qualquer"
 
 Temos um vetor de 18 posições do tipo char, sendo a ultima posição preenchida com \0.
 
+Portanto teriamos:
+
+| Posicão | Valor |
+| --- | --- |
+| umaString[0] | 'U' |
+| umaString[1] | 'm' |
+| umaString[2] | ' ' |
+| umaString[3] | 't' |
+| umaString[4] | 'e' |
+| umaString[5] | 'x' |
+| umaString[6] | 't' |
+| umaString[7] | 'o' |
+| ... | ... |
+| umaString[14] | 'u' |
+| umaString[15] | 'e' |
+| umaString[16] | 'r' |
+| umaString[4] | \0 | 
+
 Se declararmos um vector assim:
 
 ```
@@ -84,8 +101,13 @@ Este será capaz de armazenar uma string com até 399 caracteres, já que o últ
 
 Veremos em momento oportuno como manipular este tipo de vetor que armazena strings, no C e C++ há cuidados muito importantes para se manipular strings, que se não forem observados, causaram mau funcionamento e até perda de dados importantes.
 
+## Outros Tipos de Dados
+
+Devido ao fato do C manipular a mémoria diretamente, é possível definir infinitos tipos de dados, além dos nativos da linguágem e também aqueles que são criados através de bibliotecas de manipulação, porém vermos apenas os tipos acima que são suficientes para nossos objetivos aqui.
 ---
-Referências: http://www.cplusplus.com/doc/tutorial/variables/
+
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
 
 ---
-Atualizado: 11/07/2016 - 00:42 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+
+Referências: http://www.cplusplus.com/doc/tutorial/variables/
