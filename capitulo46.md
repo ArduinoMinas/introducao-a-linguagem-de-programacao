@@ -5,15 +5,16 @@ Em C temos as mesmas estruturas de controle que aprendemos no **Portugol** do **
 A estrutura de controle `if` é a mesma estrutura `se` do portugol, e `else`é como `senao`em portugol, e deve ser escrita em C como apresentada abaixo:
 
 ```
-if (x < y) 
+if (m < 7.) 
 {
-  printf("X é menor que Y");
+  printf("Em exame");
 }
 else
 {
-  printf("X é maior que Y");
+  printf("Aprovado");
 }
 ```
+![Estrutura de Controle SE](fluxograma/simbolos de fluxograma - estrutura de controle Se.png)
 
 Veja que no C, uma estrutura de controle se asssemelha a funções, mas não são, no caso entre parenteses se encontra a operação lógica desejada.
 
@@ -24,12 +25,13 @@ Veja que no C, uma estrutura de controle se asssemelha a funções, mas não sã
 ## FOR
 
 A a operação de controle `for` é o mesmo que o `para` em portugol, tendo o formato a seguir:
-
+ 
 ```
-for(int i = 0; i < 10; i++){
+for(int i = 0; i < 20; i++){
    printf("Valor= %d",i);
 }
 ```
+![Estrutura de Laço/Loop - For](imgs/simbolos de fluxograma - estrutura de controle para - Caso.png)
 
 O comando `for` em C, pode receber até 3 parametros, separados por ponto e vírgula, o primeiro declara variáveis usadas para controle e as inicializa, o segundo é a operação lógica que define se o laço irá continuar ou não executando, conforme o resultado veradeiro ou falso, respectivamente, o terceiro parametro é como a variável de controle será alterada para que o laço continue em execução.
 
@@ -57,8 +59,9 @@ printf("Escolha uma das opções, a ou c");
 while(a != 'a' && a != 'c'){
   a = getchar();
 }
-  printf("Você escolheu uma opção %c",a);
+printf("Você escolheu uma opção %c",a);
 ```
+![Estrutura de controle Enquanto](imgs/simbolos de fluxograma - estrutura de controle Enquanto.png)
 
 O laço `while` pode também ser utilizado para que um determinado código seja executado infinitamente, isso é muito util em microcontroladores já que o código não pode nunca deixar de seer executado:
 

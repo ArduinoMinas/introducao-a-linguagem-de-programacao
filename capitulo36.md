@@ -114,15 +114,23 @@ Var
    contador: inteiro
 
 inicio
+   continua <- "s"
    contador <- 1
-   escreval("Começando Enquanto:",contador)
-   enquanto contador < 20 faça
-      escreval(contatodor)
-      contador = contador + 1
+   escreval("Começa?")
+   leia(continua) 
+   enquanto continua = "s" faca
+   
+      escreval("Contador: ", contador)
+      contador = contador + 1 
+      
+      escreval("Contitua ou para?")
+      leia(continua) 
    fimenquanto
    escreva("Equanto Finalizado:",contador)
-fimenquanto
+fimalgortimo
 ```
+
+![Estrutura de controle Enquanto](imgs/simbolos de fluxograma - estrutura de controle Enquanto.png)
 
 #### Repita
 Já a instrução ```repita``` permite o bloco ser executado pelo menos uma vez, antes de verificar se a condição que permite a repetição seja analisada.
@@ -135,10 +143,12 @@ Var
 inicio
    contador <- 1
    escreval("Começando Enquanto:",contador)
+   escreval("Contitua ou para?")
    repita 
       escreval(contatodor)
       contador = contador + 1
-   ate  contador > 20 
+      leia(continua) 
+   ate  continuar = "s"
    escreva("Equanto Finalizado:",contador)
 fimenquanto
 ```
@@ -186,7 +196,7 @@ inicio
    fimpara
 fimalgoritmo
 ```
-
+![Estrutura de Laço/Loop - Para](imgs/simbolos de fluxograma - estrutura de controle para - Caso.png)
 #### Interrompa
 
 Para as três instruções de controle de laço, enquanto, repita e para é possível inserir condições internas se ou caso e assim interromper o laço, chamando o comando Interrompa.
@@ -195,7 +205,7 @@ Isso não é indicado para programação estruturada, já que quebramos o fluxo 
 O ideal é que estruture seu código de forma que este flua naturalmente sem o uso do Interrompa então procure buscar melhorias no seu algoritmo, otimizações, e evite o uso do Interrompao máximo que puder.
 
 
-### Próximos Passos
+## Próximos Passos
 
 Não há nada mais importante na vida tecnologica da humanidade quanto a matemática, sem ela nada do que temos hoje teria acontecido. E no próximo passo veremos rápidamente como transformar nosas formulas matemáticas em algoritmos.
 

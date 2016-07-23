@@ -144,6 +144,21 @@ A linguagem C/C++ tem algumas palavras que são reservadas e não podem ser usad
 
 alignas, alignof, and, and_eq, asm, auto, bitand, bitor, bool, break, case, catch, char, char16_t, char32_t, class, compl, const, constexpr, const_cast, continue, decltype, default, delete, do, double, dynamic_cast, else, enum, explicit, export, extern, false, float, for, friend, goto, if, inline, int, long, mutable, namespace, new, noexcept, not, not_eq, nullptr, operator, or, or_eq, private, protected, public, register, reinterpret_cast, return, short, signed, sizeof, static, static_assert, static_cast, struct, switch, template, this, thread_local, throw, true, try, typedef, typeid, typename, union, unsigned, using, virtual, void, volatile, wchar_t, while, xor, xor_eq
 
+
+### Nome de Variáveis e Funções no C
+
+Da mesma forma que no Portugol temos regraspara criar variáveis e funções, definindo assim nomes legíveis e que expressem sua verdadeira função no código, é preciso ter cuido com o uso de caracteres especias.
+
+Em valem as mesmas regras que em portugol:
+
+* Sempre comecem com uma letra ou ```_```
+* Do segundo caracter em diante podem usar números, letras e ```_```
+* Não se pode usar letras acentuadas
+* Há diferenças entre maísculas e minusculas.
+* Nâo se pode usar espaço
+* Outros simbolos além de ```_``` não é permitido.
+
+
 ---
 
 Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
