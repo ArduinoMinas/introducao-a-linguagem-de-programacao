@@ -25,6 +25,7 @@
    * [Tipos de Dados em C](capitulo45.md)
    * [Estrtura de Controle em C](capitulo46.md)
    * [Bibliotecas Importantes do C e Suas Funções](capitulo47.md)
+   * [Comunicando com o Mundo Exerno](capitulo48.md)
 * [Arduino](capitulo5.md)
    * [Introdução ao Arduino](capitulo51.md)
    * [Exemplos Básicos de Uso do Arduino](exemplos.md)
