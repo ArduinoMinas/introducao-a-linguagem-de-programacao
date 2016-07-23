@@ -24,6 +24,7 @@
    * [Compilando ou Interpretando, como o C é tratado?](capitulo44.md)
    * [Tipos de Dados em C](capitulo45.md)
    * [Estrtura de Controle em C](capitulo46.md)
+   * [Bibliotecas Importantes do C e Suas Funções](capitulo47.md)
 * [Arduino](capitulo5.md)
    * [Introdução ao Arduino](capitulo51.md)
    * [Exemplos Básicos de Uso do Arduino](exemplos.md)
