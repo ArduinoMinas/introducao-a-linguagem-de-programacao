@@ -4,6 +4,18 @@ Em toda linguagem de programação temos tipos de dados, algumas não levam isso
 
 Não veremos ainda como os dados são armazenados na memória do microcontrolador ou do computador, apenas entenderemos que tipo de dado, seus valores limites e como lidar com cada tipo de variável. Tal entendimento será absorvido no decorrer do uso de cada variável, mas quando iniciarmos os estudos da linguagem C/C++ será necessarío compreender mais a fundo como tais veriáveis são representadas na memória ou registradores.
 
+## Como tudo é manipulado no computador.
+
+Você já deve ter ouvido falar de Byte, Bit, e já deve saber que o computador se comunica atráves de eletricidade, com sinais ligados ou desligados, em especial em barramentos de memória, onde isso trafega em uma alta taxa de velocidade, chegando a velocidades inimagináveis a uma decada atrás, temos processadores ultrapassano a taxa do Ghz, ou seja 1 bilhão de alterações de estados entre 1 e 0 (ligado e desligado) e um dos fios do barramento.
+
+Além disso vemos hoje processadores cada vez maiores sendo capazes de lidar com uma quantidade de Bits simultaneos cada vez maior, o primeiro processador era capaz de lidar com os incriveis 8 bits ou seja um byte, hoje temos computadores com 64bits seja 8 bytes o que permite  capacidades absurdas de endereçamento de mémoria, a incrível capacidade de 18.446.744.073.709.551.616 (18.446 Teras) posições de memória de tamnhos típicos de um byte.
+
+Bem, como podem perceber o bit é a menor unidade que um computador consegue lidar hoje, é representado por 0 e 1, já um conjunto de 8 bits é chamado de Byte, e será a unidade que mais usaremos, há também i niple que representa metade de 1 byte, ou seja 4 bits.
+
+Temos também ```world``` que representam 2 bytes, e ```double world``` para 4 bytes e ```quad world``` para 8 bytes.
+
+No universo dos microcontroladores isso não muda, são as mesas medidas, porém microcontroladores tipo PIC e AVR são normalmente de 16 bits de endereçamento apesar de lidar com 8 bits por vez, há microcontroladores como o ARM que lidam com 32bits e barramentas de endereço do mesmo tamanho, mesmo que não tenham toda a mémoria disponível realmente, parte dela é usada como dispositivos de entrada e saida, e como barramentos de comunicação com ouors dispositovos internos. Veremos isso na [apostila de micro controladores](mcu.ed.carlosdelfino.eti.br)
+
 ## Variáveis vs Constantes
 
 Um conceito muito importante a se compreender é a diferença entre Variáveis e Constantes, como o própiro nome sugere, variável é passivel de alteração já as constantes não, esta ultima, uma vez atribuida não poderá mais ser alterada, em contra partida as variáveis podem ser alteradas ilimitadamente sem nenhuma perda de sua qualidade.
