@@ -1,6 +1,8 @@
-Iremos neste capítulo entender como se deve escrever um código em C, e o que é cada parte. Iremos aprender dois novos conceitos muito importantes, "Bibliotecas" e "Funções", com estes dois conceitos tornamos nosso algortimos bem mais simples e mais estruturados ainda.
+Iremos neste capítulo entender como se deve escrever um código em C, e o que é cada parte. Iremos aprender dois novos conceitos muito importantes, "Bibliotecas" e "Funções", com estes dois conceitos tornamos nosso algoritmos mais simples e mais estruturados.
 
-Vejamos então o nosso primeiro código em C que já vimos no capítulo anterior, o "Hello World", abaixo temos o fonte que copiamos do **Pelles C**.
+---
+
+Vejamos então o nosso primeiro código em C já vimos este algoritmo no capítulo anterior, o "Hello World", abaixo temos o fonte que copiamos do **Pelles C**.
 
 ```
 /****************************************************************************
@@ -14,26 +16,35 @@ Vejamos então o nosso primeiro código em C que já vimos no capítulo anterior
  *                                                                          *
  ****************************************************************************/
 
+// Inclusão de bibliotecas e diretivas macro
 #include <stdio.h>
 
-/* entry point */
+// Declaração de variáveis globais e estáticas
+
+// Declaração de funções
+
+// Ponto de entrada de nossa aplicação
 int main(void)
 {
-    printf("Hello, world!\n");
-    return 0;
+    printf("Hello, world!\n"); // imprimimos na tela
+    return 0; // finalizamos nosso aplicativos adequadamente
 }
+// Final do código
 ```
 
 Acima podemos identificar três seções em nosso código:
 * Comentários principais, relativos a documentação do projeto e ao arquivo, 
 * Diretivas de compilação da Aplicação, como inclusão de outros arquivos ou bibliotecas e 
-* Finalmente nosso código.
+* Finalmente nosso código, que é dividido em três seções também:
+  * Declaração de variáveis
+  * Declaração de funções
+  * Ponto de entrada (se necessário)
 
 ### Comentários do Projeto e Documentação do Arquivo
 
 A primeira seção de nosso código, se trata apenas de comentários onde vemos que existe uma nova forma de se fazer comantários, além do uso apenas de duas barras **//**, podemos no C/C++ e em outras linguagens usar comentários de multiplas linhas com o par **/\*** e **\*/** ou seja na primeira linha iniciamos o comentário multilinha com **/\*** no inicio da linha e na última linha finalizamos no final da linha com **\*/**.
 
-Na primeira seção, é fundamental que documentemos nosso código, como já aprendemos com o VisuAlg para a linguagem Portugol. Como podem ver, esta é uma prática muito saudável para o programador e o sucesso do projeto, permitindo que os futuros mantenedores entendam tudo que aconteceu em seu código.
+Nessa seção, é fundamental que documentemos nosso código, como já aprendemos com o VisuAlg para a linguagem Portugol. Como podem ver, esta é uma prática muito saudável para o programador e o sucesso do projeto, permitindo que os futuros mantenedores entendam tudo que aconteceu em seu código.
 
 Vejamos em detalhes uma sugestão muito válida para construirmos o comentário que será usado como documentação de nosso projeto:
 
@@ -76,17 +87,17 @@ A frente veremos que usamos uma função chamada `printf` ela é definida neste 
 
 ### Seção de Código
 
-Como no C/C++ podemos ter arquivos apenas com código de apoio (bibliotecas de funções e parametros) que serão usados para serem incluidos (`#include`) em outros arquivos, e finalmente no arquivo principal para que nosso aplicativo seja construido e se torne funcional, a seção de código abrange tanto a seção de definição de variáveis quando a seçaão de códigos propriamente.
+Como no C/C++ podemos ter arquivos apenas com diretivas ou código de apoio (bibliotecas de funções e parametros) que serão usados para serem incluidos (`#include`) em outros arquivos, e finalmente no arquivo principal para que nosso aplicativo seja construido e se torne funcional, a seção de código abrange tanto a seção de definição de variáveis quando a seção de códigos propriamente.
 
-No C/C++ temos uma função principal de nome `int main(void)` que deve ser escrita pelo programador e será o ponto de entrada para o programa **EXE** ou para o inicio de execução no microcontrolador, veremos a seguir o que é uma função, mas por hora iremos entender como é este ponto de entrada no código escrito em C/C++.
+No C/C++ temos uma função principal de nome `int main(void)`, que é o ponto de entrada da aplicação desenvolvida, e deve ser escrita pelo programador no arquivo que será o ponto de entrada do programa **EXE** ou para o inicio de execução no microcontrolador.
 
 No portugol vimos que precisamos definir uma seção chamada **Inicio** onde conterá o código principal que será chmado para dar partida em nossa aplicação, já no C/C++ precisamos definir uma função de nome `int main(void)` vamos então entender o que é uma função, e então em seguida voltar e vermos como definirmos variáveis globais, locais e a ordem que isso deve ser feito no C/C++.
 
 ### Entendendo o conceito de Funções
 
-A função é um dos conceitos mais importantes da programação, é através da função que estruturamos ainda mais nosso código, pois podemos através delas, agrupar um conjunto de comandos, uma função em programa atua de forma bem similar a funções matemáticas, passamos um grupo de parametros, um calculo é feito e se retorna o resultado.
+A função é um dos conceitos mais importantes da programação estruturada, é através da função que estruturamos ainda mais nosso código, pois podemos através delas, agrupar um conjunto de comandos. Uma função no programa atua de forma bem similar a funções matemáticas, passamos um grupo de parametros, um cálculo é feito e se retorna o resultado.
 
-Em C/C++ funções podem retornar ou não valores, vejamos como é a função principal que devemos definir seu conteúdo para que tenhamos um programa funcional:
+Em C/C++ funções podem retornar ou não valores, vejamos primeiro como é a função principal que devemos definir como ponto de entrada, e o que deve existir  para que tenhamos um programa funcional:
 
 ```
 int main(void)
@@ -106,7 +117,7 @@ Por exemplo nomes como `int \_andar(int)`, ou `bool AtivarSistema()`, `void UseA
 > 
 > Veja que, ao citarmos uma função escrevemos o nome incluindo o retorno e o que ela recebe de parâmetro, chamamos isso de assinatura da função. E assim evitamos enganos sobre qual função estamos falando.
 
-Como foi dito uma declaração de função tem quatro seções importantes, a quara parte é o código que será executado quando esta função for chamado, todo bloco de código em C/C++ é delimitado por chaves **{** e **}**, isso define o escopo das variáveis e delimita o bloco, ajudando a administrar nosso código em memória.
+Como foi dito uma declaração de função tem quatro partes importantes, a quarta parte é o bloco de código que será executado quando a função for chamado, todo bloco de código em C/C++ é delimitado por chaves **{** e **}**, isso define o escopo das variáveis e delimita o bloco, ajudando a administrar nosso código em memória.
 
 Portanto nossa função **main** completa fica assim:
 
@@ -118,7 +129,7 @@ int main(void)
 }
 ```
 
-Veja que o bloco de código fica indentado, dentro das chaves, e que o ideal é que a chaves se abra abaixo do nome da função, e na linha a seguir a ultima linha da função.
+Veja que o bloco de código fica indentado, dentro das chaves, e que o ideal é que a chaves se abra abaixo do nome da função, e na linha a seguir a última linha da função.
 
 É importante também saber que toda função ao terminar deve chamar a função return, principalmente se retorna algum valor, e o comando return deve ter o que será retornado, no caso de nossa função ele retorna 0, um ineiro.
 
@@ -130,7 +141,7 @@ Em se tratando de microcontrolador uma função main nunca deve retornar, uma ve
 
 ### Variáveis Globais e Locais
 
-Antes de usar qualquer variável estas devem ser declaradas, iremos ver por hora apenas as funções de escopo Global e Local.
+Antes de usar qualquer variável estas devem ser declaradas, iremos ver por hora apenas as funções de escopo Global e Local. Porém no C há uma complexidade maior nas declarações de escopo, o que não afeta nosso estudo pelo que iremos estudar nesta apostila.
 
 As variáveis de escopo global podem ser vistas em qualquer parte do aplicativo, já as variáveis Locais, apenas dentro do bloco de código onde foram declaradas.
 
@@ -161,6 +172,9 @@ Em valem as mesmas regras que em portugol:
 * Nâo se pode usar espaço
 * Outros simbolos além de ```_``` não é permitido.
 
+## Próximo passo.
+
+No próximo passo iremos entender a diferença entre Portugol e Linguagem C no que refere sua relação com o processador, o que são linguagens Compiladas e Interpretadas e como o C é processado para se tornar inteligível pelo micro controlador e assim ser executado adequadamente, o que lhe dá tanto desempenho e por que é tão valorizada pelos profissionais.
 
 ---
 
