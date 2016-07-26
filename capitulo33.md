@@ -14,7 +14,9 @@ Bem, como podem perceber o bit é a menor unidade que um computador consegue lid
 
 Temos também ```world``` que representam 2 bytes, e ```double world``` para 4 bytes e ```quad world``` para 8 bytes.
 
-No universo dos microcontroladores isso não muda, são as mesas medidas, porém microcontroladores tipo PIC e AVR são normalmente de 16 bits de endereçamento apesar de lidar com 8 bits por vez, há microcontroladores como o ARM que lidam com 32bits e barramentas de endereço do mesmo tamanho, mesmo que não tenham toda a mémoria disponível realmente, parte dela é usada como dispositivos de entrada e saida, e como barramentos de comunicação com ouors dispositovos internos. Veremos isso na [apostila de micro controladores](mcu.ed.carlosdelfino.eti.br)
+No universo dos microcontroladores isso não muda, são as mesas medidas, porém microcontroladores tipo PIC e AVR são normalmente de 16 bits de endereçamento apesar de lidar com 8 bits por vez, há microcontroladores como o ARM que lidam com 32bits e barramentas de endereço do mesmo tamanho, mesmo que não tenham toda a mémoria disponível realmente, parte dela é usada como dispositivos de entrada e saida, e como barramentos de comunicação com ouors dispositovos internos. Veremos isso na [apostila de micro controladores](http://mcu.ed.carlosdelfino.eti.br).
+
+Quando formos estudar a linguagem C, iremos ver reveronceitos ligados a unidades de médida, por hora, iremos apenas lidar com os tipos de dados aqui presentes e buscar compreende-los de forma simples. Isso se deve ao fato de ser de responsábilidade de outra disciplina tal aprendizado, ou seja "**Introdução a Informática**" ou "**[Introdução a Microcontroladores](http://mcu.ed.carlosdelfino.eti.br)**".
 
 ## Variáveis vs Constantes
 

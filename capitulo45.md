@@ -1,5 +1,13 @@
 A linguagem C tem alguns tipos de dados extras, além do que vimos no Portugol. Veremos os tipos de dados úteis para quem programa para microcontroladores. Veremos também um pouco sobre Array e como usa-los no C, seu impacto na segurança, e como manipula-los aprendendo assim um pouco sobre ponteiros, mas só o necessário.
 
+## Um pouco mais sobre a manipulação de dados
+
+Como já vimos o computador lida com bits, 8 bits são 1 byte, e 2 bytes um word, 4 bytes um double word e finalmente um quad word é 16 bytes.
+
+Portanto quando armazenamos dados na mémoria como já foi explicado o computador estará manipulando tipicamente bytes, seja um byte ou grupos, veremos abaixo que cada tipo de dado na linguagem C tem uma representação típica em bytes, é importantissimo compreendermos como estes dados são armazenados e como são manipulados, veremos para isso os tipos de dados e veremos também os ponteiros para estes típos de dados (porém esta apostila não iremos aprofundar na aritmética de ponteiros).
+
+
+
 ## Tipos Númericos
 
 A definição para tipos númericos é bem vasta na linguagem em C, veremos alguns tipos muito importantes mas não veremos em detalhes seus limites, já que variam de plataforma para plataforma.
@@ -14,6 +22,8 @@ Para lidar com inteiros trabalharemos apenas com um tipo, o tipo `int` que nos p
 ### Frações e ponto flutuante.
 
 Os números fracionados e números usados em engenhária como os de ponto flutuantes, são representados especialmente no C/C++ e temos 3 tipos, porém somente veremos dois deles `float` e `double`, estes tipos são como os tipos `real` portugol.
+
+Tais típos são padronizados pelo IEEE conforme a norma [IEEE 754](http://steve.hollasch.net/cgindex/coding/ieeefloat.html)
 
 ### Valores Lógicos
 
@@ -104,6 +114,7 @@ Veremos em momento oportuno como manipular este tipo de vetor que armazena strin
 ## Outros Tipos de Dados
 
 Devido ao fato do C manipular a mémoria diretamente, é possível definir infinitos tipos de dados, além dos nativos da linguágem e também aqueles que são criados através de bibliotecas de manipulação, porém vermos apenas os tipos acima que são suficientes para nossos objetivos aqui.
+
 ---
 
 Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
