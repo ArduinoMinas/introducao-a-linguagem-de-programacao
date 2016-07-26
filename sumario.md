@@ -3,7 +3,7 @@
 * [Apresentação](introducao.md)
 * [Licença](licenca.md)
 * [ToDo](todo.md)
-* [Algoritmo](capitulo1.md)
+* [Algoritmo e Linguagem de Programação](capitulo1.md)
 * [VisuAlg](capitulo2.md)
 * [Portugol](capitulo3.md)
    * [O Código Estruturado](capitulo31.md)
