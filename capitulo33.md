@@ -74,10 +74,9 @@ Quando constante deve ser utilizado a diretiva `const` no final da linha, finali
 
 ```
 var x: real
-    y: inteiro
+    y,c: inteiro
     a: caractere
-    l: logico
-    c: inteiro
+    l: logico 
 ```
 
 Para se declarar uma constant, basta declaralas na seção constante, listando cada constante em uma linha atribindo seu valor com operador igual `=`
