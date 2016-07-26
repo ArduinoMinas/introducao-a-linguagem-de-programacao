@@ -49,10 +49,6 @@ Ponto de interrupção, condicional ou não, inserido no código através de sin
 
 CamelCase é a denominação em inglês para a prática de escrever palavras compostas ou frases, onde cada palavra é iniciada com Maiúsculas e unidas sem espaços. É um padrão largamente utilizado em diversas linguagens de programação, como Java, C#, Ruby, PHP e Python, principalmente nas definições de Classes e Objetos. Pela sua associação com tecnologia, o marketing se apropriou dessa maneira de escrever, injetando certo ar de "tecnologia" nos produtos assim nomeados: iPod, GameCube, OpenOffice.org, StarCraft, dentre outros.
 
-## Peculiaridade
-
-Classe gramatical: substantivo feminino, 1. qualidade ou condição do que é peculiar; característica de alguém ou de algo que se distingue por traços particulares; originalidade, singularidade, particularidade, 2. traço peculiar, próprio de alguém ou de algo; característica, modalidade.
-
 ## GESTALT
 
 A gestalt (guès) (do alemão Gestalt, "forma"), também conhecida como gestaltismo (gues), teoria da forma, psicologia da gestalt, psicologia da boa forma e leis da gestalt, é uma doutrina que defende que, para se compreender as partes, é preciso, antes, compreender o todo. Refere-se a um processo de dar forma, de configurar "o que é colocado diante dos olhos, exposto ao olhar". A palavra gestalt tem o significado "de uma entidade concreta, individual e característica, que existe como algo destacado e que tem uma forma ou configuração como um de seus atributos".
@@ -61,6 +57,10 @@ A gestalt (guès) (do alemão Gestalt, "forma"), também conhecida como gestalti
 
 Veja "Integrated Development Environment"
 
+## IEC
+
+Veja: International Electrotechnical Commission
+
 ## indentar
 
 Veja: Intentação
@@ -68,6 +68,15 @@ Veja: Intentação
 ## Integrated Development Environment
 
 em português Ambiente de Desenvolvimento Integrado, um software que possui todas ferramentas ou viabiliza a interação com outras ferramentas de desenvolvimento de forma totalmente integrada e transparente.
+
+## Intenção
+
+Em tipografia, indentação é o recuo de um texto em relação à sua margem. Em ciência da computação, indentação (recuo, neologismo derivado da palavra em inglês indentation) é um termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Fonte: https://pt.wikipedia.org/wiki/Indenta%C3%A7%C3%A3o
+
+## International Electrotechnical Commission
+
+Comissão Eletrotécnica Internacional (em inglês: International Electrotechnical Commission, IEC) é uma organização internacional de padronização de tecnologias elétricas, eletrônicas e relacionadas. Alguns dos seus padrões são desenvolvidos juntamente com a Organização Internacional para Padronização (ISO).
+A sede da IEC, fundada em 1906, é localizada em Genebra, Suíça.
 
 ## John Backus
 
@@ -96,6 +105,10 @@ Veja: Meta-Sintaxe
 ## Notação CamelCase
 
 Veja CamelCase
+
+## Peculiaridade
+
+Classe gramatical: substantivo feminino, 1. qualidade ou condição do que é peculiar; característica de alguém ou de algo que se distingue por traços particulares; originalidade, singularidade, particularidade, 2. traço peculiar, próprio de alguém ou de algo; característica, modalidade.
 
 ## Peculiaridade
 
@@ -137,6 +150,6 @@ A UML (Unified Modeling Language), que significa Linguagem Unificada de Modelage
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
-## Intenção
+## CLP
 
-Em tipografia, indentação é o recuo de um texto em relação à sua margem. Em ciência da computação, indentação (recuo, neologismo derivado da palavra em inglês indentation) é um termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Fonte: https://pt.wikipedia.org/wiki/Indenta%C3%A7%C3%A3o
+Controladores Lógicas Programáveis, ou em inglês Programable Logical Controler.

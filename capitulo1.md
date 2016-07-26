@@ -39,7 +39,7 @@ Na programação estruturada, temos um conjunto de palavras reservadas utilizada
 A Programação estruturada, presa pela legibilidade do código usando recursos de formatação como a identação para que o código se apresente de forma organizada e legível.
 
 ### Linguagens Especializadas
-Em cada setor de atuação pode haver linguagens especializadas ao contexto do setor, por exemplo para o Arduino apesar de termos a linguagem C/C++ temos o Wire que é um dialeto do C/C++ na verdade é um framework que nos traz diversas funções, constantes e macros que permite ao programador programar o Arduino de uma forma mais amigável.
+Em cada setor de atuação pode haver linguagens especializadas ao contexto do setor, por exemplo para o Arduino apesar de termos a linguagem C/C++ temos o Wire que é um dialeto do C/C++ na verdade é um framework que nos traz diversas funções, constantes e macros que permite ao desenvolvedor programar o Arduino de uma forma mais amigável.
 
 Também temos linguagens especializadas em Robôtica, podemos dizer que para cada fabricante de grandes robôs temos uma linguagem, listamos algumas abaixo:
 
@@ -48,6 +48,12 @@ Também temos linguagens especializadas em Robôtica, podemos dizer que para cad
 * Adept V&#43;&#174;
 * AML&#174; da IBM
 * Milacron T3
+
+No que se refere a automação, seja industrial ou prédial ou grandes instalações como shoppings, temos as linguagéns especializadas para CLP, a Linguagém especializada em CLP é normatizada pelo IEC em 1990, quando foi públicada a norma IEC 1131 e posteriormente revista e repúblicada em três partes como IEC 61131, sendo a terceira parte a norma IEC61131-3 que trata da linguagens de programação relativas ao CLP. As duas linguagens existentes para CLP:
+
+* LADDER
+* Lista de Instruções (Instruction List)
+* 
 
 ### Compilado vs Interpretado
 As linguagens de computador podem ser tanto compiladas ou seja transformadas primeiramente em um código que o computador entenda diretamente, ou podem ser Interpretadas, assim sendo um programa lê o arquivo onde está seu algortimo e interpreta cada linha e cada comando em tempo real, analisano a sintaxe e apontando em tempo de execução os erros encontrados.
@@ -94,6 +100,7 @@ Quer algo mais simples que tal descrever como trocar o pneu de seu carro.
 * Evite muitas informações, e dados a serem guardados.
 
 ## O Próximo Capítulo
+
 Iremos agora partir para o estudo da ferramenta VisualAlg, com ela iremos aprender a escrever Algoritmos utiliznado o Portugol, uma forma mais estruturada para descrever nossas atividades, ainda não usaremos o Portugol em detalhes, apenas tereos este capítulo como fonte de referência da interface para nos ajudar a lembrar onde é encontrado cada coisa.
 
 
