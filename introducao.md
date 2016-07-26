@@ -34,12 +34,13 @@ Bem para fechar deixaremos um capítulo de bonus, o capítulo 6, onde veremos ou
 
 ## Download
 
-Para baixar esta apostila, clique nas oções abaixo:
+Para acessar esta apostila atualizada, clique nas opções abaixo:
 
+* [OnLine](http://ilp.ed.carlosdelfino.eti.br)
 * [PDF](https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao)
 * [ePUB](https://www.gitbook.com/download/epub/book/cursoarduino/introducao-a-linguagem-de-programacao)
 
 Boa sorte, você é um privilegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
 
 ---
-Atualizado: 09/07/2016 - 18:56 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}

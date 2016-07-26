@@ -32,6 +32,7 @@
        * [Keyboard e Arduino](exemplo/arduino/keyboard.md)
    * [Arduino e Seu Controlador AVR](capitulo52.md)
    * [Algoritmos para Arduino](capitulo6.md)
+* [Bibliografia](bibliografia.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
 * [Softwares](softwares.md)
 
