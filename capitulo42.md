@@ -8,7 +8,7 @@ Porém, Pelles C não é a solução definitiva, haverão no decorrer do nosso a
 
 ### Baixando e Instalando o PELLES C
 
-O procedimento é simples, visite o site http://pellesc.de/index.php?page=download&lang=en, apesar de ser um site alemão está em inglês, o que facilita bastante o entendimento, como pode ver apartir de agora o inglês será nosso segundo idioma.
+O procedimento é simples, visite o site [http://pellesc.de/index.php?page=download&lang=en](http://pellesc.de/index.php?page=download&lang=en), apesar de ser um site alemão está em inglês, o que facilita bastante o entendimento, como pode ver apartir de agora o inglês será nosso segundo idioma.
 
 Escolha a versão 32Bits, que rodará bem em qualquer computador.
 

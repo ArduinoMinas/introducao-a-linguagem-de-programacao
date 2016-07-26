@@ -8,6 +8,10 @@ https://sourceforge.net/projects/dia-installer/
 
 https://sourceforge.net/projects/visualg30/
 
+## Pelles C
+
+http://pellesc.de/index.php?page=download&lang=en
+
 ## Arduino
 
 https://www.arduino.cc/en/Main/Software
