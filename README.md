@@ -8,6 +8,6 @@
 
 Se este trabalho está bom o suficiente para usa-lo comercialmente em seus projetos, então me ajude a mande-lo e contribua com apenas R$ 10,00.
 
-para acessar o livro visite: http://ilp.carlosdelfino.eti.br
+para acessar o livro visite: [http://ilp.ed.carlosdelfino.eti.br](http://ilp.ed.carlosdelfino.eti.br)
 
-para fazer o download da versão pdf: https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao
+para fazer o download da versão pdf: [https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao](https://www.gitbook.com/download/pdf/book/cursoarduino/introducao-a-linguagem-de-programacao)
