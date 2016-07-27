@@ -49,6 +49,10 @@ Ponto de interrupção, condicional ou não, inserido no código através de sin
 
 CamelCase é a denominação em inglês para a prática de escrever palavras compostas ou frases, onde cada palavra é iniciada com Maiúsculas e unidas sem espaços. É um padrão largamente utilizado em diversas linguagens de programação, como Java, C#, Ruby, PHP e Python, principalmente nas definições de Classes e Objetos. Pela sua associação com tecnologia, o marketing se apropriou dessa maneira de escrever, injetando certo ar de "tecnologia" nos produtos assim nomeados: iPod, GameCube, OpenOffice.org, StarCraft, dentre outros.
 
+## CLP
+
+Controladores Lógicas Programáveis, ou em inglês Programable Logical Controler.
+
 ## GESTALT
 
 A gestalt (guès) (do alemão Gestalt, "forma"), também conhecida como gestaltismo (gues), teoria da forma, psicologia da gestalt, psicologia da boa forma e leis da gestalt, é uma doutrina que defende que, para se compreender as partes, é preciso, antes, compreender o todo. Refere-se a um processo de dar forma, de configurar "o que é colocado diante dos olhos, exposto ao olhar". A palavra gestalt tem o significado "de uma entidade concreta, individual e característica, que existe como algo destacado e que tem uma forma ou configuração como um de seus atributos".
@@ -150,6 +154,6 @@ A UML (Unified Modeling Language), que significa Linguagem Unificada de Modelage
 
 "O Visualg é um programa que edita, interpreta e executa algoritmos com uma linguagem próxima do português estruturado como um programa normal de computador." (fonte: Wikipedia)
 
-## CLP
+## C com Classes
 
-Controladores Lógicas Programáveis, ou em inglês Programable Logical Controler.
+C com classes é a linguagem C++, o conceito de classes vem da programação orientada a objetos, onde o mundo real, onde a aplicação irá ser executada, é apresentado de forma abstrata através de classes, blocos de código que representam os objetos seu comportamento, propriedades e mensagens que usam para se comunicar entre sí.

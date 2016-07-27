@@ -1,6 +1,6 @@
-Vamos começar com a história do C, conhecendo como surgiu. O C++ surgiu em 1979 quando Bjarne Stroustrup foi trabalhar em sua Tese de doutorado, ele iniciou seu trabalho com a linguagem chamada Simula designada para simulações, porém Stroustrup, achou Simula muito lento para usos práticos.
+Vamos começar com a história do C, conhecendo como surgiu o C++, isso aconteceu  em 1979 quando Bjarne Stroustrup foi trabalhar em sua Tese de doutorado, ele iniciou seu trabalho com a linguagem chamada Simula designada para simulações, porém Stroustrup, achou Simula muito lento para usos práticos.
 
-Inicialmente **C++** era chamada de **C com Classes**, o que nos responde qual a diferença básica entre C e C++, já que C++ é um superconjunto da Linguagem C, seu objetivo é adicionar a linguagem C os conceitos de programação orientada a Objetos, se perder o desempenho da linguagem C.
+Inicialmente **C++** era chamada de **C com Classes** (um conceito da programação orientada a objetos, não iremos ver isso em nossa disciplina), o que nos responde qual a diferença básica entre C e C++, já que C++ é um superconjunto da Linguagem C, seu objetivo é adicionar a linguagem C os conceitos de programação orientada a Objetos, se perder o desempenho da linguagem C.
 
 Em 1983, o nome C++ foi adotado então, **++** foi escolhido por ser o operador que faz uma variável ser adicionada de uma unidade (somada do valor um), mas apesar deste pequeno incremento a linguagem C++ traz muitos recursos novos a linguagem C.
 
