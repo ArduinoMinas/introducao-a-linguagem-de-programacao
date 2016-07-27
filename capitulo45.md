@@ -19,11 +19,17 @@ A definição para tipos númericos é bem vasta na linguagem em C, veremos algu
 
 Para lidar com inteiros trabalharemos apenas com um tipo, o tipo `int` que nos permite trabalhar típicamente com números de tamanho equivalentes a 16 bits, sejam positivos ou negativos, com ou sem sinal.
 
+Para se saber o limite para números inteiros, basta elevar 2 a 16, 2 porque lidamos com dois estados 0 ou 1, e 16 por ser o limite de bits que temos sendo dois bytes. neste caso teremos o limite praa valores sem sinais, para valores com sinal basta elevar 2 a 15 já que o último bit será usado para indicar o sinal.
+
 ### Frações e ponto flutuante.
 
 Os números fracionados e números usados em engenhária como os de ponto flutuantes, são representados especialmente no C/C++ e temos 3 tipos, porém somente veremos dois deles `float` e `double`, estes tipos são como os tipos `real` portugol.
 
 Tais típos são padronizados pelo IEEE conforme a norma [IEEE 754](http://steve.hollasch.net/cgindex/coding/ieeefloat.html)
+
+Veja abaixo os limites para números de ponto flutuante:
+![Limites para números de ponto flutuante.](imgs/Limites_Ponto_Flutuante.png)
+
 
 ### Valores Lógicos
 
