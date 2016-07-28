@@ -23,6 +23,21 @@
         "highlight"
     ],
     "pluginsConfig": {
+    {
+    "pluginsConfig": {
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": false,
+            "instapaper": true,
+            "vk": false,
+            "linkedin",
+            "all": [
+                "facebook", "google", "linkedin", "twitter",
+                "weibo", "instapaper","vk"
+            ]
+        },
         "richquotes": {
             "default": true
         },
