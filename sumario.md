@@ -26,6 +26,7 @@
    * [Operadores Matemáticos, Relacionais, Lógicos e Ponteiros](capitulo46.md)
    * [Estrtura de Controle em C](capitulo47.md)
    * [Bibliotecas Importantes do C e Suas Funções](capitulo48.md)
+       * [Funções para uso em Matemática](funcoesmatematicasnocemd.md)
    * [Comunicando com o Mundo Exerno](capitulo49.md)
 * [Arduino](capitulo5.md)
    * [Introdução ao Arduino](capitulo51.md)

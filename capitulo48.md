@@ -59,3 +59,9 @@ dietlibc, uma pequena implementação alternativa criada do zero com extritament
 ## Próximo Passo
 
 Vamos agora aprender a ler caracteres do teclado e imprimir informações na tela.
+
+
+---
+
+Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+
