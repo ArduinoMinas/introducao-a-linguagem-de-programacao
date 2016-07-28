@@ -32,7 +32,7 @@
             "weibo": false,
             "instapaper": true,
             "vk": false,
-            "linkedin",
+            "linkedin": true,
             "all": [
                 "facebook", "google", "linkedin", "twitter",
                 "weibo", "instapaper","vk"
