@@ -22,9 +22,7 @@
         "theme-default",
         "highlight"
     ],
-    "pluginsConfig": {
-    {
-    "pluginsConfig": {
+    "pluginsConfig": { 
         "sharing": {
             "facebook": true,
             "twitter": true,
