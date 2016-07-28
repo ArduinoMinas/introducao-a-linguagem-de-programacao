@@ -2,10 +2,11 @@ A linguagem C tem alguns tipos de dados extras, além do que vimos no Portugol. 
 
 ## Um pouco mais sobre a manipulação de dados
 
-Como já vimos o computador lida com bits, 8 bits são 1 byte, e 2 bytes um word, 4 bytes um double word e finalmente um quad word é 16 bytes.
+Como já vimos o computador lida com bits, 8 bits são 1 byte, e 2 bytes um word, 4 bytes um double word e finalmente um quad word são 16 bytes.
 
-Portanto quando armazenamos dados na mémoria como já foi explicado o computador estará manipulando tipicamente bytes, seja um byte ou grupos, veremos abaixo que cada tipo de dado na linguagem C tem uma representação típica em bytes, é importantissimo compreendermos como estes dados são armazenados e como são manipulados, veremos para isso os tipos de dados e veremos também os ponteiros para estes típos de dados (porém esta apostila não iremos aprofundar na aritmética de ponteiros).
+Portanto quando armazenamos dados na mémoria o computador estará manipulando tipicamente bytes, seja um byte ou grupos, veremos abaixo que cada tipo de dado na linguagem C tem uma representação típica em bytes, é importantissimo compreendermos como estes dados são armazenados e como são manipulados, veremos para isso os tipos de dados e veremos também os ponteiros para estes típos de dados.
 
+Para entendermos bem como o C manipula os dados na memória e como podemos acelerar este acesso pelo nosso programa, em especial quando lidamos com sequências tipo string, ou até mesmo estruturas de dados é preciso entender a aritmética de ponteiros, porém esta apostila não iremos aprofundar neste assunto por se tratar de um tema avançado.
 
 
 ## Tipos Númericos
