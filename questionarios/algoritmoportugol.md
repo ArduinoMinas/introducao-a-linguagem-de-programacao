@@ -15,7 +15,7 @@ $$
  F = ( C * 1.8 ) + 32
 $$
 $$
- C = ( F - 32 ) \/ 1.8 
+ C = \frac{ F - 32 }{1.8} 
 $$
 $$
  K = C + 273.15
@@ -56,11 +56,10 @@ X \leftarrow X - 6
 $$  $$ 
 X \leftarrow X / 2 
 $$   $$
-X \leftarrow 3 * X
+X \leftarrow 3 \ast X
 $$    $$
 X \leftarrow X -X+X*X/X
 $$ 
-
 15. Supondo que A, B e C são variáveis de tipo inteiro, com valores iguais a 5, 10 e -8, respectivamente, e uma variável real D, com valor de 1,5, quais os resultados das expressões aritméticas abaixo:
      1. $$2 * A \space mod \space 3- c $$
      2. $$rad \space (-2 * C ) \space div \space 4$$
