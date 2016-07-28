@@ -16,7 +16,7 @@
    * [Operações e Funções Matemáticas](capitulo38.md)
    * [Tabela da Verdade e Depuração](capitulo39.md)
    * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
-* [Questões para fixação da Primeira Parte](questoessobrealgoritmoportugol.md)
+* [Questões para fixação da Primeira Parte](questionarios/algoritmoportugol.md)
 * [C/C++ - Introdução a Linguagem](capitulo4.md)
    * [História da Linguagem C e C++](capitulo41.md)
    * [Nossa IDE para aprendermos C](capitulo42.md)

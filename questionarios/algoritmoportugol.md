@@ -11,15 +11,15 @@
 4. Calcular e exibir a média ponderada de 2 notas dadas. (nota1 = peso 6 e nota2 = peso 4)
 
 5. Converter uma temperatura em Fahrenheit para Celsius e mostrar o resultado:
-
 $$
  F=(C * 1.8) + 32
-$$  $$
+$$
+$$
  C = (F -32 ) / 1.8 
-$$ $$
+$$
+$$
  K = C + 273.15
 $$ 
-
 6. Reajustar um sal&aacute;rio em 17,75%
 
 7. Calcular o desconto de 23% sobre o preço de um produto.
