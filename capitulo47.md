@@ -1,65 +1,107 @@
-Diferente do portugol e algumas outras linguagens como Cobol e Fortram, o C não tem palavras reservadas para executar certas ações como por exemplo ler teclado ("leia") ou escrever na tela ("escreva" ou "escreval"), mas funções que recebem parametros para que execute tais ações.
+Em C temos práticamente as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**. Porém apresentam uma sintaxe diferênciada além de ser no idioma inglês, ou seja "Se" passa a ser "If", "se não" passa a ser "else", 
 
-LibC é a biblioteca padrão do C é um conjunto de funções padronizadas que permitem que a linguagem "C" faça operações comuns como entrada e saída e manipulação de cadeiras de caracteres.
+## IF ELSE
 
-Abaixo listo as bibliotecas e o cada uma é especializada, veremos em seguida as principais funções. E iremos destacar quais não se aplicam ao Arduino, e veremos no módulo sobre Arduino as opções adequadas.
-
-| Arquivo | Descrição |
-| --- | --- |
-| stdio.h	| rotinas padrões de entrada e saída definidas pelos criadores da linguagem C. | 
-| alloc.h	| funções para gerenciamento de memória |
-| float.h	| funções para tratar números de ponto flutuante |
-| math.h	| funções matemáticas |
-| stddef.h	| vários tipos de dados e macro substituições |
-| stdlib.h	| várias rotinas muito usadas, conversão, sort, etc. |
-| string.h	| rotinas p/ manipular strings e memória |
-| assert.h	| Macro para diagnóstico. |
-| ctype.h	| Funções para teste e conversãode caracteres (ex: isalpha, tolower). |
-| errno.h	| Mnemônicas para códigos de erro. |
-| limits.h	| Constantes relacionadas com inteiros (númerode bits, gama, etc.) |
-| locale.h	| Funções para informações sobrepaises e linguagens. |
-| setjmp.h	| Alternativa à chamada normal de funções |
-| signal.h	| Tratamento de condições excepcionais. |
-| stdarg.h	| Tratamento de funções com número e tipo de argumentos desconhecidos. |
-| string.h	| Manipulação de cadeia de caracteres. |
-| time.h	| Processamento de horas e data. |
-
-Como já vimos quando dsejamos incluir outro arquivo em nosso código fonte precisamos usar a diretiva ```#include``` portando para se usar uma função que receberá entradas pelo teclado e apresentará dados na tela para o C, precisamos executaro o seguinte comando:
+A estrutura de controle `if` é a mesma estrutura `se` do portugol, e `else`é como `senao`em portugol, e deve ser escrita em C como apresentada abaixo:
 
 ```
-#include <stdio.h>
-``` 
-Vamos aproveitar o momento para conhecer que o ```#include``` possui 2 formas diferentes, esta que nos é apresenada agora, e a que está abaixo:
+if (m < 7.) 
+{
+  printf("Em exame");
+}
+else
+{
+  printf("Aprovado");
+}
+```
+![Estrutura de Controle SE](fluxograma/simbolos de fluxograma - estrutura de controle Se.png)
+
+Veja que no C, uma estrutura de controle se asssemelha a funções, mas não são, no caso entre parenteses se encontra a operação lógica desejada.
+
+É importante observar que os blocos de códigos escolhidos a executar nas estrutura de controle são delimitados por pares **{** e **}**.
+
+É também importante saber, que as variáveis que forem declaradas internamente nestes blocos são vistas apenas localmente, e são recriadas sempre que os blocos são executados, portanto tenha cautela ao criar variáveis dentro de blocos de controle.
+
+## FOR
+
+A a operação de controle `for` é o mesmo que o `para` em portugol, tendo o formato a seguir:
+ 
+```
+for(int i = 0; i < 20; i++){
+   printf("Valor= %d",i);
+}
+```
+![Estrutura de Laço/Loop - For](imgs/simbolos de fluxograma - estrutura de controle para - Caso.png)
+
+O comando `for` em C, pode receber até 3 parametros, separados por ponto e vírgula, o primeiro declara variáveis usadas para controle e as inicializa, o segundo é a operação lógica que define se o laço irá continuar ou não executando, conforme o resultado veradeiro ou falso, respectivamente, o terceiro parametro é como a variável de controle será alterada para que o laço continue em execução.
+
+a Inicialização de variável pode ser feita para apenas uma variável ou mais, ou mesmo não existir, inserindo apenas o ponto virgula, neste caso deverá haver a variável externa ao laço para ser usada como referência.
+
+O terceiro parametro onde a variável sobre interferência a cada nova interação, pode intervir somando, subtraindo ou outras formulas, porém cuidado, o ideal é apenas que o `for` seja usado como um incremento para indices de arrays.
 
 ```
-#include "minhalib.h"
+int nome[] = {"um nome qualquer"};
+int nomeInv[len(nome)];
+
+for(int i = 0, int x = strlen (nome); nome[i] |= '\0' && i < strlen (nome); x--, i++){
+   nomeInv[x] = nome[i];
+}
+printf(nomeInv);
 ```
 
-Como sugere o nome do arquivo, quando a diretiva de pré compilação  envolve o nome do arquivo com as aspas '"' significa que o arquivo deve ser procurado no diretório da aplicação e de bibliotecas do usuário e depois na biblioteca de sistema. Já se viver envolvido com o par '<' e '>' a busca deve se dar apenas nas pastas de bibliotecas de sistemas.
+### While
 
-### Padronização
+O laço `while` é o mesmo que `enquanto` no portugol, veja o exemplo abaixo:
 
-Há uma padronização quanto aos nomes das funções, a maioria será encontrada em práticamente todas as distribuições C, ou melhor compiladores C, cada compilador tem uma biblioteca padrão **libc** que deve seguir a norma ANSI para que não haja a quebra de compatibilidade entre elas.
+```
+char s = '';
+int c = 0;
+printf("Cemeça?");
+s = gechar();
+while(s == "s"){
+  printf("Contador: %d",c);
+  c++;
+  printf("Continua?");
+  s = getchar();
+}
+printf("While finalizado, contador: %d",c);
+```
+![Estrutura de controle Enquanto](imgs/simbolos de fluxograma - estrutura de controle Enquanto.png)
 
-Não precisamos dizer que há fornecedores de compiladores em especila a MicroSoft que querem impor seu próprio formato, o que não tem dado certo.
+O laço `while` pode também ser utilizado para que um determinado código seja executado infinitamente, isso é muito util em microcontroladores já que o código não pode nunca deixar de seer executado:
 
-A distribuição mais fiel no mercado é a GCC, muito utilizada por sinal.
+```
+while(true){
+// ação que deve ser executada infinitamente
+}
+```
 
-### Embarcados
 
-O nosso contexto é sistemas embarcdos e microcontroladores, e neste universo algumas coisas mudam, não veremos neste curso detalhes sobre desenvolvendo para sistemas embarcados, o mais próximo que chegaremos é o Arduino.
+### Do While
 
-Abaixo listo algumas bibliotecas que podem ser interessantes para quem pretende trabalhar com microcontroladores e sistemas embarcados, porém é um tema muito avançado para nosso curso.
+A estrutura `do while` permite que um laço seja executado pelo menos uma vez, então é verificado se deve executar novamente, e se verdadeiro continua até que seja a condição falsa, como podem ver o laço `do while` tem comportamento diferente ao laço `faca ate` do portugol, já que não é o inverso o raciocinio relativo ao `while` puro. Vejamos um exemplo abaixo:
 
-* dietlibc, uma pequena implementação alternativa criada do zero com extritamente necessário, criada por Felix von Leitner 
-* uClibc, implementação para sistema embarcado Linux
-* Newlib, implementação para sistema embarcado Linux
-* EGLIBC, variante da glibc para sistemas embarcados
+```
+char s = '';
+int c = 0; 
+do{
+  printf("Contador: %d",c);
+  c++;
+  printf("Continua?");
+  s = getchar();
+}while(s == "s")
+printf("While finalizado, contador: %d",c);
+```
+Veja que usei o mesmo exemplo anterior aplicado no `while` e o raciocinio lógico continua o mesmo.
 
-## Próximo Passo
+![Instrução de Loop, Faça equanto (do while)](imgs/simbolos de fluxograma - estrutura de controle faca enquanto.png)
 
-Vamos agora aprender a ler caracteres do teclado e imprimir informações na tela.
+Como pode se ver no C, a instrução "Do While" permite executar pelo menos uma única vez o bloco de código, e permanece executando o loop enquanto o resultado da expressão lógica for verdadeiro.
 
 ---
 
 Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
+
+---
+
+Referência: http://www.cprogressivo.net/2012/12/Recebendo-letras-do-usuario--As-funcoes-scanf-getchar-getc-e-fgetc.html
