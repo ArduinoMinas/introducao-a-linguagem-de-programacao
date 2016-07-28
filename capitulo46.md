@@ -1,4 +1,4 @@
-Em C temos as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**. Porém apresentam uma sintaxe diferênciada além de ser no idioma inglês, ou seja "Se" passa a ser "If", "se não" passa a ser "else", 
+Em C temos práticamente as mesmas estruturas de controle que aprendemos no **Portugol** do **VisuAlg**. Porém apresentam uma sintaxe diferênciada além de ser no idioma inglês, ou seja "Se" passa a ser "If", "se não" passa a ser "else", 
 
 ## IF ELSE
 
@@ -54,12 +54,17 @@ printf(nomeInv);
 O laço `while` é o mesmo que `enquanto` no portugol, veja o exemplo abaixo:
 
 ```
-char a = 0;
-printf("Escolha uma das opções, a ou c");
-while(a != 'a' && a != 'c'){
-  a = getchar();
+char s = '';
+int c = 0;
+printf("Cemeça?");
+s = gechar();
+while(s == "s"){
+  printf("Contador: %d",c);
+  c++;
+  printf("Continua?");
+  s = getchar();
 }
-printf("Você escolheu uma opção %c",a);
+printf("While finalizado, contador: %d",c);
 ```
 ![Estrutura de controle Enquanto](imgs/simbolos de fluxograma - estrutura de controle Enquanto.png)
 
@@ -68,6 +73,7 @@ O laço `while` pode também ser utilizado para que um determinado código seja 
 ```
 while(true){
 // ação que deve ser executada infinitamente
+}
 ```
 
 
@@ -76,15 +82,21 @@ while(true){
 A estrutura `do while` permite que um laço seja executado pelo menos uma vez, então é verificado se deve executar novamente, e se verdadeiro continua até que seja a condição falsa, como podem ver o laço `do while` tem comportamento diferente ao laço `faca ate` do portugol, já que não é o inverso o raciocinio relativo ao `while` puro. Vejamos um exemplo abaixo:
 
 ```
-char a = 0;
+char s = '';
+int c = 0; 
 do{
-  printf("Escolha uma das opções, a ou c");
-  a = getchar();
-}while(a != 'a' && a != 'c')
-printf("Você escolheu uma opção %c",a);
+  printf("Contador: %d",c);
+  c++;
+  printf("Continua?");
+  s = getchar();
+}while(s == "s")
+printf("While finalizado, contador: %d",c);
 ```
 Veja que usei o mesmo exemplo anterior aplicado no `while` e o raciocinio lógico continua o mesmo.
 
+![Instrução de Loop, Faça equanto (do while)](imgs/simbolos de fluxograma - estrutura de controle faca enquanto.png)
+
+Como pode se ver no C, a instrução "Do While" permite executar pelo menos uma única vez o bloco de código, e permanece executando o loop enquanto o resultado da expressão lógica for verdadeiro.
 
 ---
 
