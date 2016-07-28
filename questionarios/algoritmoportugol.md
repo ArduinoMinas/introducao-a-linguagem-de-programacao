@@ -12,10 +12,10 @@
 
 5. Converter uma temperatura em Fahrenheit para Celsius e mostrar o resultado:
 $$
- F=(C * 1.8) + 32
+ F=( C * 1.8 ) + 32
 $$
 $$
- C = (F -32 ) / 1.8 
+ C = ( F -32 ) / 1.8 
 $$
 $$
  K = C + 273.15
