@@ -30,9 +30,8 @@
             "weibo": false,
             "instapaper": true,
             "vk": false,
-            "linkedin": true,
             "all": [
-                "facebook", "google", "linkedin", "twitter",
+                "facebook", "google", "twitter",
                 "weibo", "instapaper","vk"
             ]
         },
