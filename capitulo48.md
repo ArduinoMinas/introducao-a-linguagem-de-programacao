@@ -9,7 +9,7 @@ Abaixo listo as bibliotecas e o cada uma é especializada, veremos em seguida as
  | stdio.h	| rotinas padrões de entrada e saída definidas pelos criadores da linguagem C. | 		
  | alloc.h	| funções para gerenciamento de memória |		
  | float.h	| funções para tratar números de ponto flutuante |		
- | math.h	| funções matemáticas |		
+ | [math.h](funcoesmatematicasnoc.md)	| funções matemáticas |		
  | stddef.h	| vários tipos de dados e macro substituições |		
  | stdlib.h	| várias rotinas muito usadas, conversão, sort, etc. |		
  | string.h	| rotinas p/ manipular strings e memória |		

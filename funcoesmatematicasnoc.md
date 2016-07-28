@@ -1,9 +1,10 @@
 O C define através do arquivo de cabeçalho ```match.c``` um conjunto de funções para operações matemáticas bastante comuns no dia a dia dos programadores, em especial programadores para sistemas embarcados como os utilizados no Arduino.
 
-Este capítulo é de referência, o ideal é que seja consultado sempre que precisar de uma função especifica da matemática, portanto deixeo sempre aberto quando iniciar seus estudos relativos a algortimos que demandem um maior uso de funções matemáticas.
+Este capítulo como os demais desta série é de referência, o ideal é que seja consultado sempre que precisar de uma função especifica da matemática, portanto, deixe-o sempre aberto quando iniciar seus estudos que demandem um maior uso de funções matemáticas.
 
+Estas funções lidam na sua maioria com números do tipo ponto flutuante, como por exemplo as funções trignometricas que retornam tipicamente números fracionados.
 
-## Functions
+Como verão a cada vez que envolvemos mais com a linguagem C, passamos a usar uma sintaxe mais especifica da linguagem, e não escrevendo mais algoritmos tão declarativos como faziamos no Portugol.
 
 ### Funções Trigonometricas
 * cos
