@@ -69,13 +69,13 @@ int x[] = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
 
 Quando lidamos com o array, fazemos referência ao primeiro indice através da posição 0 (veja no portugol começavamos a contar de 1), e ao seu último indice, a posição 9 (***ou seja o seu tamanho menos 1, isso causa muitos problemas aos iniciantes, é importante ter cuidado, pois o C não irá lheproteger se tentar gravar numa posição acima do limite de seu array, podendo corromper todo seu código e causar uma pane drastica na máquina***).
 
-Isso se faz muito valido, quando somamos o conhecimento de ponteiros com array, porque arrays são ponteiros, ou seja, ao declarar um tipo como array, estamos fazendo a mesma declaração a seguir:
+Isso se faz muito válido, quando somamos o conhecimento de ponteiros com array, porque arrays são ponteiros, ou seja, ao declarar um tipo como array, estamos fazendo a mesma declaração a seguir:
 
 ```
 int *xPonteiro = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
 ```
 
-Quando fazemos referência a uma posição de array, como dissemos a posição começa em `0`, portanto seria como se estivessemos somando o indice ao ponteiro.
+Quando fazemos referência a uma posição de array, como dissemos a posição começa em `0`, portanto seria como se estivessemos somando o índice ao ponteiro.
 
 ## Tipos para Caracter e Strings
 
