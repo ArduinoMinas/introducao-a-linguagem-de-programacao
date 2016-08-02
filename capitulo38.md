@@ -50,7 +50,7 @@ $$
 (2 + 2) / 2 = 2
 $$
 
-Porém já a formulá:
+Porém já a formula:
 
 $$
 2 + 2 / 2 = 3 
@@ -61,6 +61,7 @@ $$
 | e | 3 |
 | ou | 2 |
 | nao | 1 |
+
 
 Resultado falso:
 
@@ -77,7 +78,7 @@ $$
 Apesar do VisuAlg não aceitar relacionamento entre tipos de operadores, como matemáticos com Lógicos e Relacionamento, é possível usa-los em uma operação observando o uso correto.
 
 | Operador | Prioridade |
-| --- | -- |
+| --- | --- |
 | Aritméticos | 3 |
 | Relacionais | 2 |
 | Lógicos | 1 |
@@ -104,7 +105,10 @@ As funções matemáticas são muitas delas ligadas a trignometria, como seno, c
 
 ##### Div( )
 
-##### Mod 
+#####  Mod 
+
+##### Quad( )
+
 
 usado para achar o módulo de um número em comparações (o mesmo que ' % ' )
 
@@ -128,7 +132,6 @@ usado para achar o módulo de um número em comparações (o mesmo que ' % ' )
 
 Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatório gerado é entre 0 e 1, sendo a precisão de de 15 casas após a virgula, como no exemplo abaixo:
 
-
 ```
 0.454236520919949
 ```
@@ -136,11 +139,6 @@ Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatóri
 ##### Randi(x)
 
 Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado como parâmetro.
-
-
-
-##### Quad( )
-
 
 ### Exponenciação e Logarimos
 
