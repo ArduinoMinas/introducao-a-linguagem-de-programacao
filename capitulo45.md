@@ -39,11 +39,11 @@ Para valores lógicos como verdadeiro e falso, temos o tipo `bool` que pode ser 
 ## Ponteiros
 Como já sabemos cada variável ocupa um espaço de momória, este espaço tem o tamanho do tipo de dado utilizado, como vimos no portugol, um tipo inteiro pode ocupar 2 bytes, no C isso pode ser diferente, um tipo como `caracter` é variável no portugol porque guarda sequências que representam texto ou sejam strings de caracteres.
 
-No C, não temos o conceito de string, mas como veremos a frente temos o tipo `char` que pode ser um array e assim representar uma string.
+No C, não temos o conceito de string, mas como veremos a frente temos o tipo `char` pode ser um array e assim representar uma string.
 
-Para manipular as variávels de forma mais eficiente, em especial arreis é preciso enteder pelo menos superficlamente o conceito de ponteiro.
+Para manipular as variávels de forma mais eficiente, em especial arrays é preciso enteder pelo menos superficialmente o conceito de ponteiro.
 
-Ponteiro é um tipo de variável que armazena o endereço de mémoria onde está armazenado a variável então referenciada, o tamanho desta variável é compátivel com o espaço de endereçamento de memória. Ou seja se temos um computador que é 16bits teremos um ponteiro de 2 bytes, se for 32bits no ambiente windows comum teremos 4 bytes, e se for 64 bits como nos computadores modernos e windows 64Bits teremos um ponteiro de 8 bytes.
+Ponteiro é uma referência ao endereço de memória onde está armazenado a variável então referenciada, uma variável do tipo ponteiro pode ser declarada usando o asterisco antes do nome da variável que irá armazenar o endereço, e o tamanho desta variável é compátivel com o espaço de endereçamento de memória. Ou seja se temos um computador que é 16bits teremos um ponteiro de 2 bytes, se for 32bits no ambiente windows comum teremos 4 bytes, e se for 64 bits como nos computadores modernos e windows 64Bits teremos um ponteiro de 8 bytes.
 
 A variável que irá armazenar um ponteiro, deverá ser do mesmo tipo que a variável que será referência do ponteiro, portanto um ponteiro para uma variável do tipo `double` deve ser do mesmo tipo. Abaixo segue uma declaração para um ponteiro do tipo `int`.
 
@@ -53,18 +53,21 @@ int *ponteiro;
 
 Como vê o simbolo `*` (asterisco) quando antecede uma variável, está informando que ela é um ponteiro para uma posição de memória.
 
-Para se obter a referência para uma variável, devemos usar o simbolo `&` (apersante) que retorna quando usado com a variável que se deseja obtero endereõ, sua posição na memória.
+Para se obter a referência para uma variável, devemos usar o simbolo `&` (ampersand) que retorna a posição na memória onde esta variável está sendo armazenada.
 
 Veremos um caso especial que é quando tratamos de arrays, logo a seguir.
 
 ## Lidando com Arrays
-Quando precisamos lidar com uma certa coleção de dados, do mesmo tipo, podemos usar um array para armazena-los em memória, assim se tivermos 10 dados do tipo inteiro, referentes ao mesmo assunto, por exemplo 10 coordenadas no eixo `x` podemos então usar a seguinte estrutura:
+
+No Portugol, vimos o conceito de Vetor, no C é chamado de Array, é uma forma muito especial, e deve ser usado quando precisamos lidar com uma certa coleção de dados, porém sempre do mesmo tipo exatamente como no portugol, podemos usar um array para armazena-los em memória.
+
+Assim se tivermos 10 dados do tipo inteiro, referentes ao mesmo assunto, por exemplo 10 coordenadas no eixo `x` podemos então usar a seguinte estrutura:
 
 ```
 int x[] = {20, 50, 44, 33, 21, 47, 88, 90, 20, 37};
 ```
 
-Quando lidamos com o array, fazemos referência ao primeiro indice através da posição 0, e ao seu último indice, a posição 9.
+Quando lidamos com o array, fazemos referência ao primeiro indice através da posição 0 (veja no portugol começavamos a contar de 1), e ao seu último indice, a posição 9 (***ou seja o seu tamanho menos 1, isso causa muitos problemas aos iniciantes, é importante ter cuidado, pois o C não irá lheproteger se tentar gravar numa posição acima do limite de seu array, podendo corromper todo seu código e causar uma pane drastica na máquina***).
 
 Isso se faz muito valido, quando somamos o conhecimento de ponteiros com array, porque arrays são ponteiros, ou seja, ao declarar um tipo como array, estamos fazendo a mesma declaração a seguir:
 
