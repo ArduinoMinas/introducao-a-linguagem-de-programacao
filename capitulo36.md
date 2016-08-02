@@ -197,6 +197,30 @@ inicio
 fimalgoritmo
 ```
 ![Estrutura de Laço/Loop - Para](imgs/simbolos de fluxograma - estrutura de controle para - Caso.png)
+
+Você por exemplo usar o laço ```para``` para informar que o computador está pensando, infelizmente até a versão 3.0 não descobri uma forma de causar um tempo no processamento, portanto para isso faremos dois laços um dentro do outro, assim poderemos induzir o usuário que algo está acontecendo e que leva tempo, lembre-se isso é apenas uma sugestão didática.
+ 
+```
+algoritmo: "demonstracao para ver2"
+
+const 
+   TEMPO = 100000000
+Var
+ contador: inteiro
+ contador2: inteiro
+
+inicio
+ escreval("Começando: ")
+ para contador de 1 ate 10 passo 1 faca
+   escreva(".");
+   para contador2 de 1 ate TEMPO faca
+     escreva("")
+   fimpara
+ fimpara
+fimalgoritmo
+```
+
+
 #### Interrompa
 
 Para as três instruções de controle de laço, enquanto, repita e para é possível inserir condições internas se ou caso e assim interromper o laço, chamando o comando Interrompa.
