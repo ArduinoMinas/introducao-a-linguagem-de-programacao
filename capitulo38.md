@@ -94,6 +94,67 @@ $$
 (2 * 5 \gt 3) \; ou \; (5 + 1 \lt 2) \; e \; (2 \lt 7 -2) 
 $$
 
+## Funções matemáticas
+
+As funções matemáticas são muitas delas ligadas a trignometria, como seno, coseno, e tangente, mas há diversas outras que auxiliam nos cálculos matemáticos como funções que retornam valor avsoluto de um número, o resto da divisão ou a raiz ou logaritmo. Veja a lista abaixo e funções matemáticas disponíveis.
+
+
+
+#####Abs( )
+
+##### Div( )
+
+##### Mod 
+
+usado para achar o módulo de um número em comparações (o mesmo que ' % ' )
+
+### Funções trigonométricas
+
+#####Tan( )
+
+#####Sen( )
+
+#####Cos( )
+
+##### Cotan( )
+
+##### ArcCos( )
+
+##### ArcSen( )
+
+### Números randomicos 
+
+##### Rand()
+
+Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatório gerado é entre 0 e 1, sendo a precisão de de 15 casas após a virgula, como no exemplo abaixo:
+
+
+```
+0.454236520919949
+```
+
+##### Randi(x)
+
+Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado como parâmetro.
+
+
+
+##### Quad( )
+
+
+### Exponenciação e Logarimos
+
+##### Log( )
+
+##### Exp( )
+
+##### Pot( )
+
+##### Raizq( )
+
+
+
+
 ## Próximo Passo
 
 Aqui concluimos nosso estudo sobre Algortimo, deste ponto cabe a nós práticarmos, existe ainda um subcapítulo a seguir meramente como referência geral as palavras chaves, comandos e funções proprietárias do Portugol para VisuAlg. 
@@ -101,4 +162,4 @@ Aqui concluimos nosso estudo sobre Algortimo, deste ponto cabe a nós práticarm
 Continuaremos agora na segunda parte onde iremos aprender a Linguagem C, com alguns ganchos para a Linguagem C++, uma extenção que permite programar orientado a objetos com a a Linguagem C e ainda outros recursos avançados, porém não iremos estudar nada que não seja necessário para uso com o Arduino e seu dialeto Wiring (também conhecido como Linguagem do Arduino)
 
 ---
-Revisado: 07/07/2016 - 13:00 | Atualizado: 07/07/2016 - 13:00 | Compilado: {{ gitbook.time }}
+Revisado: {{ file.mtime }}  | Compilado: {{ gitbook.time }}
