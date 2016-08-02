@@ -11,46 +11,7 @@ Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
 ### Funções matemáticas
 
-#####Abs( ) 
-
-#####Log( )
-
-#####Div( )
-
-#####Tan( )
-
-#####Sen( )
-
-#####Cos( )
-
-#####Rand()
-
-Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatório gerado é entre 0 e 1,  sendo a precisão de de 15 casas após a virgula, como no exemplo abaixo:
-
-```
-0.454236520919949
-```
-
-#####Randi(x)
-
-Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado como parâmetro.
-
-#####Quad( )
-
-#####Exp( )
-
-#####Pot( )
-
-#####Cotan( )
-
-#####ArcCos( )
-
-#####ArcSen( )
-
-#####Raizq( )
-
-#####Mod 
-usado para achar o módulo de um número em comparações (o mesmo que ' % ' )  
+ veja no capítulo [Operações e Funções Matemáticas](capitulo38.md)
 
 ### Funções relativas ao teclado
 
