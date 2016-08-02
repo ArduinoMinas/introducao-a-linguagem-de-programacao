@@ -204,7 +204,7 @@ Você por exemplo usar o laço ```para``` para informar que o computador está p
 algoritmo: "demonstracao para ver2"
 
 const 
-   TEMPO = 100000000
+   TEMPO = 100
 Var
  contador: inteiro
  contador2: inteiro
