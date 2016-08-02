@@ -1,0 +1,12 @@
+{
+    "redirects": [
+            {
+                "from": "oldpage.html",
+                "to": "newpage.html"
+            },
+            {
+                "from": "olddir/oldpage.html",
+                "to": "newdir/newpage.html"
+            },
+        ]
+}
