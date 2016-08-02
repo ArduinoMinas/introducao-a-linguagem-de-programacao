@@ -201,7 +201,7 @@ fimalgoritmo
 Você por exemplo usar o laço ```para``` para informar que o computador está pensando, infelizmente até a versão 3.0 não descobri uma forma de causar um tempo no processamento, portanto para isso faremos dois laços um dentro do outro, assim poderemos induzir o usuário que algo está acontecendo e que leva tempo, lembre-se isso é apenas uma sugestão didática.
  
 ```
-algoritmo: "demonstracao para ver2"
+algoritmo: "para ver2"
 
 const 
    TEMPO = 100
@@ -217,6 +217,36 @@ inicio
      escreva("")
    fimpara
  fimpara
+fimalgoritmo
+```
+
+No caso de manipulação de vetores, vamos ver como calcular a média de uma determinada leitura de temperatura, por exemplo suponha que você tem um sistema e precisa ler 10 coletas de leituras:
+
+```
+
+algoritmo "para ver3"
+
+const
+ leituras = 10
+
+Var
+ temps: vetor[1..leituras] de Inteiro
+ soma: inteiro
+ c: inteiro
+
+inicio
+ escreval("Começando, informe de ", leituras, " de temperatura: ")
+ para c de 1 ate leituras passo 1 faca
+    leia(temps[c])
+    soma = soma + temps[c]
+ fimpara
+
+ escreval("Foram obtidas as seguintes leituras: ")
+ para c de 1 ate leituras passo 1 faca
+   escreva(temps[c])
+ fimpara
+ escreval("")
+ escreval("Média da temperatura", soma/leituras)
 fimalgoritmo
 ```
 
