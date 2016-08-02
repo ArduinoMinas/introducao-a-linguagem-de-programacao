@@ -34,7 +34,7 @@ São auto descritiveis e podem ser usadas para auxiliar na composição de expre
 ### Operadores Lógicos
 
 | Operador | descrição      |  Teste  | Resultado   |
-|    --    |     --         |    --   |     --      |
+|    ---   |     ---        |   ---   |    ---      |
 | Nao | Operador unário de negação, tem maior precedencia sobre os demais operadores, faz a inversão da lógica, ou seja, verdaeiro se torna falso e falso verdadeiro | nao 2 = 2 | falso |
 |  ou | Operador similar a soma binária, quando um dos valores for verdadeiro ou ambos forem, retorna verdadeiro          | verdadeiro ou verdadeiro  | verdadeiro |
 |     |                     | falso ou verdadeiro       | verdadeiro |
