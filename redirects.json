@@ -7,6 +7,6 @@
             {
                 "from": "olddir/oldpage.html",
                 "to": "newdir/newpage.html"
-            },
+            }
         ]
 }
