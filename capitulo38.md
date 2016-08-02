@@ -20,7 +20,7 @@ $$
 Abaixo apresentamos uma tabela de substituição:
 
 | Descrição | Comum | computacional |
-| -- | -- | -- |
+| --- | --- | --- |
 | Multiplicação | . ou X | * |
 | Divisão | / ou \div ÷ | / |
 | Soma | + | + |
@@ -37,6 +37,7 @@ Como na matemática comum precisamos construir nossas formulas sejam matemática
 Abaixo uma tabela de prioridades para os operadores:
 
 | Operador Aritmético | Prioridade |
+| --- | --- | 
 | Exponênciação	| 3 (maior) |
 | Multiplicação | 2 |
 | Divisão | 2 |
@@ -56,6 +57,7 @@ $$
 $$
 
 | Operador Lógico | Prioridade |
+| --- | --- |
 | e | 3 |
 | ou | 2 |
 | nao | 1 |
@@ -66,7 +68,7 @@ $$
 (2 \gt 3) \; ou \; (3 \lt 2) \; e \; (2 \lt 3) = Falso 
 $$
 
-Resultado verdaeiro:
+Resultado verdadeiro:
 
 $$
 (2 \gt 3) \; e \; (3 \lt 2) \; ou \; (2 \lt 3) = Verdadeiro 
@@ -75,6 +77,7 @@ $$
 Apesar do VisuAlg não aceitar relacionamento entre tipos de operadores, como matemáticos com Lógicos e Relacionamento, é possível usa-los em uma operação observando o uso correto.
 
 | Operador | Prioridade |
+| --- | -- |
 | Aritméticos | 3 |
 | Relacionais | 2 |
 | Lógicos | 1 |
