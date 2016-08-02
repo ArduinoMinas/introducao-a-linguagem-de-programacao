@@ -94,7 +94,23 @@ Defina as constantes antes das variáveis.
 
 A Atribuição de valores as variáveis, e a inicialização das constantes, devem ser feitas com o símbolo `<-`, simbolo de *menor que* seguido de um *ífem*, sem espaços entre os dois.
 
-A atribuição de novos valores deve ser feita sempre que oportuna para as variáveis, e no caos das constantes deve ser feito no inicio do algortimo somente.
+A atribuição de novos valores deve ser feita sempre que oportuna para as variáveis, e no caos das constantes deve ser feito no inicio do algortimo somente. e não se esqueça quando se inicializa as constante se deve usar o simbolo `=` e não o simbolo de atribuição como em variáveis.ç
+
+##  Lidado com vetores
+
+No portugol é possível lider com vetores de dados, ou seja uma lista de mesmo tipo de dados, como por exemplo uma coleção de amostras de tempo.
+
+para declarar um vetor de Inteiros por exemplo podemos usar o seguinte comando na seção de declaração de variáveis:
+
+```
+const
+  MAX_ITEM_TEMP  = 10
+var
+  temperatura: vetor[1..MAX_ITEM_TEMP] de Inteiro
+```
+
+No exemplo acima, para ajudar na manipulação do vetor, eu criei uma constante chamada ```MAX_ITEM_TEMP```,  esta constante contem o tamanho do vetor, e veremos mais a frente porque isso é útil, em segunda na seção ```var``` declarei o vetor chamado ```temperatura``` que terá o tamanho de 1 a 10 (conteudo da constante) e será do tipo ```inteiro```
+
 
 ## Próximos Passos (Próximo Subcapítulo)
 O próximo passo é entender como os dados são apresentados ao usuário utilizando o **"Portugol"** no VisuAlg e em seguida como obter dados do usuário (ler dados externos).
