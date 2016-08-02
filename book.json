@@ -20,9 +20,14 @@
         "customtheme",
         "theme-api",
         "theme-default",
-        "highlight"
+        "highlight",
+        "bulk-redirect"
     ],
     "pluginsConfig": { 
+        "bulk-redirect": {
+           "basepath": "/",
+           "redirectsFile": "redirects.json"
+        },
         "sharing": {
             "facebook": true,
             "twitter": true,
