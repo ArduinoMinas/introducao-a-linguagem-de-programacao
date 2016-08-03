@@ -46,4 +46,5 @@ Para acessar esta apostila atualizada, clique nas opções abaixo:
 Boa sorte, você é um privilegiado se leu esta instrodução, sinal que está profundamente interessado e terá sucesso com esta apostila.
 
 ---
+
 Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
