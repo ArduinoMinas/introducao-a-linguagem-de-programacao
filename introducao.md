@@ -6,10 +6,10 @@
 
 **Sugestões e Correções:** Para enviar sugestões e correções, envie por e-mail consultoria@carlosdelfino.eti.br descreva no assunto o que se trata, e lembre-se de sitar o link e capítulo, procure dar detalhes. Sua sugestão será bem vinda.
 
-Apostila Versão: {{ book.Version }}
+Apostila Versão: {{ this.Version }}
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; " src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+[This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 [Veja Mais informações sobre a licença clicando aqui](licenca.md)
 
