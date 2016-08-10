@@ -10,6 +10,15 @@ Ou seja, mesmo que o computador seja instruido a esperar um comando, sequência 
 
 Veja com isso percebemos que a melhor forma de programar um Algoritimo não importa a linguagem é través de blocos de sequência de comandos, assim fica inclusive fácil para diagnosticar problemas. Cada linguagem adota uma nomenclatura para estes blocos de código, usaremos aqui a nomeclatura do C/C++, cada bloco de código pode ser identificado e acionado como função, recebendo ou não uma lista de dados que é chamado parâmetros.
 
+## Um pouco de história
+
+Até 1945 os computadores eram mecânicos, como por exemplo abaco criado em 500 antes de Cristo na China, ou máquinas calculadores capazes de  fazer operações de subritação e soma como a criada por Blaise Pascal, e em 1944 a primeira maquina eletromecanica cirada pela IBM e seu engenheiro Horward Alken.
+
+De 1945 a 1954 eram valvulados e construido com propositos específicos, portanto não eram facilmente programaveis, já que para mudar alguma funcionalidade em seu algortimo de funcionamento era preciso mudar o hardware, e quando mais avançados permitiam o uso de uma linguagem Assembly rudimentar. Já de 1955 a 1964 os computadores passaram a usar diodos e memorias magnéticas baseadas em ferrite o que lhe deram uma maior capacidade de armazenamento e tamanho bem mais reduzido do que os valvulados que ocupavam grandes salas, mas mesmo assim sua programação ainda bem limitada mesmo havendo compiladores a maioria era programação com base lotes de instruções (Batch Processing). Mas já na terceira geração de 1965 a 1974 passou-se a usar circuitos integrados de alta densidade e já haviam linguagems de programação de alto nível, próximas do que iremos estudar aqui. 
+
+Desde então os computadores tem evoluido, e as linguagens de alto nível juntamente com eles, porém as linguagens de baixo nível continuam bem similares as versões da terceira geração. Vejamos a seguir então o que é uma linguagem de programação.
+
+
 ## E o que é Linguagem de Programação?
 
 Bem antes de continuarmos temos que entender bem ó que é  uma linguagem de programação.
