@@ -6,7 +6,9 @@
 
 **Sugestões e Correções:** Para enviar sugestões e correções, envie por e-mail consultoria@carlosdelfino.eti.br descreva no assunto o que se trata, e lembre-se de sitar o link e capítulo, procure dar detalhes. Sua sugestão será bem vinda.
 
+Apostila Versão: {{ this.Version }} 
 
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)[This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
 [Veja Mais informações sobre a licença clicando aqui](licenca.md)
 
