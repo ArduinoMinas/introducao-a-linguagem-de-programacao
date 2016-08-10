@@ -10,7 +10,8 @@ Abaixo listarei o que falta escrever, e sugestões coletadas de colegas para mel
  * Rever o Capítulo sobre Fluxograma dando mais detalhes sobre sua criação e significado dos simbolos, antes da versão 1.0
  * Rever Intruções de controle e operações para incluir exemplos de fluxogramas, antes da versão 1.0
  * Rever capítulo sobre funções matemáticas no Portugol
- * Rever capítulo sobre estruturas de controles dando mais exemplos 
+ * Rever capítulo sobre estruturas de controles dando mais exemplos
+ * Ampliar sobre a história do computador, de formar a dar uma visão sobre o avanço da computação e o surgimento das linguagens de programação.
  
 ---
 Atualizado: 09/07/2016 - 16:20 | Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
