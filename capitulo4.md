@@ -8,7 +8,7 @@ Então como podem ver o aprendizado da linguagem C é fundamental para quem pret
 
 ## Próximo Passo
 
-Vamos então começar nossos estudos da Linguagem C, e deixaremos a sua extenção a Linguagem C++ para um curso mais avançado de programação, já que o C++ exige o domínio da linguagem C e conhecimentos de orientação a objetos, linguagens de diagramação e analise como UML.
+Vamos então começar nossos estudos da Linguagem C, e deixaremos a sua extenção a Linguagem C++ para um curso mais avançado de programação, já que o C++ exige o domínio da linguagem C e conhecimentos de orientação a objetos, métodos de diagramação e analise como UML.
 
 A seguir vejamos um pouco da História do C e do C++
 
