@@ -174,7 +174,7 @@ Em valem as mesmas regras que em portugol:
 
 ## Próximo passo.
 
-No próximo passo iremos entender a diferença entre Portugol e Linguagem C no que refere sua relação com o processador, o que são linguagens Compiladas e Interpretadas e como o C é processado para se tornar inteligível pelo micro controlador e assim ser executado adequadamente, o que lhe dá tanto desempenho e por que é tão valorizada pelos profissionais.
+Veremos agora no proximo passo quais são os tipos de dados do C, como devem ser usados e seus limites. É fundamental neste capítulo compreender como os dados são armazenados na memória de seu computador e do processador, caso preciso reveja o capítulo de tipos de dados do Portugol onde isso é esclarecido.
 
 ---
 
