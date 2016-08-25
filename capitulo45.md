@@ -9,12 +9,12 @@ Portanto quando armazenamos dados na mémoria o computador estará manipulando t
 Para entendermos bem como o C manipula os dados na memória e como podemos acelerar este acesso pelo nosso programa, em especial quando lidamos com sequências tipo string, ou até mesmo estruturas de dados é preciso entender a aritmética de ponteiros, porém esta apostila não iremos aprofundar neste assunto por se tratar de um tema avançado.
 
 
-## Tipos Númericos
+## Tipos Numéricos
 
-A definição para tipos númericos é bem vasta na linguagem em C, veremos alguns tipos muito importantes mas não veremos em detalhes seus limites, já que variam de plataforma para plataforma.
+A definição para tipos numéricos é bem vasta na linguagem em C, veremos alguns tipos muito importantes mas não veremos em detalhes seus limites, já que variam de plataforma para plataforma.
 
 > **Note** 
-> Cada tipo de dado númerico tem seus limites tanto para números possitivos como para valores negativos, no arquivo ``stdint.h`` é possível ter acesso a constantes que nos ajudam a lidar com estes limites, no link http://www.nongnu.org/avr-libc/user-manual/group__avr__stdint.html é possível tomar conhecimento dos limites conforme a plataforma AVR. A mesma usada no Arduino UNO.
+> Cada tipo de dado numérico tem seus limites tanto para números possitivos como para valores negativos, no arquivo ``stdint.h`` é possível ter acesso a constantes que nos ajudam a lidar com estes limites, no link http://www.nongnu.org/avr-libc/user-manual/group__avr__stdint.html é possível tomar conhecimento dos limites conforme a plataforma AVR. A mesma usada no Arduino UNO.
 
 ### Inteiros
 
@@ -30,6 +30,10 @@ Tais típos são padronizados pelo IEEE conforme a norma [IEEE 754](http://steve
 
 Veja abaixo os limites para números de ponto flutuante:
 ![Limites para números de ponto flutuante.](imgs/Limites_Ponto_Flutuante.png)
+
+
+É preciso muito cuiado ao lidar com tipos com ponto flutuante, em especial em comprações, o que veremos mais afrente em operadores relacionais, quando se trata de `float`, nem sempre um 4 é realmente um 4, ele pode ser um `4.000000000000000001` isso se dá devido ao problema que se tem na forma que o número do tipo `float` é armazenado internamente, e como pode ver um `4` `float` pode não ser realmente o `4`, e se comparar sem em as operações matemáticas ou leituras com constantes, apesar de visivelmente identicos, internamente podem não ser, então muito cuidado ao lidar com tipos de dados floats e com `down casting` para outros tipos.
+
 
 
 ### Valores Lógicos
@@ -125,6 +129,12 @@ Veremos em momento oportuno como manipular este tipo de vetor que armazena strin
 
 Devido ao fato do C manipular a mémoria diretamente, é possível definir infinitos tipos de dados, além dos nativos da linguágem e também aqueles que são criados através de bibliotecas de manipulação, porém vermos apenas os tipos acima que são suficientes para nossos objetivos aqui.
 
+
+## conversão de tipos
+
+Antes de continuarmos é importante compreendermos o que acontece quando envolvemos tipos de dados diferentes em operações matemáticas, temos dois típos de conversão, a conversão do tipo **Down Casting** onde um tipo mais complexo ou de maior precisão é convertido para um tipo de menor tamanho ou precisão. Já a conversão do tipo **Up Casting** faz exatamente o inverso, tipos menos complexos são convertidos em tipos maiores ou mais complexos.
+
+Outro problemas que podemos ter ao fazermos um `down casting` é a perda de dados, por exemplo ao converter um Long para Short, perdemos 2 bytes de precisão, então um valor em hexa como este `0xFEFAFBFC` o que equivale a `4277861372` em decimal, visivelmente um `long` se for feito um downcast para `inteiro` teremos a perda de dois bytes mais significativo, portanto teremos o valor em hexa `0xFBFC` o que equivale em decimal a `64508`.Como ser visto facilmente com números em hexa, é perdido os dois bytes mais altos, de maior valor (MSB - Most significant Bytes) e isso é uma falha comum quando se lida com sistemas escritos em C, e futuramente quando formos lidar com o Arduino e transmissão de dados, precisamos cuidar atentamente disso.
 ---
 
 Revisado: {{ file.mtime }} | Compilado: {{ gitbook.time }}
