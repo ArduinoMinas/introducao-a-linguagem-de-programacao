@@ -21,13 +21,13 @@
         "theme-api",
         "theme-default",
         "highlight",
-        "bulk-redirect"
+        "bulk-redirect"  ,      "exercises",        "zingchart",        "quiz",        "quizzes",        "codepen",        "jsfiddle",        "gist",        "ace",        "chart",        "codesnippet",        "include-codeblock",        "ga",        "wabtheme"
     ],
     "pluginsConfig": { 
         "bulk-redirect": {
            "basepath": "/",
            "redirectsFile": "redirects.json"
-        },
+        },        "ga": {            "token": "UA-21710445-1",            "configuration": "auto"        },
         "sharing": {
             "facebook": true,
             "twitter": true,
