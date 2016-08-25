@@ -64,7 +64,7 @@ Abaixo vemos a linha com o breakpoint ativo:
 
 ## Próximos Passos
 
- No próximo passo iremos entender a diferença entre Portugol e Linguagem C no que refere sua relação com o processador, o que são linguagens Compiladas e Interpretadas e como o C é processado para se tornar inteligível pelo micro controlador e assim ser executado adequadamente, o que lhe dá tanto desempenho e por que é tão valorizada pelos profissionais. 
+Veremos agora a estrutura básica de um programa em C, apenas o que é importante para entendermos como ter sucesso no Hello World, o que já são dois novos conceitos além do que já aprendemos agora, porém na ótica da linguagem C.
 
 
 ---

@@ -22,10 +22,8 @@ E por fim o arquivo objeto é entregue ao Linkeditor que converte as referência
 
 ## Próximo Passo
 
-Veremos agora a estrutura básica de um programa em C, apenas o que é importante para entendermos como ter sucesso no Hello World, o que já são dois novos conceitos além do que já aprendemos agora, porém na ótica da linguagem C.
 
-
-
+Veremos agora no proximo passo quais são os tipos de dados do C, como devem ser usados e seus limites. É fundamental neste capítulo compreender como os dados são armazenados na memória de seu computador e do processador, caso preciso reveja o capítulo de tipos de dados do Portugol onde isso é esclarecido.
 
 
 

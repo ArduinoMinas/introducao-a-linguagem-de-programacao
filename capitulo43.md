@@ -1,10 +1,18 @@
 Iremos neste capítulo entender como se deve escrever um código em C, e o que é cada parte. Iremos aprender dois novos conceitos muito importantes, "Bibliotecas" e "Funções", com estes dois conceitos tornamos nosso algoritmos mais simples e mais estruturados.
 
----
+## Típos de Arquivos
+
+Iremos conhecer primeiro Quatro tipos de arquivos que vamos lidar constantemente nesta fase de aprendizado do C. 
+
+Um deles já é conhecido de vocês, é o Executável, são aqueles arquivos que tem extenções `.exe`, vocês já o usam normalmente quando estão no computador, e provavelmente muitos deles são programas escritos em C ou C++. Este arquivo é gerado exatamente para a plataforma que estamos trabalhando, e no caso é o Windows.
+
+Os outros 3 arquivos estão relacionados ao código  (arquivos que contém nosso algoritmo em C), um é mantido pelo próprio Pelles C e tem como estenção `.ppj` é o arquivo de parametrização e definição do projeto da palicação que vamos escrever, este arquivo tem o mesmo nome da aplicação e do arquivo `.exe`que será gerado. O outro aquivo é um arquivo chamado cabeçalho ou *header* em inglês é normalmente usado para identificar funções e parametros de nossa aplicação, são o ponto de entrada de bibliotecas e conjuntos de funções que podemos usar em nosso aplicativo, ou que venhamos a criar, este arquivo tem a estenção `.h` e veremos muitos deles agora pela frente. O último arquivo é o nosso código principal, as vezes é chamado de `main.c` o nome da aplicação seguido da extenção `.c`, como podem perceber a extenção `.c` sempre é usada quando o código fonte é escrito em C. Veremos mais detalhes sobre estes arquivo no próximo capítulo.
+
+## A estrutura do Arquivo principal.
 
 Vejamos então o nosso primeiro código em C já vimos este algoritmo no capítulo anterior, o "Hello World", abaixo temos o fonte que copiamos do **Pelles C**.
 
-```
+``` C
 /****************************************************************************
  *                                                                          *
  * Filename: hello.c                                                        *
@@ -174,7 +182,10 @@ Em valem as mesmas regras que em portugol:
 
 ## Próximo passo.
 
-Veremos agora no proximo passo quais são os tipos de dados do C, como devem ser usados e seus limites. É fundamental neste capítulo compreender como os dados são armazenados na memória de seu computador e do processador, caso preciso reveja o capítulo de tipos de dados do Portugol onde isso é esclarecido.
+
+
+ No próximo passo iremos entender a diferença entre Portugol e Linguagem C no que refere sua relação com o processador, o que são linguagens Compiladas e Interpretadas e como o C é processado para se tornar inteligível pelo micro controlador e assim ser executado adequadamente, o que lhe dá tanto desempenho e por que é tão valorizada pelos profissionais.
+
 
 ---
 
