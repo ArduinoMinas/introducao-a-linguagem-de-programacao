@@ -56,6 +56,74 @@ $$
 2 + 2 / 2 = 3 
 $$
 
+Uma amiga me enviou estes dias uma questão que tem circulado na internet, vamos usa-la para comprender a precedência de um jeito diferente, veja a imagem abaixo:
+
+![Dizem que caiu no concurso da PF](/assets/dizem-que-caiu-no-concurso-da-pf.jpg)
+
+O exercício parece complicado, mas não é, ele é pura matemática vamos resolve-lo e assim praticar um pouco o raciocino lógico e matemático:
+
+Temos primeiro 3 Rosas (`R`) que são igual a 60, então:
+
+$$
+R + R + R = 60 \\
+3\,\start\,R\,=\,60 \\
+R\,=\,60\,/\,3 \\
+R\,=\,20
+$$
+
+Pronto já sabemos que `R = 20`;
+
+Em seguida temos uma Rosa (R), somada a dois Girassóes (`G`) que é igual a 30:
+
+$$
+R \, + G \, + G \, = \, 30\\
+20 \, + \, 2G \, = \, 30\\
+2G \, = \, 30 \, - \, 20\\
+2G \, = \, 10\\
+G \, = \, 5
+$$
+
+Então o Girassol (`G`) vale 5.
+
+Estemos chegando lá, você vai entender facilmente a precedência daqui a pouco, aprender a prograrm é isso, desmembrar um problema passo a passo e ficar atendo a detalhes.
+
+Agora temos 3 Trevos (`T`) e um Girassol (`G`) que é igual a 41.
+
+$$
+T \, + T \, + T \, + G \, = \, 41\\
+3T \, + \, 5 \, = \, 41\\
+3T \, = \,  36\\
+T \, = \, 12
+$$
+
+Agora já temos práticamente tudo que precisamos para dar a resposta certa, mas mesmo assim muitos erram e por dois motivos, o primeiro é por total falta de atenção a detalhes, o segundo é simplesmente porque a precedência dos operadores deve ser observada neste desafio, como não nenhum parenteses que muda esta precedência o resultado é totalmente influênciado pela ordem correta usada:
+
+Vejamos então a ultima fórmula, já reduziada e reflita se está certa antes de continuar:
+
+$$ 
+5 \, + 20 \, + 9 \, = \, ?
+$$
+
+horas, mas o trevo não seria 12 (doze)? porque está o 9 (nove) ali? volte na imagem a cima e certifique do que vê nas duas últimas fórmulas. 
+
+![Recorte da imagem do desafio](/assets/dizem-que-caiu-no-concurso-da-pf-recorte.jpg)
+
+Decobriram? Ok, vou contar então, o trevo na ultima fórmula está com uma folha a menos, portanto das 4 folhas restam apenas 3, ou seja $$\frac{3}{4}$$ do valor do Trevo $$T \star \frac{3}{4}$$.
+
+Sendo assim agora fica apenas a precedência como o último cuidado a se tomado, como a multiplicação tem maior precedência sobre os demais operadores, ela deve ser feito primeiro ficando por tanto:
+
+$$
+5 \, + 20 \, + 9 \, = \, X\\
+5 \, + \, 180 \, = \, X\\
+X \, = \, 185
+$$
+
+Sendo assim a respota é a letra "C".
+
+Então fica este desafio para verem como á matemática é importante e o raciocinio lógico também nos ajuda a perceber detalhes queantes passariam desapercebidos.
+
+Vamos continuar agora vendo a precedência dos operadores Lógicos.
+
 | Operador Lógico | Prioridade |
 | --- | --- |
 | e | 3 |
