@@ -28,7 +28,7 @@ Abaixo apresentamos uma tabela de substituição:
 | Abre chaves ou colchetes | { ou [ | ( |
 | Fecha chaves ou colchetes | } ou ] | ) | 
 | Raiz Quadrada	| {% math %}\sqrt{x}{% endmath %} | sqrt(x) |
-| Ponteciação | {% math %}X^Y{ endmath %} | x^y  |
+| Ponteciação | {% math %}X^Y{% endmath %} | x^y  |
 
 
 ## Prioridades
@@ -38,7 +38,7 @@ Abaixo uma tabela de prioridades para os operadores:
 
 | Operador Aritmético | Prioridade |
 | --- | --- | 
-| Exponênciação	| 3 (maior) |
+| Exponenciação	| 3 (maior) |
 | Multiplicação | 2 |
 | Divisão | 2 |
 | Adição | 1 |
@@ -56,7 +56,7 @@ $$
 2 + 2 / 2 = 3 
 $$
 
-Uma amiga me enviou estes dias uma questão que tem circulado na internet, vamos usa-la para comprender a precedência de um jeito diferente, veja a imagem abaixo:
+Uma amiga me enviou estes dias uma questão que tem circulado na internet, vamos usa-la para compreender a precedência de um jeito diferente, veja a imagem abaixo:
 
 ![Dizem que caiu no concurso da PF](/assets/dizem-que-caiu-no-concurso-da-pf.jpg)
 
@@ -65,46 +65,60 @@ O exercício parece complicado, mas não é, ele é pura matemática vamos resol
 Temos primeiro 3 Rosas (`R`) que são igual a 60, então:
 
 $$
-\begin{multline}
-R \, + R \, + R \, = \, 60 \\
-3\,\start\,R\,=\,60 \\
-R\,=\,60\,/\,3 \\
+R \, + R \, + R \, = \, 60 
+$$
+$$
+3\,\star\,R\,=\,60 
+$$
+$$
+R\,=\,60\,/\,3
+$$
+$$
 R\,=\,20
-\end{multline}
 $$
 
 Pronto já sabemos que `R = 20`;
 
-Em seguida temos uma Rosa (R), somada a dois Girassóes (`G`) que é igual a 30:
+Em seguida temos uma Rosa (R), somada a dois Girassóis (`G`) que é igual a 30:
 
 $$
-\begin{multline}
-R \, + G \, + G \, = \, 30 \\
-20 \, + \, 2G \, = \, 30 \\
-2G \, = \, 30 \, - \, 20 \\
-2G \, = \, 10\\
+R \, + G \, + G \, = \, 30 
+$$
+$$
+20 \, + \, 2G \, = \, 30 
+$$
+$$
+2G \, = \, 30 \, - \, 20 
+$$
+$$
+2G \, = \, 10
+$$
+$$
 G \, = \, 5
-\end{multline}
 $$
 
 Então o Girassol (`G`) vale 5.
 
-Estemos chegando lá, você vai entender facilmente a precedência daqui a pouco, aprender a prograrm é isso, desmembrar um problema passo a passo e ficar atendo a detalhes.
+Estamos chegando lá, você vai entender facilmente a precedência daqui a pouco, aprender a programar é isso, desmembrar um problema passo a passo e ficar atendo a detalhes.
 
 Agora temos 3 Trevos (`T`) e um Girassol (`G`) que é igual a 41.
 
 $$
-\begin{multline}
-T \, + T \, + T \, + G \, = \, 41 \\
-3T \, + \, 5 \, = \, 41\\
-3T \, = \,  36 \\
+T \, + T \, + T \, + G \, = \, 41
+$$
+$$
+3T \, + \, 5 \, = \, 41
+$$
+$$
+3T \, = \,  36 
+$$
+$$
 T \, = \, 12
-\end{multline}
 $$
 
 Agora já temos práticamente tudo que precisamos para dar a resposta certa, mas mesmo assim muitos erram e por dois motivos, o primeiro é por total falta de atenção a detalhes, o segundo é simplesmente porque a precedência dos operadores deve ser observada neste desafio, como não nenhum parenteses que muda esta precedência o resultado é totalmente influênciado pela ordem correta usada:
 
-Vejamos então a ultima fórmula, já reduziada e reflita se está certa antes de continuar:
+Vejamos então a ultima fórmula, já reduzida e reflita se está certa antes de continuar:
 
 $$ 
 5 \, + 20 \, + 9 \, = \, ?
@@ -114,21 +128,23 @@ Horas, mas o trevo não seria 12 (doze)? porque está o 9 (nove) ali? volte na i
 
 ![Recorte da imagem do desafio](/assets/dizem-que-caiu-no-concurso-da-pf-recorte.jpg)
 
-Decobriram? Ok, vou contar então, o trevo na ultima fórmula está com uma folha a menos, portanto das 4 folhas restam apenas 3, ou seja $$\frac{3}{4}$$ do valor do Trevo $$T \star \frac{3}{4}$$.
+Descobriram? Ok, vou contar então, o trevo na ultima fórmula está com uma folha a menos, portanto das 4 folhas restam apenas 3, ou seja {% math %}\frac{3}{4}{% endmath %} do valor do Trevo {% math %}T \star \frac{3}{4}{% endmath %}.
 
 Sendo assim agora fica apenas a precedência como o último cuidado a se tomado, como a multiplicação tem maior precedência sobre os demais operadores, ela deve ser feito primeiro ficando por tanto:
 
 $$
-\begin{multline}
-5 \, + 20 \, + 9 \, = \, X \\
-5 \, + \, 180 \, = \, X \\
+5 \, + 20 \, + 9 \, = \, X
+$$
+$$
+5 \, + \, 180 \, = \, X 
+$$
+$$
 X \, = \, 185
-\end{multline}
 $$
 
-Sendo assim a respota é a letra "C".
+Sendo assim a resposta é a letra "C".
 
-Então fica este desafio para verem como á matemática é importante e o raciocinio lógico também nos ajuda a perceber detalhes queantes passariam desapercebidos.
+Então fica este desafio para verem como á matemática é importante e o raciocínio lógico também nos ajuda a perceber detalhes que antes passariam desapercebidos.
 
 Vamos continuar agora vendo a precedência dos operadores Lógicos.
 
