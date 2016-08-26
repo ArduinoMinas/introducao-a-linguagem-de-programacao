@@ -65,10 +65,12 @@ O exercício parece complicado, mas não é, ele é pura matemática vamos resol
 Temos primeiro 3 Rosas (`R`) que são igual a 60, então:
 
 $$
-R + R + R = 60 \\
+\begin{multline}
+R \, + R \, + R \, = \, 60 \\
 3\,\start\,R\,=\,60 \\
 R\,=\,60\,/\,3 \\
 R\,=\,20
+\end{multline}
 $$
 
 Pronto já sabemos que `R = 20`;
@@ -76,11 +78,13 @@ Pronto já sabemos que `R = 20`;
 Em seguida temos uma Rosa (R), somada a dois Girassóes (`G`) que é igual a 30:
 
 $$
-R \, + G \, + G \, = \, 30\\
-20 \, + \, 2G \, = \, 30\\
-2G \, = \, 30 \, - \, 20\\
+\begin{multline}
+R \, + G \, + G \, = \, 30 \\
+20 \, + \, 2G \, = \, 30 \\
+2G \, = \, 30 \, - \, 20 \\
 2G \, = \, 10\\
 G \, = \, 5
+\end{multline}
 $$
 
 Então o Girassol (`G`) vale 5.
@@ -90,10 +94,12 @@ Estemos chegando lá, você vai entender facilmente a precedência daqui a pouco
 Agora temos 3 Trevos (`T`) e um Girassol (`G`) que é igual a 41.
 
 $$
-T \, + T \, + T \, + G \, = \, 41\\
+\begin{multline}
+T \, + T \, + T \, + G \, = \, 41 \\
 3T \, + \, 5 \, = \, 41\\
-3T \, = \,  36\\
+3T \, = \,  36 \\
 T \, = \, 12
+\end{multline}
 $$
 
 Agora já temos práticamente tudo que precisamos para dar a resposta certa, mas mesmo assim muitos erram e por dois motivos, o primeiro é por total falta de atenção a detalhes, o segundo é simplesmente porque a precedência dos operadores deve ser observada neste desafio, como não nenhum parenteses que muda esta precedência o resultado é totalmente influênciado pela ordem correta usada:
@@ -104,7 +110,7 @@ $$
 5 \, + 20 \, + 9 \, = \, ?
 $$
 
-horas, mas o trevo não seria 12 (doze)? porque está o 9 (nove) ali? volte na imagem a cima e certifique do que vê nas duas últimas fórmulas. 
+Horas, mas o trevo não seria 12 (doze)? porque está o 9 (nove) ali? volte na imagem a cima e certifique do que vê nas duas últimas fórmulas. 
 
 ![Recorte da imagem do desafio](/assets/dizem-que-caiu-no-concurso-da-pf-recorte.jpg)
 
@@ -113,9 +119,11 @@ Decobriram? Ok, vou contar então, o trevo na ultima fórmula está com uma folh
 Sendo assim agora fica apenas a precedência como o último cuidado a se tomado, como a multiplicação tem maior precedência sobre os demais operadores, ela deve ser feito primeiro ficando por tanto:
 
 $$
-5 \, + 20 \, + 9 \, = \, X\\
-5 \, + \, 180 \, = \, X\\
+\begin{multline}
+5 \, + 20 \, + 9 \, = \, X \\
+5 \, + \, 180 \, = \, X \\
 X \, = \, 185
+\end{multline}
 $$
 
 Sendo assim a respota é a letra "C".
