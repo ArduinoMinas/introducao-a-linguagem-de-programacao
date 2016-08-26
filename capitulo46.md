@@ -12,11 +12,11 @@ Para relembrarmos segue abaixo a lista dos peradores matemáticos, os valores n�
 
 | Operação | Descrição | Simbolo em C |
 | --- | --- | --- |
-| Soma | Executa a soma de dois valores númericos. | $$+$$ |
-| Subtração | Executa a Subtração de dois valores numéricos. | $$-$$ |
-| Multiplicação | Executa a multiplicação de dois valores numéricos | $$*$$ |
-| Divisão | Executa a divisão de dois valores numéricos, veja observação abaixo. | $$/$$ |
-| Módulo da Divisão | Executa a divisão e retorna o resto da divisão, veja observação abaixo | $$%$$ |
+| Soma | Executa a soma de dois valores númericos. | **+** |
+| Subtração | Executa a Subtração de dois valores numéricos. | **-** |
+| Multiplicação | Executa a multiplicação de dois valores numéricos | ** * ** |
+| Divisão | Executa a divisão de dois valores numéricos, veja observação abaixo. | **/** |
+| Módulo da Divisão | Executa a divisão e retorna o resto da divisão, veja observação abaixo | **%** |
 
 Além dos quatros operadores acima temos o operador de atribuição, quando estudamos o portugol, aprendemos que o simbolo `<-` deveria ser suado para atribuir um valor ou resultado de uma operação para uma variável, já no C, o simbolo que representa tal atribuição é o simbolo `=`.
 
