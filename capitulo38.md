@@ -1,4 +1,4 @@
-Vamos agora trabalhar com Operações e Funções Matemáticas e para isso é preciso antes de tudo aprendermos como convertermos as formulas matemáticas presentes nos algoritmos testuais e teses acadêmicas que teremos acesso para construir o comportamento de nossos sistemas.
+Vamos agora trabalhar com Operações e Funções Matemáticas e para isso é preciso antes de tudo aprendermos como convertermos as formulas matemáticas presentes nos algoritmos textuais e teses acadêmicas que teremos acesso para construir o comportamento de nossos sistemas.
 
 Para convertermos uma formula matemática como esta:
 
@@ -116,7 +116,7 @@ $$
 T \, = \, 12
 $$
 
-Agora já temos práticamente tudo que precisamos para dar a resposta certa, mas mesmo assim muitos erram e por dois motivos, o primeiro é por total falta de atenção a detalhes, o segundo é simplesmente porque a precedência dos operadores deve ser observada neste desafio, como não nenhum parenteses que muda esta precedência o resultado é totalmente influênciado pela ordem correta usada:
+Agora já temos praticamente tudo que precisamos para dar a resposta certa, mas mesmo assim muitos erram e por dois motivos, o primeiro é por total falta de atenção a detalhes, o segundo é simplesmente porque a precedência dos operadores deve ser observada neste desafio, como não nenhum parenteses que muda esta precedência o resultado é totalmente influênciado pela ordem correta usada:
 
 Vejamos então a ultima fórmula, já reduzida e reflita se está certa antes de continuar:
 
@@ -189,20 +189,20 @@ $$
 
 ## Funções matemáticas
 
-As funções matemáticas são muitas delas ligadas a trignometria, como seno, coseno, e tangente, mas há diversas outras que auxiliam nos cálculos matemáticos como funções que retornam valor avsoluto de um número, o resto da divisão ou a raiz ou logaritmo. Veja a lista abaixo e funções matemáticas disponíveis.
+As funções matemáticas são muitas delas ligadas a trigonometria, como `seno`, `coseno`, e `tangente`, mas há diversas outras que auxiliam nos cálculos matemáticos como funções que retornam valor absoluto de um número, o resto da divisão ou a raiz ou logaritmo. Veja a lista abaixo e funções matemáticas disponíveis.
 
 
+##### Abs( )
 
-#####Abs( )
+Obtém o valor absoluto de um número, desconsiderando seu sinal.
 
 ##### Div( )
 
 #####  Mod 
 
-##### Quad( )
-
-
 usado para achar o módulo de um número em comparações (o mesmo que ' % ' )
+
+##### Quad( )
 
 ### Funções trigonométricas
 
@@ -218,7 +218,7 @@ usado para achar o módulo de um número em comparações (o mesmo que ' % ' )
 
 ##### ArcSen( )
 
-### Números randomicos 
+### Números randômicos 
 
 ##### Rand()
 
@@ -232,7 +232,7 @@ Gera um valor aleatório do tipo Real. Não precisa argumento, o valor aleatóri
 
 Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado como parâmetro.
 
-### Exponenciação e Logarimos
+### Exponenciação e Logaritmos
 
 ##### Log( )
 
@@ -247,9 +247,9 @@ Gera um número aleatório do tipo Inteiro, entre 0 e o valor de x informado com
 
 ## Próximo Passo
 
-Aqui concluimos nosso estudo sobre Algortimo, deste ponto cabe a nós práticarmos, existe ainda um subcapítulo a seguir meramente como referência geral as palavras chaves, comandos e funções proprietárias do Portugol para VisuAlg. 
+Aqui concluímos nosso estudo sobre Algoritmo, deste ponto cabe a nós praticarmos, existe ainda um subcapítulo a seguir meramente como referência geral as palavras chaves, comandos e funções proprietárias do Portugol para VisuAlg. 
 
-Continuaremos agora na segunda parte onde iremos aprender a Linguagem C, com alguns ganchos para a Linguagem C++, uma extenção que permite programar orientado a objetos com a a Linguagem C e ainda outros recursos avançados, porém não iremos estudar nada que não seja necessário para uso com o Arduino e seu dialeto Wiring (também conhecido como Linguagem do Arduino)
+Continuaremos agora na segunda parte onde iremos aprender a Linguagem C, com alguns ganchos para a Linguagem C++, uma extensão que permite programar orientado a objetos com a a Linguagem C e ainda outros recursos avançados, porém não iremos estudar nada que não seja necessário para uso com o Arduino e seu dialeto Wiring (também conhecido como Linguagem do Arduino)
 
 ---
 Revisado: {{ file.mtime }}  | Compilado: {{ gitbook.time }}
