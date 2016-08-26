@@ -22,13 +22,13 @@ Abaixo apresentamos uma tabela de substituição:
 | Descrição | Comum | computacional |
 | --- | --- | --- |
 | Multiplicação | . ou X | * |
-| Divisão | / ou \div ÷ | / |
+| Divisão | / ou  ÷ | / |
 | Soma | + | + |
 | Subtração | - | -|
 | Abre chaves ou colchetes | { ou [ | ( |
 | Fecha chaves ou colchetes | } ou ] | ) | 
 | Raiz Quadrada	| {% math %}\sqrt{x}{% endmath %} | sqrt(x) |
-| Ponteciação | x^y | x |
+| Ponteciação | {% math %}X^Y{ endmath %} | x^y  |
 
 
 ## Prioridades
