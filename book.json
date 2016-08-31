@@ -5,6 +5,13 @@
         "glossary": "glossario.md",
         "summary": "sumario.md"
     },
+    "links": {
+      "sidebar": {
+         "Site": "http://carlosdelfino.eti.br",
+         "Facebook": "https://www.facebook.com/LogicaProgramacaoParaArduino/",
+         "Aulas Particulares": "mailto:consultoria@carlosdelfino.eti.br?subject="Gostaria de Informações sobre Aula Particular em Introdução a Programação"
+      }
+    },
     "plugins": [
         "richquotes",
         "anchors",
