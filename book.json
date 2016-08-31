@@ -1,16 +1,6 @@
 {
-    "language": "pt",
-    "structure": {
-        "readme": "introducao.md",
-        "glossary": "glossario.md",
-        "summary": "sumario.md"
-    },
-    "links": {
-      "sidebar": {
-         "Site": "http://carlosdelfino.eti.br",
-         "Facebook": "https://www.facebook.com/LogicaProgramacaoParaArduino/",
-         "Aulas Particulares": "mailto:consultoria@carlosdelfino.eti.br?subject="Gostaria de Informações sobre Aula Particular em Introdução a Programação"
-      }
+    "variables": {
+        "Version": "0.1"
     },
     "plugins": [
         "richquotes",
@@ -27,40 +17,27 @@
         "theme-api",
         "theme-default",
         "highlight",
-        "bulk-redirect"  ,      "exercises",        "zingchart",        "quiz",        "quizzes",        "codepen",        "jsfiddle",        "gist",        "ace",        "chart",        "codesnippet",        "include-codeblock",        "ga",        "wabtheme"
+        "bulk-redirect",
+        "exercises",
+        "zingchart",
+        "quiz",
+        "quizzes",
+        "codepen",
+        "jsfiddle",
+        "gist",
+        "ace",
+        "chart",
+        "codesnippet",
+        "include-codeblock",
+        "ga",
+        "wabtheme",
+        "page-toc",
+        "toc"
     ],
-    "pluginsConfig": { 
-        "bulk-redirect": {
-           "basepath": "/",
-           "redirectsFile": "redirects.json"
-        },        "ga": {            "token": "UA-21710445-1",            "configuration": "auto"        },
-        "sharing": {
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "weibo": false,
-            "instapaper": true,
-            "vk": false,
-            "all": [
-                "facebook", "google", "twitter",
-                "weibo", "instapaper","vk"
-            ]
-        },
-        "richquotes": {
-            "default": true
-        },
-        "layout": {
-            "headerPath": "layouts/header.html",
-            "footerPath": "layouts/footer.html"
-        },
+    "pluginsConfig": {
         "disqus": {
             "shortName": "introduoalinguagemdeprogramaoparaarduino",
             "useIdentifier": true
-        },
-        "image-captions": {
-            "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
-            "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_",
-            "variable_name": "picturesList"
         },
         "autocover": {
             "author": "Carlos Delfino - consultoria@carlosdelfino.eti.br",
@@ -77,9 +54,52 @@
             "background": {
                 "color": "#09F"
             }
+        },
+        "page-toc": {
+            "selector": " .markdown-section h2, .markdown-section h3, .markdown-section h4",
+            "position": "before-first"
+        },
+        "layout": {
+            "headerPath": "layouts/header.html",
+            "footerPath": "layouts/footer.html"
+        },
+        "richquotes": {
+            "default": true
+        },
+        "bulk-redirect": {
+            "basepath": "/",
+            "redirectsFile": "redirects.json"
+        },
+        "ga": {
+            "token": "UA-21710445-1",
+            "configuration": "auto"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": false,
+            "instapaper": true,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper",
+                "vk"
+            ]
+        },
+        "image-captions": {
+            "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+            "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_",
+            "variable_name": "picturesList"
         }
     },
-    "variables": {
-        "Version": "0.1"
-    }
+    "structure": {
+        "readme": "introducao.md",
+        "glossary": "glossario.md",
+        "summary": "sumario.md"
+    },
+    "language": "pt"
 }
