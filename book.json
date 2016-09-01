@@ -28,8 +28,7 @@
         "include-codeblock",
         "ga",
         "wabtheme",
-        "page-toc",
-        "toc"
+        "page-toc"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -88,9 +87,14 @@
             ]
         },
         "image-captions": {
-            "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
-            "list_caption": "List image _BOOK_IMAGE_NUMBER_: _CAPTION_",
-            "variable_name": "picturesList"
+            "caption": "Imagem _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+            "list_caption": "Lista de Imagens _BOOK_IMAGE_NUMBER_: _CAPTION_",
+            "variable_name": "picturesList",
+            "Images": {
+                "1.1.1": {
+                   "skip": "true"
+                }
+            }
         }
     },
     "structure": {
@@ -102,5 +106,7 @@
         "Version": "0.1"
     },
     "title": "Introdução a Linguagem de Programação",
-    "language": "pt"
+    "language": "pt",
+"styles": { "website": "website.css", "ebook": "ebook.css", "pdf": "pdf.css", "mobi": "ebook.css", "epub": "ebook.css" }
+
 }
