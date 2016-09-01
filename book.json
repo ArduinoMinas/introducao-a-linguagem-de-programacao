@@ -1,7 +1,4 @@
 {
-    "variables": {
-        "Version": "0.1"
-    },
     "plugins": [
         "richquotes",
         "anchors",
@@ -57,7 +54,7 @@
         },
         "page-toc": {
             "selector": " .markdown-section h2, .markdown-section h3, .markdown-section h4",
-            "position": "before-first"
+            "position": "top"
         },
         "layout": {
             "headerPath": "layouts/header.html",
@@ -101,5 +98,9 @@
         "glossary": "glossario.md",
         "summary": "sumario.md"
     },
+    "variables": {
+        "Version": "0.1"
+    },
+    "title": "Introdução a Linguagem de Programação",
     "language": "pt"
 }
