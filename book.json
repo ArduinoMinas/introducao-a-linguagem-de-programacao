@@ -91,6 +91,7 @@
     },
     "title": "Introdução a Linguagem de Programação",
     "language": "pt",
-"styles": { "website": "website.css", "ebook": "ebook.css", "pdf": "pdf.css", "mobi": "ebook.css", "epub": "ebook.css" }
+    "styles": { 
+      "website": "styles/website.css", "ebook": "styles/ebook.css", "pdf": "styles/pdf.css", "mobi": "styles/ebook.css", "epub": "styles/ebook.css" }
 
 }
