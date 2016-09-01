@@ -12,3 +12,5 @@ div {
 
 .page-wrapper {
 }
+
+figure { margin: 1.5em 0px; padding:10px 0; } figcaption { clear: left; margin: 0.75em 0px; text-align: center; font-style: italic; line-height: 1.5em; }

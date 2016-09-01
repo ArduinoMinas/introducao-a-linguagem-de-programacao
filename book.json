@@ -35,22 +35,6 @@
             "shortName": "introduoalinguagemdeprogramaoparaarduino",
             "useIdentifier": true
         },
-        "autocover": {
-            "author": "Carlos Delfino - consultoria@carlosdelfino.eti.br",
-            "font": {
-                "size": null,
-                "family": "Impact",
-                "color": "#FFF"
-            },
-            "template": "layouts/cover/default.svg",
-            "size": {
-                "w": 1800,
-                "h": 2360
-            },
-            "background": {
-                "color": "#09F"
-            }
-        },
         "page-toc": {
             "selector": " .markdown-section h2, .markdown-section h3, .markdown-section h4",
             "position": "top"
