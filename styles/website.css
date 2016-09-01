@@ -1,4 +1,5 @@
 /* CSS for website */ 
+
 div {
     text-align: justify;
     text-justify: inter-word;
@@ -13,14 +14,13 @@ div {
 .page-wrapper {
 }
 
-figure { 
-   margin: 1.5em 0px; 
-   padding:10px 0; 
-} 
-figcaption { 
-   clear: left;
- margin: 0.75em 0px;
- text-align: center;
- font-style: italic;
- line-height: 1.5em;
- }
+.page-toc {
+  float: right;
+  background: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  padding: 10px !important;
+   margin: 5px 5px 5px 5px; 
+  font-size: smaller;
+}
+

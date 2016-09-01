@@ -92,6 +92,13 @@
     "title": "Introdução a Linguagem de Programação",
     "language": "pt",
     "styles": { 
-      "website": "styles/website.css", "ebook": "styles/ebook.css", "pdf": "styles/pdf.css", "mobi": "styles/ebook.css", "epub": "styles/ebook.css" }
+      "website": "styles/website.css", "ebook": "styles/ebook.css", "pdf": "styles/pdf.css", "mobi": "styles/ebook.css", "epub": "styles/ebook.css" },
+	    "links": {
+        "sidebar": {
+            "Site": "http://carlosdelfino.eti.br",
+		    "Facebook": "https://www.facebook.com/CursoArduinoMinas/",
+		    "Aulas Particulares": "mailto:consultoria@carlosdelfino.eti.br?subject='Gostaria de Informações sobre Aula Particular de Arduino'&body='Meu nome é<br/>Gostaria de obter informações sobre o Curso de Introdução ao Arduino, gostaria de ter aulas em grupos ou individuais.'"
+        }
+    }
 
 }
