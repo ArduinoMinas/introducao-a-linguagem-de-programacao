@@ -14,6 +14,12 @@ div {
 .page-wrapper {
 }
 
+.page-toc:before { 
+  content: "Conteúdo";
+  font-weight: bold;
+}
+
+
 .page-toc {
   float: right;
   background: #f8f8f8;
