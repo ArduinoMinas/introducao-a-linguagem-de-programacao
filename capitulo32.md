@@ -1,4 +1,4 @@
-Em toda linguagem de programação é possível usar nomes especiais, tanto para chamar comandos, funções, quando procedimentos quando ouver o conceito. Não veremos ainda em detalhes o que são procedimentos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimetnos também)
+Em toda linguagem de programação é possível usar nomes especiais, tanto para chamar comandos, funções/procedimentos. Não veremos ainda em detalhes o que são procedimentos, mas aprenderemos desde cedo como criar nomes de variáveis e funções (se no caso do Portugol Procedimentos também)
 
 ## Nomeando Variáveis
 
