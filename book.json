@@ -1,7 +1,6 @@
 {
     "plugins": [
         "richquotes",
-        "anchors",
         "disqus",
         "extend-default-theme",
         "search",
