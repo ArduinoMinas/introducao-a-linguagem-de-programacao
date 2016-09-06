@@ -15,7 +15,7 @@
     * [Saída de Dados](capitulo34.md)
     * [Entrada de Dados](capitulo35.md)
     * [Fluxograma](capitulo37.md)
-    * [Instruções de Controle e Operadores Lógicos](capitulo36.md)
+    * [Operadores Lógicos\/Relacionais e Instruções de Controle](capitulo36.md)
     * [Operações e Funções Matemáticas](capitulo38.md)
     * [Tabela da Verdade e Depuração](capitulo39.md)
     * [Relação de Comandos Portugol para VisuAlg 3.0](comandosvisualg30.md)
