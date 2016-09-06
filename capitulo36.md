@@ -1,6 +1,6 @@
-Agora nosso estudo vai começar a ficar mais divertido, e não é porque estamos em um curso técnico onde iremos em breve na profissão escolhida, que não podemos nos divertir com nosso trabalho, nos realiznado como profissionais.
+Agora nosso estudo vai começar a ficar mais divertido, e não é porque estamos em um curso técnico que não podemos nos divertir com nosso trabalho.
 
-Passaremos agora a ter maior controle sobre o algortimo, é aprenderemos a fazer com que o computador faça exatamente o que queremos, conforme dados forem fornecidos a ele. Este aprendizado é muito importante e será usado ao longo de toda a sua vida como desenvolvedor de softwares e firmwares (código para microcontroladores e hardware).
+Passaremos agora a ter maior controle sobre o algoritmo, é aprenderemos a fazer com que o computador faça exatamente o que queremos, conforme dados forem fornecidos a ele. Este aprendizado é muito importante e será usado ao longo de toda a sua vida como desenvolvedor de softwares e firmwares (código para microcontroladores e hardware).
 
 ## Operadores Lógicos e Relacionais
 Iremos antes de tudo aprender o que são operadores lógicos e relacionais, assim poderemos usa-los com facilidade com as instruções de controle.
