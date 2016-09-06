@@ -1,4 +1,4 @@
-No portugol é possível se comunicar com o mundo esterno apresentando dados através da interface, toda informação externalizada será apresentada na seção "Área de Visualização de Resultados".
+No portugol é possível se comunicar com o mundo externo apresentando dados através da interface, toda informação externalizada será apresentada na seção "Área de Visualização de Resultados".
 
 Todo programa precisa obter dados, tomar decisções ou calcular sobre tais dados, e externalizar de alguma forma, não faz sentindo um programa que não externalize algo. Para isso o Portugol do VisuAlg tem comandos para leitura de teclado e escrita na tela. Futuramente quando estivermos convertendo nossos algoritmos para Arduino iremos usar as funções e classes do Arduino que nos permite obter dados e se comunicar com o mundo esterno conforme recursos disponíveis.
 
