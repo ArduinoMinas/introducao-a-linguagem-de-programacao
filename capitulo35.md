@@ -1,4 +1,4 @@
-Raramente um algortimo não precisa interagir com o mundo externo, e raramente ele não terá que obter dados, pois é através da variação de dados externos que o programa reage e assim apresenta novas alternativas e resultados.
+Raramente um algoritmo não precisa interagir com o mundo externo, e raramente ele não terá que obter dados, pois é através da variação de dados externos que o programa reage e assim apresenta novas alternativas e resultados.
 
 Para obtermos dados do mundo externos iremos usar um comando muito prático do Portugol para VisuAlg, o comando `leia` ele pode ser considerado o inverso do comando `escrever` já que ao invez de imprimir o conteúdo de uma variável na tela, ele irá ler do teclado em uma varíavel o que for digitado até que se tecle enter.
 
