@@ -1,6 +1,7 @@
 # O que falta escrever.
 Abaixo listarei o que falta escrever, e sugestões coletadas de colegas para melhoria na apostila.
 
+ * Separar o capítulo sobre Operadores Lógicos e Relácionais de Instruções de Controle para a versão 0.2
  * Rever ortografia da apostila para versão 0.2
  * Inserir detalhes sobre outras linguagens dentro do contexto Microcontroladores e automação, como a linguagem ligada aos PLCs até versão 1.0
  * Inserir reflexão sobre a interface de desenvolvendo do Arduino, sua importância e como interage com o compilador.
