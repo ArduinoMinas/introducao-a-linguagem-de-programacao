@@ -33,6 +33,9 @@
     * [Bibliotecas Importantes do C e Suas Funções](capitulo48.md)
         * [Funções para uso em Matemática](funcoesmatematicasnoc.md)
     * [Comunicando com o Mundo Exerno](capitulo49.md)
+    * [Usando o GCC](gcc/usandogcc.md)
+        * [História do GCC](gcc/usandogcc.md#historia)
+        * [Primeiros passos](gcc/usandogcc.md#primeirospassos)
 
 ## Módulo III
 * [Arduino](capitulo5.md)
