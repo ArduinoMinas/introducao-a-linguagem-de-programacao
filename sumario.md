@@ -30,6 +30,7 @@
     * [Tipos de Dados e Visibilidade em C](capitulo45.md)
         * [Visibilidade em C](capitulo451.md)
         * [Tipos de Dados em C](capitulo452.md)
+        * [Conversão de Típos](capitulo453.md)
     * [Operadores Matemáticos, Relacionais, Lógicos e Ponteiros](capitulo46.md)
     * [Estrtura de Controle em C](capitulo47.md)
     * [Bibliotecas Importantes do C e Suas Funções](capitulo48.md)
