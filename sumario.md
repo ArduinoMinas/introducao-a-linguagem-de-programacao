@@ -41,6 +41,7 @@
     * [Usando o GCC](gcc/usandogcc.md)
         * [História do GCC](gcc/usandogcc.md#historia)
         * [Primeiros passos](gcc/usandogcc.md#primeirospassos)
+[Questões para Fixação da segunda parte](questionarios/linguagemc.md)
 
 ## Módulo III
 * [Arduino](capitulo5.md)
