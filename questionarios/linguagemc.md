@@ -1,0 +1,1 @@
+Tendo uma string composta por um texto como o que segue "veja como é a programação é m u i t o  S i m p l e s", como seria o algoritmo que removeria os espaços extras deixando o texto escrito corretamente. Não use funções auxiliares do C, apenas escreva seu próprio código e sua nova função.
