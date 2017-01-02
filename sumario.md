@@ -13,7 +13,7 @@
     * [Nomes e Palavras Reservadas](capitulo32.md)
     * [Tipos de Dados e sua representação](capitulo33.md)
         * [Bits e Bytes, Converção entre Sistemas Numéricos](capitulo331.md)
-        * [Variáveis e Constantes e típos de dados](capitulo332.md) 
+        * [Variáveis e Constantes e típos de dados](capitulo332.md)
     * [Saída de Dados](capitulo34.md)
     * [Entrada de Dados](capitulo35.md)
     * [Fluxograma](capitulo37.md)
@@ -41,7 +41,6 @@
     * [Usando o GCC](gcc/usandogcc.md)
         * [História do GCC](gcc/usandogcc.md#historia)
         * [Primeiros passos](gcc/usandogcc.md#primeirospassos)
-[Questões para Fixação da segunda parte](questionarios/linguagemc.md)
 
 ## Módulo III
 * [Arduino](capitulo5.md)
@@ -52,7 +51,7 @@
     * [Algoritmos para Arduino](capitulo6.md)
 
 ## Extras
-* [Compiladores C e C++](compiladores_c_e_cpp.md]
+* [\[Compiladores C e C++\]\(compiladores\_c\_e\_cpp.md\]](compiladores-c-e-ccompiladorescecppmd.md)
 * [Bibliografia](bibliografia.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
 * [Softwares](softwares.md)
