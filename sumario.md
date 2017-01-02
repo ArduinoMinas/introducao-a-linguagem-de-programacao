@@ -51,7 +51,7 @@
     * [Algoritmos para Arduino](capitulo6.md)
 
 ## Extras
-* [\[Compiladores C e C++\]\(compiladores\_c\_e\_cpp.md\]](compiladores-c-e-ccompiladorescecppmd.md)
+* [Compiladores C e C++](compiladores_c_e_cpp.md)
 * [Bibliografia](bibliografia.md)
 * [Sugestão de Leitura](sugestaodeleitura.md)
 * [Softwares](softwares.md)
