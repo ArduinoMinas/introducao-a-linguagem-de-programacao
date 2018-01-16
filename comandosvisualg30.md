@@ -51,6 +51,8 @@ Escreve na tela do monitor do computador fica na linha
 
 ```escreva("texto entre aspas, ou variável que terá o conteudo impresso na tela")```
 
+Abaixo exemplo com varíável:
+
 ```escreva(variavel)```
 
 
