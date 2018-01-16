@@ -10,7 +10,7 @@ Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
 ### Funções matemáticas
 
- veja no capítulo [Operações e Funções Matemáticas](capitulo38.md)
+Veja no capítulo [Operações e Funções Matemáticas](capitulo38.md)
 
 ### Funções relativas ao teclado
 
@@ -18,9 +18,7 @@ Segue a relação dos comandos, funções, variáveis, constantes e dados:
 
 Lê do teclado e coloca em uma variável 'nomeVariavel':
 
-```
-leia(nomeVariavel)
-```
+   leia(nomeVariavel)
 
 
 ### Funções especiais de conversões
@@ -56,26 +54,20 @@ Escreve na tela do monitor do computador fica na linha
 ```escreva(variavel)```
 
 
-#####Escreval
+##### Escreval
 
 Escreve na tela do monitor do computador mas pulando um linha.
 
-```
-escreval("texto entre aspas, ou variável que terá o conteudo impresso na tela com um salto de linha")
-```
+```escreval("texto entre aspas, ou variável que terá o conteudo impresso na tela com um salto de linha")```
 
-```
-escreval(variavel)
-```
+```escreval(variavel)```
 
 
 ##### MudaCor
 
 Muda a cor dos caracteres(letras) e do fundo (tela) 
 
-```
-mudacor("nome da cor")
-```
+```mudacor("nome da cor")```
 
 Nome de cores possíveis:
 * Amarelo
