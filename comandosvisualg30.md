@@ -18,7 +18,11 @@ Veja no capítulo [Operações e Funções Matemáticas](capitulo38.md)
 
 Lê do teclado e coloca em uma variável 'nomeVariavel':
 
-   leia(nomeVariavel)
+
+```
+leia(nomeVariavel)
+```
+
 
 
 ### Funções especiais de conversões
@@ -49,27 +53,46 @@ Lê do teclado e coloca em uma variável 'nomeVariavel':
 
 Escreve na tela do monitor do computador fica na linha
 
-```escreva("texto entre aspas, ou variável que terá o conteudo impresso na tela")```
+
+```
+escreva("texto entre aspas, ou variável que terá o conteudo impresso na tela")
+```
+
 
 Abaixo exemplo com varíável:
 
-```escreva(variavel)```
+
+```
+escreva(variavel)
+```
 
 
 ##### Escreval
 
 Escreve na tela do monitor do computador mas pulando um linha.
 
-```escreval("texto entre aspas, ou variável que terá o conteudo impresso na tela com um salto de linha")```
 
-```escreval(variavel)```
+```
+escreval("texto entre aspas, ou variável que terá o conteudo impresso na tela com um salto de linha")
+```
+
+E a seguir usando apenas uma variável
+
+
+```
+escreval(variavel)
+```
 
 
 ##### MudaCor
 
 Muda a cor dos caracteres(letras) e do fundo (tela) 
 
-```mudacor("nome da cor")```
+
+```
+mudacor("nome da cor")
+```
+
 
 Nome de cores possíveis:
 * Amarelo
@@ -85,9 +108,11 @@ Nome de cores possíveis:
 
 Muda a cor dos caracteres (letras) ou do fundo (tela) conforme a posição informada
 
+
 ```
 mudacor("nome da cor","posição")
 ```
+
 
 Nome de cores possíveis:
 * Amarelo
@@ -133,6 +158,7 @@ Limpa a tela do monitor do computador
 
 só use variáveis e controles do tipo caracter
 
+
 ```
 Escolha  xvar(caracter)
 Caso "texto"
@@ -140,7 +166,9 @@ Caso "texto"
 Fimescolha (FIMESCOLHA)
 ```
 
+
 #### Desvios simples e compostos
+
 
 ```
 Se (condição) então 
@@ -149,6 +177,7 @@ senão
      comandos
 FimSe
 ```
+
 
 ```
 SE Entao Então (ENTÃO) 
@@ -163,6 +192,8 @@ FimSe
        comandos
     FIMPARA
 
+
+Com passo maior que um:
 
  
     Para De (DE) Ate (ATE) Até (ATÉ) Passo Faca (FACA) Faça (FAÇA)
